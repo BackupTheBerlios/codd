@@ -1,0 +1,42 @@
+#!/usr/bin/perl -s -I../lib -I./lib/
+##
+## codd-benford 
+##
+## Copyright (c) 1999, Vipul Ved Prakash.  All rights reserved.
+## This code is free software; you can redistribute it and/or modify
+## it under the same terms as Perl itself.
+##
+## $Id: codd-benford,v 1.1 2001/06/24 16:14:30 grex Exp $
+
+use Code::Contribution::Distribution;
+use Data::Dumper;
+
+@BENFORD = map ( (log(1+1/$_)/log(10) * 100), 1..9 ); 
+my $codd = new Code::Contribution::Distribution
+               Codd => shift;
+
+my $typeb = $codd->distribution eq "merged" ? 1 : 0;
+my @vals;
+
+for ( keys %$codd ) { 
+    if ( $typeb ) {    
+        push @vals, $codd->{$_}->{total} if eval { $codd->{$_}->{total} =~ /^\d.*/ }
+    } else { 
+        push @vals, $codd->{$_} if $codd->{$_} =~ /^\d.*/; 
+    }
+}
+
+
+my $total = $#vals; 
+
+for (@vals) { /^(.)/ && $occur{$1}++ }
+
+
+for ( sort keys %occur ) { 
+    next if /0/;
+    print "$_,  ";
+    my $percentage = $occur{$_}/$total * 100;
+    printf "%2.2f   %2.2f", $percentage,  $BENFORD[$_-1];
+    print "\n";
+}
+

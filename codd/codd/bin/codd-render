@@ -1,0 +1,167 @@
+#!/usr/bin/perl -sI.. -I../.. -Ilib/
+##
+## codd-render
+##
+## $Date: 2001/06/24 16:14:30 $
+## $Revision: 1.1 $
+## $State: Exp $
+## $Author: grex $
+##
+## Copyright (c) 1998-2000, Vipul Ved Prakash.  All rights reserved.
+## This code is free software; you can redistribute it and/or modify
+## it under the same terms as Perl itself.
+
+## This code gets dirty, even outright nasty in places.  I need to 
+## rewrite it. Some day. 
+
+use Code::Contribution::Distribution; 
+use Data::Dumper;
+use Math::BigInt; 
+use CGI; 
+
+my $myname = $0; 
+my $cgi = 0;
+my $codd = "";
+my $cgilimit = 200;
+
+if ( $myname =~ /cgi$/ ) {  #-- cgi call
+    my $q = new CGI; 
+    print $q->header; 
+    $cgi = 1;
+    $coddfile = $q->param ('codd'); 
+    $max = $q->param ('max');
+    $max = $cgilimit unless $max;
+    $key = $q->param ('key'); 
+    $myname = $q->self_url ();
+    $myname =~ s/\?.*//;
+
+} else { 
+    $coddfile = shift;
+}
+
+my ( $VERSION )  = '$Revision: 1.1 $' =~ /\s(\d+\.\d+)\s/;   
+my $precision = 100000; 
+
+print "Displays sorted developer list.\
+Syntax: codd-render [-max=n] foobar.codd\n\n" unless $coddfile;
+
+if ( $cgi ) {
+    print "<body bgcolor=#FFFFFF><center><table width=560><tr><td>
+           <font face=lucida,helvetica color=#555599>";
+}
+ 
+if ( -d $coddfile && $cgi ) { 
+    $coddfile .= "/" unless $coddfile =~ m:/$:;
+    print "<b>$coddfile</b><p>";
+    for ( `ls -1 $coddfile` ) { 
+        print "<li> <a href=$myname?codd=$coddfile$_>$_</a><br>";
+    }
+    trailer();
+    exit;
+     
+}
+
+my $sortkey = $projects ? "projects" : "code";
+my $codd    = new Code::Contribution::Distribution Codd => $coddfile;   
+my $ps      = $codd->packagesize (); 
+my $typeb   = $codd->distribution eq "merged" ? 1 : 0;
+my @datakeys, @sortedkeys; 
+
+for ( keys %$codd ) { push @datakeys, $_ unless $_ =~ /^_/ }
+
+if ( ($sortkey eq "code") && $typeb ) {
+    @sortedkeys = sort {
+        $codd->{$b}->{total} <=> $codd->{$a}->{total} ||
+        length($b) <=> length($a) ||
+        $a cmp $b
+    } @datakeys;
+} elsif ( $sortkey eq "code" ) {
+    @sortedkeys = sort {
+        $codd->{$b} <=> $codd->{$a} ||
+        length($b) <=> length($a) ||
+        $a cmp $b
+    } @datakeys;
+} elsif ( $sortkey eq "projects" && $typeb ) {
+    @sortedkeys = sort {
+        scalar @{ $codd->{$b}->{projects} } <=> scalar @{ $codd->{$a}->{projects} } ||
+        $codd->{$b}->{total} <=> $codd->{$a}->{total} ||
+        length($b) <=> length($a) ||
+        $a cmp $b
+    } @datakeys; 
+}
+
+my $total = scalar @sortedkeys; 
+$max = $total if $total < $max || $max == 0; 
+
+if ( $cgi && $key ) { 
+    print "Author: <b>", $sortedkeys[$key], "</b><br>\n"; 
+    print "Number of projects: <b>" . scalar @{ $codd->{$sortedkeys[$key]}->{projects} } . "</b><br>\n"; 
+    print "<hr noshade size=2>\n";
+    print "<table>";
+
+    my $i = 0;
+    for ( @{ $codd->{ $sortedkeys[ $key ] }->{ projects } } ) { 
+        my $value = getpercent ( "results/$_", $sortedkeys[$key] ); 
+        my $projectname = Code::Contribution::Distribution::extract_package ( $_ );
+        print "<tr><td>$i</td> <td><a href=codd-render.cgi?codd=results/$_>$projectname</a></td>
+               <td>$value%</td></tr>\n";
+        $i++;
+    }
+    print "</table>";
+    &trailer;
+    exit;
+
+} 
+
+if ( $cgi ) {
+    print "Package Name: <b>", $codd->codd, "</b><br>\n"; 
+    print "Package Size: <b>$ps</b> bytes.<br>\n"; 
+    print "Number of Contributors: <b>$total</b><hr noshade size=2><p>\n\n";
+    print "<font size=-1 face=helvetica color=#000000><table>";
+} else {
+    print "Package Name: ", $codd->codd, "\n"; 
+    print "Package Size: $ps bytes.\n"; 
+    print "Number of Contributors: $total\n\n";
+}
+
+my $percentage = new Math::BigInt '0'; 
+for ( 0 .. $max-1 ) { 
+	my $bytes = $typeb ? $codd->{ $sortedkeys[ $_ ] }->{total} : $codd->{ $sortedkeys[ $_ ] }; 
+    print int ($bytes).", $precision, $ps\n" if $debug;
+	$percentage = ( int ( $bytes * $precision / $ps ) ) / ( $precision / 100 ); 
+
+    if ( $typeb ) { $numprojects = scalar @{ $codd->{ $sortedkeys[ $_ ] }->{projects} } } 
+    if ( $cgi ) { print "<tr><td align=right>$_</td>  
+                         <td width=60%>$sortedkeys[$_]</td> 
+                         <td align=right>$bytes</td> 
+                         <td align=left> ($percentage%)</td>
+                         <td align=left><a href=codd-render.cgi?codd=$coddfile&key=$_>$numprojects</a>\n";
+                }
+    elsif ( $tsv ) { print "$_~$sortedkeys[ $_ ]~$bytes~$percentage~$numprojects\n" }
+    else { print "$_. $sortedkeys[ $_ ]: $bytes ($percentage%) $numprojects\n" }
+}
+
+if ( $cgi ) { 
+    print "</table>";
+    trailer();
+}
+
+sub trailer { 
+    print "</font><p><hr noshade size=5>";
+    print "<font size=-3 color=#000000>Copyright &copy 2000, Orbiten Research. All rights reserved.</font><br>";
+    print "</td></tr></table>";
+}
+
+sub getpercent { 
+
+    my ( $coddfile, $key ) = @_; 
+    return undef unless -e $coddfile;
+    my $precision = 100000;
+    my $codd = new Code::Contribution::Distribution Codd => $coddfile; 
+    my $bytes = $codd->{ $key }; 
+    my $ps = $codd->packagesize (); 
+	$percentage = ( int ( $bytes * $precision / $ps ) ) / ( $precision / 100 ); 
+    undef $codd; 
+    return $percentage;
+}
+

@@ -1,0 +1,25 @@
+#!/usr/bin/perl -sI.. -I../..
+##
+## codd-merge -- Merge codd files. 
+##
+## $Date: 2001/06/24 16:14:30 $
+## $Revision: 1.1 $
+## $State: Exp $
+## $Author: grex $
+##
+## Copyright (c) 1998, Vipul Ved Prakash.  All rights reserved.
+## This code is free software; you can redistribute it and/or modify
+## it under the same terms as Perl itself.
+
+use Code::Contribution::Distribution; 
+
+$codd = "merged.codd" unless $codd; 
+my $collate = new Code::Contribution::Distribution ( Codd => $codd ); 
+
+for ( @ARGV ) { 
+	print "Merging $_...\n"; 
+	$collate->merge ( $_ ); 
+}
+
+$collate->commit (); 
+

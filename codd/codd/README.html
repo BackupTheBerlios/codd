@@ -1,0 +1,394 @@
+<html>
+    <head>  
+        <title>CODD</title>
+    </head>
+
+    <body bgcolor=#ffffff text=#333333 link=#555599 vlink=#555599>
+    <center>
+    <table width=530><tr><td>
+
+<center>
+<hr noshade size=4>
+<font size=+2 face=verdana,lucida>CODD</font> v1.0</font><br>
+<font size=-1 face=verdana,lucida>Copyright &copy; 1998-2000, Vipul Ved Prakash 
+         &lt;<a href=mailto:mail@vipul.net>mail@vipul.net</a>&gt;. All Rights Reserved.</font><br>
+<hr noshade size=2>
+</center><br><br>
+
+<p align=right>
+<font face=courier><i>
+
+          "There must be some mistake," he said, "are you not  a<br>
+          greater computer than the Milliard Gargantubrain which<br>
+          can count all the atoms in a star in  a  millisecond?"<br>
+          "The Milliard Gargantubrain?" said Deep  Thought  with<br>
+          unconcealed contempt. "A mere abacus. Mention it not."<br>
+                                                        - HGTTG.<br>
+
+
+</font></i>
+</p>
+<p><br><br>
+<font face=verdana,lucida size=+1><b>Contents</b></font><p>
+<font face=arial,helvetica>
+<ul>
+    <a href=#about>About</a><br>
+    <a href=#description>Description</a><br>
+    <a href=#bundle>Bundle::CODD</a><br>
+    <a href=#algo>The CODD Algorithm</a><br>
+    <a href=#tools>Tools</a><br>
+    <a href=#download>Download</a><br>
+    <a href=#disclaimer>Disclaimer</a><br>
+    <a href=#license>License</a><br>
+    <a href=#credits>Credits</a><br>
+
+
+</ul><p><br><br>
+    
+<a name=about>
+<font face=verdana,lucida size=+1><b>About</b></font><p>
+</a>
+<font face=arial,helvetica>
+
+CODD is a tool for creating and analyzing statistical measures of "developer
+involvement" in free software projects. By assimilating authorship
+attribution information included in source files of the package, CODD
+approximates the the amount of individual contributions from developers who
+constructed the codebase. <p>
+
+CODD is designed to do quantitative analysis of emergent, <a
+href=>cooking-pot</a> interactions, specifically the free software
+phenomena, which is difficult to "measure" without a statistical yardstick.
+CODD acquires and prepares data for modeling trans-monetary value flow in
+Free Software community and building analytical and predictive models of its
+economic activity. <p>
+
+<br>
+
+<a name=description>
+<font face=lucida,helvetica,arial size=+1><b>Description</b></font><p>
+</a>
+<font face=arial,helvetica>
+
+Development methodologies built around the principles of Free Software
+encourage distribution, reuse, mutation and forking of code. They also
+encourage collaboration among developers working towards similar ends. As a
+result many codebases tend to be a work of a lot of people in derived or
+original form. Authorship information included in packages or repositories
+that distribute the software rarely indicate the level of participation of
+all developers. When present it is not in a form that can be used for
+building comprehensive models of contribution.<p>
+
+CODD greps through all source and documentation files in a package, line by
+line, looking for developer attribution patterns. Using an approximate, but
+deterministic, attribution scheme CODD generates an association relating
+authors to the lines of code they have written. Though not strictly correct,
+this is pretty high-resolution data, suitable for statistical analysis.<p>
+
+</font>
+
+<br>
+<a name=bundle>
+<font face=lucida,helvetica,arial size=+1><b>Bundle::CODD</b></font><p>
+</a>
+<font face=arial,helvetica>
+
+CODD is written as a set of Perl class libraries and programs. The two main
+classes are the Parser and the Analyser. The Parser works on source code
+packages; the Analyser on codd associations, the end-products of the Parser.
+The Parser encapsulates the CODD algorithm which describes the process of
+extracting contributor signatures and attributing bytes of code to
+individual contributers. The Analyser provides methods for rendering,
+merging, and manipulating codd associations (hereafter referred to as
+codds).
+
+</font>
+
+<p><br>
+<a name=algo>
+<font face=lucida,helvetica,arial size=+1><b>The CODD Algorithm</b></font><p>
+</a>
+<font face=arial,helvetica>
+
+The basic unit of input to the CODD Algorithm is a complete source package
+of a software. The Parser interface accepts the path of the directory that
+contains sources. <p>
+
+<b> 0  - Initialization </b>
+    <ul>
+
+        Create an instance of the "codd" object. Among other data members, the codd
+        object contains name of the project, package path, codebase size, and the
+        name of the authors along with the size of their contribution in bytes.
+        These fields are populated at different stages of the CODD algorithm.
+
+     </ul>
+<b> 1  - Recurse </b>
+<ul>
+
+    Walk down the subtree under the package path and identify all source and
+    documentation files. The regular expressions that select
+    source/documentation files can be found in the <a href=#filetypes><i>Filetypes</i></a> section.<p>
+
+</ul>
+
+<b> 2 - Scan Documentation Files</b>
+<ul>
+
+Pipe all the documentation files through copyrights, emails and RCS-IDs
+greps as described in steps A, B & C. Store results for each file
+in the codd object.
+
+</ul>
+
+<b>3 - Scan Source Files</b>
+<ul>
+
+    Pipe the first source file through copyrights, emails, and RCS-IDs grep
+    as  described in steps A, B and C.  If no attributions are found in the
+    source file, use the author ids from the closest parent documentation.
+    Divide the size of the source file by number of associated authors and add
+    the quotient to each author's contribution field. Repeat this process for
+    all source files. <p>
+
+</ul>
+
+<b>4 - Commit to Disk</b>
+<ul>
+
+    Write the codd to a disk file (in the output directory). 
+
+</ul>
+
+<b>A - Email Grep</b><p>
+<ul>    
+
+    Match email address.  The basic code for email grep is: <p>
+
+    <font size=-1><pre>
+        LINE: for ( @$code ) { 
+            next LINE unless /\@/; 
+            my @m = $_ =~ /([\d\w_\=\.\%]+?\@[\d\w\._\-]+?\.\w+?)(?=[\s:>\n\r\)]|$)/gi;
+            for ( @m ) { s:^.*<::; push @emails, $_ }; 
+        }
+    </font></pre>
+
+        Look at the <i>emails()</i> method in Distribution.pm for more details.
+
+</ul>
+
+<b>B - Copyright Grep</b><p>
+<ul>    
+
+
+    Match copyright notices.  The basic code for copyright grep is: <p>
+    
+    <font size=-1><pre>
+            for ( @$code ) {
+                if (/copyright/i && $_ !~ /\@/) {
+                    ( m%.*copyright (?:\(c\))?[\d\,\-\s\:]+(?:by\s+)?([^\d]*)%i )
+                    && push @copy, $1;
+                }
+            }
+    </font></pre>
+
+    Gives higher precedence to email addresses; will skip lines that contain
+    email address.  After matching contents of @copy are pruned with another 
+    set of regexes.  Look at the <i>copyrights()</i> method in Distribution.pm for 
+    more details.
+
+</ul>
+
+<b>C - RCS ID grep</b><p>
+<ul>    
+
+    Match RCS IDs.  The basic code for RCS Id grep is:
+
+    <font size=-1><pre>
+         LINE: for ( @$code ) {
+            next LINE unless /Id|Header/i;
+            my @m = $_ =~ /(?:Id|Header).*?\d\d\:\d\d\:\d\d (\S+?) \S+?/gi;
+            push @ids, @m if @m;
+        }
+    </font></pre>
+
+    Look at the <i>logins()</i> method in Distribution.pm for more details.
+</ul>
+<p>
+
+
+<br>
+<a name=filetypes>
+<font face=lucida,helvetica,arial size=+1><b>Filetypes </b></font><p>
+</a>
+
+<ul>
+
+<li>Source code files:<font size=-1>
+'(?:\.c|\.c\.in|\.pm|\.pl|\.PL|\.S|\.cgi|\.py|\.java|\.cc|\.cpp|\.tcl|\.el|\.sh)$';
+</font>
+
+<li> Documentation files:<font size=-1>
+'(README|README.1ST|AUTHORS|ANNOUNCE|ACKNOWLEDGEMENTS)';
+</font>
+
+</ul>
+
+<p>
+<br>
+<a name=tools>
+<font face=lucida,helvetica,arial size=+1><b>Tools</b></font><p>
+</a>
+
+User-level interfaces to the module code and tools for creating, merging,
+rendering, and performing real-name substitutions on distributions, are
+available as executable perl programs.  Most of the Analyser functions
+are implemented here. <p>
+
+
+<b>codd-create</b><p>
+<ul>
+
+recursively parses source files from a specified directory and builds a codd
+distribution from scratch. displays status information while parsing.<p>
+<font size=-1>
+ usage: codd-create -codd=dist_name [-dir=output_dir] directory_of_sources<br>
+ exmpl: codd-create -codd=linux /usr/src/linux 
+</font>
+
+</ul>  
+
+<b>codd-create-package</b>
+<ul>
+
+Builds a codd distribution for a tar, rpm, spm source archive. The archive
+is installed and untared in a temporary working directory (/tmp/codd by
+default) and removed after codd creation. When multiple spms are specified,
+separate distributions are built for all packages and placed in the output
+directory. Requires rpm2cpio, cpio, gunzip, zip, tar and compress utilities
+for exploding archives and conversion between formats.<p>
+
+<font size=-1><pre>
+ usage: codd-create-package [-work_dir=temp_work_dir] [-dir=dist_output] 
+        path_of_packages
+        
+ exmpl: to build codd distributions for all source packages included with S.u.S.E. 5.2
+        codd-create-package -dir=/root/0/DATA/suse5.2 suse5.2/sources/*spm
+</pre></font>
+
+</ul>
+                          
+</ul><p>
+<b>codd-render</b>
+<ul>
+
+Renders a codd distribution as a text table and prints  it  to  STDOUT.  All
+records are displayed unless limited with -max option.  Returns output in 
+HTML if run as a CGI script.  
+
+<font size=-1><pre>
+ usage: codd-render [-max=number_of_records] dist.codd
+ exmpl: codd-render -max=100 SuSE5.2.codd
+</pre></font>
+
+</ul>
+
+<b>codd-merge </b>
+<ul>
+
+Merges distributions and writes composite codds.  Composite codds contain 
+projectwise breakup of credits for each author.
+
+<font size=-1><pre>
+ usage: codd-merge -codd=merged.codd coddfiles
+ exmpl: codd-merge -codd=suse.codd packages.codd kernel.codd x11.codd
+</pre></font>
+
+</ul>
+
+<b>codd-truenames</b>
+<ul>
+
+Performs true name substitutions on a distribution file. A codd can contain
+email addresses, rcs ids, developers' initials and names and, therefore,
+have two or more records for the same developer. Several IDs for the same
+person can skew the distribution and affect analysis results. codd-truenames
+maintains a database mapping developer signatures/initials/ids/nicks to
+their real names. A codd-truenames substitution collates all entries for a
+developer into a single "true name" record. Users are encouraged to extend
+this database.
+
+<font size=-1><pre>
+  usage: codd-truenames coddfile
+  exmpl: codd-truenames linux.codd
+</pre></font>
+</ul>
+
+<b>codd-benford</b>
+<ul>
+
+Surprisingly, the distribution of developer contribution in bytes as
+generated by codd follows (or seems to follow) the <a
+href=http://mathworld.wolfram.com/BenfordsLaw.html>Benford's Law.</a>
+codd-benford displays leading digit distribution for a codd along with the
+ideal Benford values. codd-benford can be used as an independent benchmark
+for the CODD algorithm.
+
+<font size=-1><pre>
+  usage: codd-beford coddfile
+  exmpl: codd-benford linux.codd
+</pre></font>
+
+</ul>
+
+<p>
+<br>
+<a name=download>
+<font face=lucida,helvetica,arial size=+1><b>Availability of CODD & related resources</b></font><p>
+</a>
+
+<a href=http://orbiten.org/codd/>http://orbiten.org/codd/</a> is the new
+primary distributions site. The latest source package for codd (v1.0) is
+available <a href=sources/CODD-1.0.tar.gz>here.</a><p>
+
+Codd depends on Math::BigInt, Persistence::Object::Simple and  File::Recurse
+modules. If you don't have these installed on your system, fetch  them  from
+the nearest CPAN (<a href=http://cpan.org>http://cpan.org</a>) mirror.<p>
+
+<a name=disclaimer>
+<br><font face=lucida,helvetica,arial size=+1><b>Disclaimer</b></font><p>
+</a>
+
+There is no guarantee that the output generated by Codd represents actual
+ownership or contribution. The semantics of Codd's output is open to your
+interpretation. It in no way implies a recognition of claims of authorship
+to source code.<p>
+
+
+<a name=license>
+<br><font face=lucida,helvetica,arial size=+1><b>License </b></font><p>
+</a>
+
+This code is free software; you can redistribute it and/or modify  it  under
+the same terms as Perl itself.<p>
+
+<a name=credits>
+<br><font face=lucida,helvetica,arial size=+1><b>Credits</b></font><p>
+</a>
+
+
+Codd was designed and implemented by Vipul Ved Prakash <<a
+href=mailto:mail@vipul.net>mail@vipul.net</a>>. Codd was a result of a
+discussion with Rishab Aiyer Ghosh <<a
+href=mailto:rishab@dxm.org>rishab@dxm.org</a>> on measuring cooking-pot
+interactions
+
+
+<p>
+
+<hr size=2 noshade>
+<font size=-2>
+$Id: README.html,v 1.1 2001/06/24 16:14:30 grex Exp $
+</font>
+
+</td></tr></table>

@@ -1,0 +1,30 @@
+#!/usr/bin/perl -sI.. -I/root/0/PERL/projects/SOD
+##
+## Code Ownership Distribution Data Generator 
+##
+## $Date: 2001/06/24 16:14:30 $
+## $Revision: 1.1 $
+## $State: Exp $
+## $Author: grex $
+##
+## Copyright (c) 1998, Vipul Ved Prakash.  All rights reserved.
+## This code is free software; you can redistribute it and/or modify
+## it under the same terms as Perl itself.
+
+use Code::Contribution::Distribution; 
+
+$dir = "." unless $dir; 
+
+unless (@ARGV) { print "$0 -codd=name [list of directories]\n"; exit -1 }
+while  (@ARGV) { 
+
+ my $codd = new Code::Contribution::Distribution 
+                Package => shift, 
+				Codd    => $codd, 
+ 				Dir     => $dir, 
+                Verbose => 1;
+ $codd->ownergrep; 
+
+}
+
+

@@ -1,0 +1,4 @@
+x.  Look at README and other documentation for credits. 
+x.  codd-create-tgz should untar recursively.
+x.  codd-create-tgz should grok .Z and .zip
+x.  email/name database.

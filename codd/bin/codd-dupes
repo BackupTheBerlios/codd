@@ -1,0 +1,58 @@
+#!/usr/bin/perl -s
+##
+## codd-dupes -- identify multiple codd distributions for different
+##               versions of the same application
+##
+## Copyright (c) 2000, Vipul Ved Prakash.  All rights reserved.
+## Copyright (c) 2000, Orbiten Research.  All rights reserved.
+## Copyright (c) 2000, Orbiten Free Software Survey .  All rights reserved.
+## $Id: codd-dupes,v 1.1 2001/06/24 16:14:30 grex Exp $
+
+use Data::Structure::ZRList; 
+
+if ($h) {
+    print "$0 [-willmove] [-move] list_of_dir_of_codds\n";
+    exit;
+}
+
+if ( $move ) { 
+    $dir = "00-OLD-VERSIONS";
+#    mkdir "00-OLD-VERSIONS", 0744 unless -e "00-OLD-VERSIONS"
+}
+
+my @codds;
+for ( @ARGV ) { 
+    push @codds,  `ls -1 $_/*`;
+} 
+chomp @codds; 
+
+my $packages = new Data::Structure::ZRList; 
+
+for ( @codds ) { 
+    $check = $_;
+    $check =~ s:^.*/::;
+    $check =~ s/\.codd$//;
+    $check =~ s/[\-\_][\-\d\.\_]+[a-z]{0,3}\d*$//i;
+    $packages->add ($check);
+}
+
+for $package ( @$packages ) { 
+    my @matches; 
+
+    for $codd ( @codds ) { 
+        push @matches, $codd if $codd=~ /^.*\/\Q$package\E[\-\_]*[\-\d\.\_]*[a-z]{0,2}\d*.codd/ 
+    }
+    if ( $#matches > 0 ) { 
+        for ( 0 .. $#matches -1 ) { 
+            print "$matches[$_]\n";
+            if ( $move ) { 
+                system "mv $matches[$_] $dir/$matches[$_]";
+            }
+                
+        }
+        print $matches[$#matches]. "\n\n" unless $willmove;
+    }
+}
+
+
+

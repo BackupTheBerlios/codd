@@ -1,0 +1,29 @@
+#!/usr/bin/perl -sI..
+##
+## codd-truenames -- Collate different entries for the same developer. 
+##
+## $Date: 2001/06/24 16:14:30 $
+## $Revision: 1.1 $
+## $State: Exp $
+## $Author: grex $
+##
+## Copyright (c) 1998, Vipul Ved Prakash.  All rights reserved.
+## This code is free software; you can redistribute it and/or modify
+## it under the same terms as Perl itself.
+
+use Persistence::Object::Simple;  
+use Code::Contribution::Distribution; 
+use Data::Structure::ZRList;
+
+my $codd = new Code::Contribution::Distribution Codd => $ARGV[0];
+my $substitution = new Persistence::Object::Simple __Fn => $output; 
+
+my $i = 1;
+for ( keys %$codd ) { 
+    $substitution->{n2e}->{ $i } = $_ unless /^_/;
+    $substitution->{e2n}->{ $_ } = $i unless /^_/;
+    $i++;
+}
+
+$substitution->commit ();
+    

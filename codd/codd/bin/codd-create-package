@@ -1,0 +1,78 @@
+#!/usr/bin/perl -s
+##
+## codd-create-package -- Create codd files for tgz/tZ/zip/rpm source archives
+##
+## $Date: 2001/06/24 16:14:30 $
+## $Revision: 1.1 $
+## $State: Exp $
+## $Author: grex $
+##
+## Copyright (c) 1998-2000, Vipul Ved Prakash.  All rights reserved.
+## http://orbiten.com/codd/
+
+use File::Recurse; 
+
+$RPM2CPIO      = "/usr/bin/rpm2cpio"    if -e "/usr/bin/rpm2cpio";
+$RPM2CPIO      = "/bin/rpm2cpio"        if -e "/bin/rpm2cpio";
+$TAR           = "/usr/bin/tar"         if -e "/usr/bin/tar";
+$TAR           = "/bin/tar"             if -e "/bin/tar";
+$CPIO          = "/usr/bin/cpio"        if -e "/usr/bin/cpio";
+$CPIO          = "/bin/cpio"            if -e "/bin/cpio";
+$CODD          = "/root/0/PERL/projects/SOD/bin/codd-create";
+$CODD          = "/usr/bin/codd-create" if -e "/usr/bin/codd-create";
+$UNZIP         = "/usr/bin/unzip";
+$PACKAGES_BASH = '*.tar.gz *.tar *.tar.Z *.zip *.spm *.src.rpm'; 
+$PACKAGES_PERL = '(?:\.tar\.gz|\.tar|\.tar\.Z|\.zip|\.spm|\.src\.rpm)$'; 
+
+$workdir = $workdir || '/tmp/codd'; 
+mkdir $workdir, 777 unless -e $workdir; 
+my $cmdlineinc = "";
+   $cmdlineinc = "-dir=$dir" if $dir;
+my @packages;
+
+if ( $indir && -e $indir ) { 
+    recurse { /$PACKAGES_PERL/io && push @packages, $_ } $indir;
+} else { @packages = @ARGV }
+    
+for $package ( @packages ) { 
+
+	print "Processing $package...\n"; 
+
+	chdir $workdir; 
+	system "rm -fr $workdir/*";
+    explode ( $package, $workdir );
+    recurse { /$PACKAGES_PERL/io && explode ( $_, $workdir) } $workdir;
+
+    $package =~ s:^.*/::;
+    $package =~ s/$PACKAGES_PERL//;
+
+    $cmdlineinc = "-dir=$dir" if $dir;
+	system "$CODD $cmdlineinc -codd=$package.codd $workdir"; 
+
+}
+
+sub explode { 
+    
+    my ( $p, $dest ) = @_; 
+
+    if ( $p =~ /(\.tar.gz|\.tgz)$/i ) { 
+        system "$TAR zxvf $p -C $dest"
+    } elsif ( $p =~ /\.tar$/i ) { 
+        system "$TAR xvf $p -C $dest"
+    } elsif ( $p =~ /\.zip$/i ) { 
+        system "$UNZIP -L -o -d $dest $p"
+    } elsif ( $p =~ /\.rpm$/i ) { 
+        _explode_spm ( $p );
+    }
+
+}
+
+sub _explode_spm { 
+
+    my ( $package ) = @_;
+	my $cpio = $package; $cpio =~ s:.*/::;
+	system "$RPM2CPIO $package> $cpio.cpio";
+	system "$CPIO -i < $cpio.cpio";
+
+}
+

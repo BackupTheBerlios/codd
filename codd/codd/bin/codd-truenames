@@ -1,0 +1,114 @@
+#!/usr/bin/perl -sI..
+##
+## codd-truenames -- Collate different entries for the same developer. 
+##
+## $Date: 2001/06/24 16:14:30 $
+## $Revision: 1.1 $
+## $State: Exp $
+## $Author: grex $
+##
+## Copyright (c) 1998, Vipul Ved Prakash.  All rights reserved.
+## This code is free software; you can redistribute it and/or modify
+## it under the same terms as Perl itself.
+
+ 
+use Code::Contribution::Distribution; 
+use Data::Structure::ZRList;
+
+%REALNAMES = (
+
+    'the massachusetts institute of technology' => 
+        [ 'massachusetts institute of technology' ],
+
+    'free software foundation, inc'  => 
+         [ 'free software foundation\s*$', 
+           '^the free software.*', 
+            '.*free software foundation.*',
+            'software foundation, inc',
+        ], 
+
+    'the regents of the university of california' => 
+        [ '.*regents of the university of california.*', ],
+
+    'digital equipment corporation' => 
+        [ '.*digital equipment corporation.*' ], 
+    
+    'silicon graphics, inc' => [ '.*silicon graphics.*' ], 
+    'at&t bell laboratories'  => [ 'at\&t.*' ], 
+
+    'carnegie mellon university' => [ 
+                               '^carnegie-mellon university$', 
+                               '^of carnegie mellon university$',
+                               '^carnegie mellon$'
+                                ],
+
+    'larry wall'          => [ 'login-lwall', 'larry\@wall.*', 'lwall\@.*', ], 
+    'paul vixie'          => [ 'login-vixie' ], 
+    'thomas g. lane'      => [ 'tom\.lane\@g\.gp\.cs\.cmu\.edu' ],
+    'richard stallman'    => [ 'richard m\. stallman' ], 
+    'rich salz'           => [ 'rsalz\@.*' ],
+    'jamie zawinski'      => [ '.*jamie zawinski.*', 'jwz\@.*', 'login-jwz' ], 
+    'alan cox'            => [ 'a\.cox.*', 'alan\.cox.*', ], 
+    'linus torvalds'      => [ 'linus\.torvalds\@helsinki\.fi', 'torvalds\@transmeta.*' ], 
+    'david s. miller'     => [ 'login-davem', 'davem\@caip\.rutgers\.edu' ], 
+    'tom christiansen'    => [ 'tchrist\@.*', 'login-tchrist' ], 
+    'malcolm beattie'     => [ 'mbeattie\@sable\.ox\.ac\.uk' ],
+    'gurusamy sarathy'    => [ 'gsar\@.*' ], 
+    'graham barr'         => [ 'gbar\@pobox.*', 'login-gbarr', 'graham\.barr\@tiuk\.ti\.com' ],
+    'david bagley'        => [ 'bagleyd\@source.*', 'bagleyd\@bigfoot.*', 
+                               'david albert bagley.*', ],
+    'eric young'          => [ 'eay\@cryptsoft.com', 'eric young .*', 'eay\@mincom.oz.au', 
+                               'eay\@psych.psy.uq.oz.au' ],
+    'tim hudson'          => [ 'tjh\@cryptsoft.com', 'tjh\@mincom.*' ],
+    'ralf s. engelschall' => [ 'rse\@engelschall.com', 'rse@en1.engelschall.com' ],
+    'vipul ved prakash'   => [ '.*?\@vipul.net' ],
+    'peter gutmann'       => [ 'peter gutmann.*', 'pgut0.*' ],
+    'bruno haible'        => [ 'b\. haible' ],
+    'ben laurie'          => [ 'ben\@algroup.co.uk' ],
+    'the rasterman'       => [ 'raster\@redhat.com', '.*rasterman.*', 'raster\@enlightenment.org'],
+    'alan cox'            => [ 'alan\@redhat.com', 'alan\@lxorguk\.ukuu\.org\.uk' ],
+    'donald becker'       => [ 'becker\@cesdis\.gsfc\.nasa\.gov' ],
+    'andrew tridgell'     => [ 'andrew.tridgell\@anu.edu.au' ],
+    'gordon matzigkeit'   => [ 'gord\@gnu\.ai\.mit\.edu' ],
+    'ulrich drepper'      => [ 'drepper\@gnu\.ai\.mit\.edu', 'drepper\@gnu\.org', 'drepper\@cygnus.com' ],
+    'david j. mackenzie'  => [ 'djm\@gnu\.ai\.mit\.edu' ],
+    'martijn pieterse'    => [ 'pieterse\@xs4all\.nl' ],
+    'paul houle'          => [ 'paul\@honeylocust.com' ],
+    'lyle johnson'        => [ 'jlj\@cfdrc\.com' ],
+    'peter miller'        => [ 'peter miller.*' ],
+    'paul mackerras'      => [ 'paulus\@cs\.anu\.edu\.au' ],
+    'roland mcgrath'      => [ 'roland\@gnu\.ai\.mit\.edu' ],
+    'vipul ved prakash'   => [ 'mail\@vipul.net' ],
+
+); 
+
+for ( @ARGV ) { 
+my $codd = new Code::Contribution::Distribution Codd => $_; 
+my ( $key, $realname, $subst ) = ( undef, undef, 0 );
+
+for $key ( keys %$codd ) { 
+    unless ( $key =~ /^_/ ) { 
+        for $realname ( keys %REALNAMES ) { 
+            for ( @{ $REALNAMES{ $realname } } ) { 
+                if ( ( $key =~ /$_/ ) && ( $key ne $realname ) ) { 
+                    if ( $codd->distribution eq "merged" ) { 
+                        $codd->{ $realname }->{total} += $codd->{ $key }->{total};
+                        $codd->{ $realname }->{projects} = new Data::Structure::ZRList 
+                            unless $codd->{ $realname }->{projects};
+                        for ( @{ $codd->{ $key }->{projects} } ) 
+                            { $codd->{ $realname }->{projects}->add ($_) };
+                    } else { 
+                        $codd->{ $realname } = $codd->{ $realname } + $codd->{ $key }; 
+                    }
+                    delete $codd->{ $key };
+                    $subst++; 
+                }
+            }
+        }
+    }
+}
+
+$codd->commit (); 
+print "$_ - $subst Substitutions. \n"; 
+
+}

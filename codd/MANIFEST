@@ -1,0 +1,16 @@
+lib/Code/Contribution/Distribution.pm
+lib/Data/Structure/ZRList.pm
+README.html
+TODO
+MANIFEST
+Makefile.PL
+test.pl
+bin/codd-create      
+bin/codd-create-package
+bin/codd-truenames
+bin/codd-render 
+bin/codd-merge
+bin/codd-dupes
+bin/codd-benford
+bin/codd-substitute
+
