@@ -1,0 +1,14 @@
+$VAR1 = bless( {
+                 'massachusetts institute of technology' => 7447,
+                 'login-rws' => 86599,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+140166')}, 'Math::BigInt' ),
+                 'uncredited' => 12774,
+                 '__codd' => 'groff.spm.codd',
+                 '__package' => '/tmp/codd',
+                 'free software foundation, inc' => 32118,
+                 'jjc@jclark.com' => 1226,
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22'
+               }, 'Code::Contribution::Distribution' );

@@ -1,0 +1,14 @@
+$VAR1 = bless( {
+                 'lmjm@doc.ic.ac.uk' => 55890,
+                 'login-florian' => 27150,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 'merlyn@stonehenge.com' => 1071,
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+127504')}, 'Math::BigInt' ),
+                 'login-lmjm' => 42315,
+                 '__codd' => 'mirror.spm.codd',
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'jrd@cc.usu.edu' => 1071
+               }, 'Code::Contribution::Distribution' );

@@ -1,0 +1,10 @@
+$VAR1 = bless( {
+                 '__codd' => 'p2c.spm.codd',
+                 '__package' => '/tmp/codd',
+                 'free software foundation, inc' => 1858388,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__version' => '0.20',
+                 '__packagesize' => 1059525,
+                 'uncredited' => 130336
+               }, 'Code::Contribution::Distribution' );

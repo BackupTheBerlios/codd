@@ -1,0 +1,17 @@
+$VAR1 = bless( {
+                 'technische universitaet braunschweig, germany' => 5134,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+535387')}, 'Math::BigInt' ),
+                 'uncredited' => 83621,
+                 'jot@cray.com' => 13843,
+                 'free software foundation, inc' => 392655,
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 'rankin@eql.caltech.edu' => 1656,
+                 '__verbose' => 1,
+                 'login-zeller' => 8323,
+                 '__codd' => 'ddd.spm.codd',
+                 'regents of the university of california' => 25498,
+                 'the regents of the university of california' => 4654
+               }, 'Code::Contribution::Distribution' );

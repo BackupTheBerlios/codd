@@ -1,0 +1,16 @@
+$VAR1 = bless( {
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+306257')}, 'Math::BigInt' ),
+                 'uncredited' => 195177,
+                 'software foundation, inc' => 3396,
+                 '__package' => '/tmp/codd',
+                 'free software foundation, inc' => 51142,
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'matthias ettrich' => 32689,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 'drepper@gnu.ai.mit.edu' => 16069,
+                 '__codd' => 'lyx.spm.codd',
+                 'alejandro aguilar sierra' => 3891,
+                 'asger alstrup' => 3891
+               }, 'Code::Contribution::Distribution' );

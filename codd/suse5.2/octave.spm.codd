@@ -1,0 +1,21 @@
+$VAR1 = bless( {
+                 'jwe@bevo.che.wisc.edu' => 6700,
+                 'djm@gnu.ai.mit.edu' => 634,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+1243083')}, 'Math::BigInt' ),
+                 'uncredited' => 103372,
+                 '__package' => '/tmp/codd',
+                 'free software foundation, inc' => 969739,
+                 'john w. eaton' => 14218,
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'login-jwe' => 5897,
+                 '395@uvicctr.uucp' => 1012,
+                 'helios software gmbh' => 6700,
+                 'free software' => 2247,
+                 'karl berry' => 130537,
+                 'tholm@uvicctr.uucp' => 1012,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__codd' => 'octave.spm.codd',
+                 'karl@cs.umb.edu' => 1012
+               }, 'Code::Contribution::Distribution' );

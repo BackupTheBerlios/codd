@@ -1,0 +1,17 @@
+$VAR1 = bless( {
+                 'login-jnweiger' => 2804,
+                 'login-mlschroe' => 222121,
+                 'utils@prep.ai.mit.edu' => 19117,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+498831')}, 'Math::BigInt' ),
+                 'juergen weigert, michael schroeder' => 4850,
+                 'uncredited' => 5926,
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__codd' => 'screen.spm.codd',
+                 'napalm@ugcs.caltech.edu' => 7111,
+                 'oliver laumann' => 229775,
+                 'egnor@oracorp.com' => 7111
+               }, 'Code::Contribution::Distribution' );

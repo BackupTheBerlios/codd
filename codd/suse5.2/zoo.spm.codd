@@ -1,0 +1,17 @@
+$VAR1 = bless( {
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+331068')}, 'Math::BigInt' ),
+                 'rahul dhesi -- noncommercial use permitted' => 3218,
+                 'uncredited' => 13878,
+                 'rahul dhesi' => 2071,
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'rahul dhesi -- all rights reserved' => 155866,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 'login-dhesi' => 130953,
+                 '__verbose' => 1,
+                 '__codd' => 'zoo.spm.codd',
+                 'jef@well.sf.ca.us' => 15638,
+                 'rahul dhesi,  all rights reserved' => 2071,
+                 'igp@camcon.co.uk' => 7351
+               }, 'Code::Contribution::Distribution' );

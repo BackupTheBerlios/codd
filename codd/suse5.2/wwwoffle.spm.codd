@@ -1,0 +1,15 @@
+$VAR1 = bless( {
+                 'login-vern' => 19398,
+                 'andrew m. bishop' => 169803,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+381901')}, 'Math::BigInt' ),
+                 'login-amb' => 169803,
+                 'drepper@gnu.ai.mit.edu' => 6407,
+                 '__codd' => 'wwwoffle.spm.codd',
+                 'free software foundation, inc' => 6407,
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'amb@gedanken.demon.co.uk' => 10075
+               }, 'Code::Contribution::Distribution' );

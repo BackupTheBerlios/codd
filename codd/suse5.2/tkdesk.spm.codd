@@ -1,0 +1,21 @@
+$VAR1 = bless( {
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+509944')}, 'Math::BigInt' ),
+                 'uncredited' => 10516,
+                 '__package' => '/tmp/codd',
+                 'x consortium' => 2793,
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'login-kenh' => 16522,
+                 'expert interface technologies' => 13495,
+                 'sun microsystems, inc' => 15586,
+                 'kenh@cmf.nrl.navy.mil' => 8261,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 'login-ghowlett' => 35876,
+                 'at&t bell laboratories' => 327079,
+                 'christian bolik' => 35268,
+                 'zkoppany@multix.de' => 15746,
+                 '__codd' => 'tkdesk.spm.codd',
+                 'regents of the university of california' => 13212,
+                 'the regents of the university of california' => 15586
+               }, 'Code::Contribution::Distribution' );

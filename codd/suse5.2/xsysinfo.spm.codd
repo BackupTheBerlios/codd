@@ -1,0 +1,13 @@
+$VAR1 = bless( {
+                 'login-gabor' => 10396,
+                 'gabor herr, all rights reserved' => 6691,
+                 'digital equipment corporation, maynard, massachusetts' => 3705,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+24499')}, 'Math::BigInt' ),
+                 '__codd' => 'xsysinfo.spm.codd',
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'gabor herr' => 3705
+               }, 'Code::Contribution::Distribution' );

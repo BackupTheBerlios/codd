@@ -1,0 +1,12 @@
+$VAR1 = bless( {
+                 '(c) thomas mcwilliams\\n");' => 5942,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+27447')}, 'Math::BigInt' ),
+                 'uncredited' => 15562,
+                 '__codd' => 'workbone.spm.codd',
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'thomas mcwilliams' => 5942
+               }, 'Code::Contribution::Distribution' );

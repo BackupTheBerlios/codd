@@ -1,0 +1,22 @@
+$VAR1 = bless( {
+                 'cire@cisco.com' => 2507,
+                 'djm@gnu.ai.mit.edu' => 33806,
+                 'jay@silence.princeton.nj.us' => 2507,
+                 'free software foundation' => 1097,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+469798')}, 'Math::BigInt' ),
+                 'uncredited' => 26047,
+                 'jot@cray.com' => 14085,
+                 'rouilj@cs.umb.edu' => 846,
+                 'djm@ai.mit.edu' => 4712,
+                 '__package' => '/tmp/codd',
+                 'free software foundation, inc' => 363097,
+                 'brnstnd@kramden.acf.nyu.edu' => 2507,
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__codd' => 'find.spm.codd',
+                 'michael@cs.mun.ca' => 7931,
+                 'jwoods@adobe.com' => 8138,
+                 'tim@toad.com' => 2507
+               }, 'Code::Contribution::Distribution' );

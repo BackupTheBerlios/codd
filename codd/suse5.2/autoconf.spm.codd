@@ -1,0 +1,11 @@
+$VAR1 = bless( {
+                 'djm@gnu.ai.mit.edu' => 4758,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+9516')}, 'Math::BigInt' ),
+                 '__codd' => 'autoconf.spm.codd',
+                 '__package' => '/tmp/codd',
+                 'free software foundation, inc' => 4758,
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22'
+               }, 'Code::Contribution::Distribution' );

@@ -1,0 +1,11 @@
+$VAR1 = bless( {
+                 'andrzej stochniol, london, uk' => 455771,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+465591')}, 'Math::BigInt' ),
+                 'uncredited' => 9820,
+                 '__codd' => 'asedit.spm.codd',
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22'
+               }, 'Code::Contribution::Distribution' );

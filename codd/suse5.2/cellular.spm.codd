@@ -1,0 +1,16 @@
+$VAR1 = bless( {
+                 'michael sharov, steve stover, j dana eckart' => 16952,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+365122')}, 'Math::BigInt' ),
+                 'uncredited' => 11128,
+                 'teh way lee' => 1896,
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'data logic limited' => 32354,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 'j dana eckart' => 248287,
+                 '__codd' => 'cellular.spm.codd',
+                 'login-istewart' => 32354,
+                 'istewart@datlog.co.uk' => 22147
+               }, 'Code::Contribution::Distribution' );

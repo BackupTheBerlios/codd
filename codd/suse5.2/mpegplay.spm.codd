@@ -1,0 +1,17 @@
+$VAR1 = bless( {
+                 'thomas g. lane' => 47174,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+513931')}, 'Math::BigInt' ),
+                 'mpeg software simulation group' => 2985,
+                 'uncredited' => 898,
+                 '__package' => '/tmp/codd',
+                 'brown university' => 118811,
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__codd' => 'mpegplay.spm.codd',
+                 'erik corry' => 5434,
+                 'yoichiro ueno' => 5211,
+                 'the regents of the university of california' => 214592,
+                 'lsh@cs.brown.edu' => 118811
+               }, 'Code::Contribution::Distribution' );

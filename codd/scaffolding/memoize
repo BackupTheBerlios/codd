@@ -1,0 +1,30 @@
+#!/usr/bin/perl -sw
+##
+##
+##
+## Copyright (c) 1999, Vipul Ved Prakash.  All rights reserved.
+## This code is free software; you can redistribute it and/or modify
+## it under the same terms as Perl itself.
+##
+## $Id: memoize,v 1.1 2001/10/22 06:01:25 hackworth Exp $
+
+use Math::BigInt;
+use Memoize; 
+memoize('foo');
+
+
+print &foo ( 902 );
+print "\n";
+print &foo ( 901 );
+print "\n";
+print &foo ( 903 );
+print "\n";
+print &foo ( 901 );
+
+sub foo { 
+    my $x = new Math::BigInt shift;
+    return $x ** $x;
+}
+
+
+

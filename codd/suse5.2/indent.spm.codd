@@ -1,0 +1,16 @@
+$VAR1 = bless( {
+                 'board of trustees of' => 33852,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+165697')}, 'Math::BigInt' ),
+                 'joseph arceneaux' => 60584,
+                 '__codd' => 'indent.spm.codd',
+                 'rdh@key.amdahl.com' => 4026,
+                 'the regents' => 33852,
+                 'free software foundation, inc' => 28585,
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'joseph arceneaux */' => 392,
+                 'mehrdad@glum.dev.cf.ac.uk' => 4396
+               }, 'Code::Contribution::Distribution' );

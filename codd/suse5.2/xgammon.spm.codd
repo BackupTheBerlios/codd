@@ -1,0 +1,17 @@
+$VAR1 = bless( {
+                 'login-vern' => 20027,
+                 'thomson consumer electronics, inc.' => 2728,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+253709')}, 'Math::BigInt' ),
+                 'login-gammon' => 7238,
+                 'lambert klasen' => 107759,
+                 'the university of texas at austin' => 2728,
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'detlef steuer' => 107759,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 'microelectronics' => 2728,
+                 '__codd' => 'xgammon.spm.codd',
+                 'computer technology corporation' => 2728
+               }, 'Code::Contribution::Distribution' );

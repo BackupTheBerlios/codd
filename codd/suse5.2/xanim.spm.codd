@@ -1,0 +1,20 @@
+$VAR1 = bless( {
+                 'podlipec@wellfleet.com' => 53149,
+                 'jutta degener' => 9187,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+1506123')}, 'Math::BigInt' ),
+                 'guido van rossum' => 1365,
+                 'carsten bormann, technische' => 9187,
+                 'uncredited' => 3260,
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 'sundry contributors' => 1365,
+                 '__verbose' => 1,
+                 'jeffk@watson.ibm.com' => 50739,
+                 'podlipec@baynetworks.com' => 50739,
+                 '__codd' => 'xanim.spm.codd',
+                 'mark podlipec' => 1273770,
+                 'jutta degener and carsten bormann, technische' => 9187,
+                 'the regents of the university of california' => 44171
+               }, 'Code::Contribution::Distribution' );

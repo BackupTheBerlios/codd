@@ -1,0 +1,12 @@
+$VAR1 = bless( {
+                 'richard huveneers' => 4868,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+88811')}, 'Math::BigInt' ),
+                 'xerox corporation' => 79074,
+                 '__codd' => 'xtoolpl.spm.codd',
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'richard@hekkihek.hacom.nl' => 4868
+               }, 'Code::Contribution::Distribution' );

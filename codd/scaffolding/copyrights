@@ -1,0 +1,44 @@
+#!/usr/bin/perl -sw
+##
+##
+##
+## $Date: 2001/10/22 06:01:25 $
+## $Revision: 1.1 $
+## $State: Exp $
+## $Author: hackworth $
+##
+## Copyright (c) 1998, Vipul Ved Prakash.  All rights reserved.
+## This code is free software; you can redistribute it and/or modify
+## it under the same terms as Perl itself.
+
+ 
+my @copy; 
+
+for (<>) {
+
+	if (/copyright/i) { 
+		( m%.*copyright (?:\(c\)\s+)?[\d\,\-\s\:]+(?:by\s+)?([^\d]*)%i ) && push @copy, $1; 
+	}
+}
+
+    my $index = -1; 
+    CLEAN: for ( @copy ) { 
+	    $index++; 
+	    $_ = lc; 
+	    s:\s+$::;
+	    s:[\(<"\[\\].*$::;
+	    s:([a-z]{2,})\..*$:$1:; 
+	    s:^by::; 
+	    s:\.\s{2,}.*::;
+	    s:[\.,]$::; 
+		s:\s{3,}.*$::; 
+	    splice @copy, $index, 1 unless m:^\w:; 
+	    if ( /\s+(?:and|\&)\s+/ )  { 
+		    my @names = split /\s+(?:and|\&)\s+/;
+		    push @copy, @names; 
+		    splice @copy, $index, 1
+	    }
+    }
+
+
+$" = "\n"; print "@copy\n"; 

@@ -1,0 +1,47 @@
+#!/usr/bin/perl -s
+##
+## codd-create-spm -- Create codd files for SPM archives
+##
+## $Date: 2001/10/22 06:01:11 $
+## $Revision: 1.1 $
+## $State: Exp $
+## $Author: hackworth $
+##
+## Copyright (c) 1998, Vipul Ved Prakash.  All rights reserved.
+## This code is free software; you can redistribute it and/or modify
+## it under the same terms as Perl itself.
+
+$workdir = $workdir || '/tmp/codd'; 
+mkdir $workdir, 777 unless -e $workdir; 
+unless ( $output ) { $output = `pwd`; chomp $output } 
+print "OUTPUT: $output\n\n"; 
+
+$RPM2CPIO = "/usr/bin/rpm2cpio"    if -e "/usr/bin/rpm2cpio";
+$RPM2CPIO = "/bin/rpm2cpio"        if -e "/bin/rpm2cpio";
+$TAR      = "/usr/bin/tar"         if -e "/usr/bin/tar";
+$TAR      = "/bin/tar"             if -e "/bin/tar";
+$CPIO     = "/usr/bin/cpio"        if -e "/usr/bin/cpio";
+$CPIO     = "/bin/cpio"            if -e "/bin/cpio";
+$CODD     = "/root/0/PERL/projects/SOD/bin/codd-create";
+$CODD     = "/usr/bin/codd-create" if -e "/usr/bin/codd-create";
+
+for $package ( @ARGV ) { 
+
+	print "Processing $package...\n"; 
+
+	chdir $workdir; 
+	system "rm -fr $workdir/*";
+
+	my $cpio = $package; $cpio =~ s:.*/::;
+	system "$RPM2CPIO $package> $cpio.cpio";
+	system "$CPIO -i < $cpio.cpio";
+
+	my @tars = `ls -1 *gz`; chomp @tars; 
+	for ( @tars ) { 
+		system "$TAR zxvf $_ -C $workdir";
+	}
+
+	system "$CODD -dir=$output -codd=$cpio.codd $workdir"; 
+
+}
+

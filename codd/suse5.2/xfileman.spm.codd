@@ -1,0 +1,13 @@
+$VAR1 = bless( {
+                 'massachusetts institute of technology' => 12277,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+328884')}, 'Math::BigInt' ),
+                 'uncredited' => 2202,
+                 '__codd' => 'xfileman.spm.codd',
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'ove kalkan, cremlingen, germany' => 281108,
+                 'ove kalkan' => 33297
+               }, 'Code::Contribution::Distribution' );

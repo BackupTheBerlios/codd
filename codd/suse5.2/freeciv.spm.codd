@@ -1,0 +1,14 @@
+$VAR1 = bless( {
+                 'a kjeldberg, l gregersen, p unold' => 866546,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+1069514')}, 'Math::BigInt' ),
+                 'robert h. forsman jr' => 6117,
+                 'uncredited' => 26780,
+                 '__codd' => 'freeciv.spm.codd',
+                 'free software foundation, inc' => 163379,
+                 '__package' => '/tmp/codd',
+                 'x consortium' => 6692,
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22'
+               }, 'Code::Contribution::Distribution' );

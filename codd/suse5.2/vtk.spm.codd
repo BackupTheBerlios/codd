@@ -1,0 +1,11 @@
+$VAR1 = bless( {
+                 'at&t	*/' => 48696,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+165738')}, 'Math::BigInt' ),
+                 '__codd' => 'vtk.spm.codd',
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'sun microsystems, inc' => 117042
+               }, 'Code::Contribution::Distribution' );

@@ -1,0 +1,11 @@
+$VAR1 = bless( {
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+38660')}, 'Math::BigInt' ),
+                 'klaus hartenstein' => 23178,
+                 '__codd' => 'xhtalk.spm.codd',
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'login-kdh' => 15481
+               }, 'Code::Contribution::Distribution' );

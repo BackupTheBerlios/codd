@@ -1,0 +1,17 @@
+$VAR1 = bless( {
+                 'login-berberic' => 9913,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+468961')}, 'Math::BigInt' ),
+                 'uncredited' => 101468,
+                 '__package' => '/tmp/codd',
+                 'stolcke@icsi.berkeley.edu' => 5963,
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'x consortium' => 275053,
+                 'robert nation, no rights reserved' => 4257,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__codd' => 'kbase.spm.codd',
+                 'login-kulow' => 5200,
+                 'john bovey, university of kent at canterbury' => 61906,
+                 'angelo haritsis' => 5200
+               }, 'Code::Contribution::Distribution' );

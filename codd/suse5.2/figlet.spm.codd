@@ -1,0 +1,20 @@
+$VAR1 = bless( {
+                 'l@postoffice.cso.uiuc.edu' => 5931,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+142562')}, 'Math::BigInt' ),
+                 'edward b. hamrick' => 59577,
+                 'uncredited' => 3095,
+                 'john cowan' => 9846,
+                 'cowan@ccil.org' => 16379,
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'ian chai' => 5931,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 'ggc@uiuc.edu' => 18071,
+                 '__verbose' => 1,
+                 'glenn chappell, ian chai' => 5931,
+                 'chai@uiuc.edu' => 5931,
+                 '__codd' => 'figlet.spm.codd',
+                 'figlet@uiuc.edu' => 5931,
+                 'glenn chappell' => 5931
+               }, 'Code::Contribution::Distribution' );

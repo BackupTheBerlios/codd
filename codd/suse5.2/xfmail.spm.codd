@@ -1,0 +1,20 @@
+$VAR1 = bless( {
+                 'login-gena' => 1218651,
+                 'wns@knysna.slc.unisys.com' => 985,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+1658032')}, 'Math::BigInt' ),
+                 'uncredited' => 165359,
+                 'marc van kempen' => 60545,
+                 '},' => 38329,
+                 'free software foundation, inc' => 82585,
+                 '__package' => '/tmp/codd',
+                 'bugs@burka.netvision.net.il' => 61126,
+                 'x consortium' => 7298,
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'matthias ettrich' => 6871,
+                 'gena@netvision.net.il' => 15294,
+                 'graham@tarka.demon.co.uk' => 985,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__codd' => 'xfmail.spm.codd'
+               }, 'Code::Contribution::Distribution' );

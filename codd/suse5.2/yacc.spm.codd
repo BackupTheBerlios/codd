@@ -1,0 +1,11 @@
+$VAR1 = bless( {
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+162414')}, 'Math::BigInt' ),
+                 'login-jtc' => 20696,
+                 '__codd' => 'yacc.spm.codd',
+                 '__package' => '/tmp/codd',
+                 'login-mycroft' => 141670,
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22'
+               }, 'Code::Contribution::Distribution' );

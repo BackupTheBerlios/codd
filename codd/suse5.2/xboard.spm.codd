@@ -1,0 +1,15 @@
+$VAR1 = bless( {
+                 'login-mann' => 149738,
+                 'digital equipment corporation, maynard, massachusetts' => 133287,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 'free software foundation' => 24029,
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+517897')}, 'Math::BigInt' ),
+                 'digital equipment corporation' => 24029,
+                 '__codd' => 'xboard.spm.codd',
+                 '__package' => '/tmp/codd',
+                 'free software foundation, inc' => 153489,
+                 'open software foundation, inc' => 33319,
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22'
+               }, 'Code::Contribution::Distribution' );

@@ -1,0 +1,27 @@
+$VAR1 = bless( {
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S|\\.cgi|\\.py|\\.java)$',
+                 '_doccredits' => {
+                                    '/tmp/codd/zen/bignum/gmp/mpn/' => [
+                                                                         'zen@lix.polytechnique.fr'
+                                                                       ],
+                                    '/tmp/codd/zen/bignum/gmp/mpn/sparc32/v8/supersparc/' => $VAR1->{'_doccredits'}{'/tmp/codd/zen/bignum/gmp/mpn/'},
+                                    '/tmp/codd/zen/' => $VAR1->{'_doccredits'}{'/tmp/codd/zen/bignum/gmp/mpn/'},
+                                    '/tmp/codd/zen/bignum/gmp/mpn/alpha/' => $VAR1->{'_doccredits'}{'/tmp/codd/zen/bignum/gmp/mpn/'},
+                                    '/tmp/codd/zen/bignum/gmp/mpn/x86/pentium_/' => $VAR1->{'_doccredits'}{'/tmp/codd/zen/bignum/gmp/mpn/'},
+                                    '/tmp/codd/zen/bignum/gmp/' => $VAR1->{'_doccredits'}{'/tmp/codd/zen/bignum/gmp/mpn/'},
+                                    '/tmp/codd/zen/bignum/gmp/mpn/hppa_/' => $VAR1->{'_doccredits'}{'/tmp/codd/zen/bignum/gmp/mpn/'},
+                                    '/tmp/codd/zen/bignum/gmp/mpn/i960/' => $VAR1->{'_doccredits'}{'/tmp/codd/zen/bignum/gmp/mpn/'},
+                                    '/tmp/codd/zen/bignum/gmp/mpn/mips3/' => $VAR1->{'_doccredits'}{'/tmp/codd/zen/bignum/gmp/mpn/'},
+                                    '/tmp/codd/zen/bignum/gmp/mpn/sparc32/' => $VAR1->{'_doccredits'}{'/tmp/codd/zen/bignum/gmp/mpn/'}
+                                  },
+                 '__version' => '0.25',
+                 '__verbose' => 1,
+                 '__packagesize' => bless( do{\(my $o = '+2326187')}, 'Math::BigInt' ),
+                 '__docs' => '(README|AUTHORS)',
+                 'uncredited' => '4835535',
+                 'zen@lix.polytechnique.fr' => '17730295',
+                 '__codd' => 'codd.codd',
+                 '__package' => '/tmp/codd',
+                 'free software foundation, inc' => '10000788',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.25'
+               }, 'Code::Contribution::Distribution' );

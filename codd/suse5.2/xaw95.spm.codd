@@ -1,0 +1,22 @@
+$VAR1 = bless( {
+                 'login-vern' => 45333,
+                 'massachusetts institute of technology' => 27492,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+1120574')}, 'Math::BigInt' ),
+                 'login-kaleb' => 2381,
+                 'bob corbett' => 16194,
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'x consortium' => 669484,
+                 'mitch trachtenberg' => 15465,
+                 'digital equipment corporation, maynard, massachusetts' => 237278,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__codd' => 'xaw95.spm.codd',
+                 'ncr corporation - dayton, ohio, usa */' => 1073,
+                 'omron corporation, ntt software corporation' => 1073,
+                 'richard stallman' => 16194,
+                 'omron corporation' => 52866,
+                 'prentice hall' => 14624,
+                 'kaleb keithley' => 21103
+               }, 'Code::Contribution::Distribution' );

@@ -1,0 +1,12 @@
+$VAR1 = bless( {
+                 'nat@nataa.frmug.fr.net' => 996,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+14827')}, 'Math::BigInt' ),
+                 '__codd' => 'mdutils.spm.codd',
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'marc zyngier' => 6914,
+                 'maz@gloups.fdn.fr' => 6914
+               }, 'Code::Contribution::Distribution' );

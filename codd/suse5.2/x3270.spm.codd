@@ -1,0 +1,14 @@
+$VAR1 = bless( {
+                 'paul mattes' => 489651,
+                 'digital equipment corporation, maynard, massachusetts' => 12072,
+                 'massachusetts institute of technology' => 40057,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 'georgia tech research corporation, atlanta, ga' => 95532,
+                 'jeff sparkes' => 100693,
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+738016')}, 'Math::BigInt' ),
+                 '__codd' => 'x3270.spm.codd',
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22'
+               }, 'Code::Contribution::Distribution' );

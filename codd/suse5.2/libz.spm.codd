@@ -1,0 +1,15 @@
+$VAR1 = bless( {
+                 'paag@tid.es' => 4883,
+                 'gilles vollant' => 3498,
+                 'mark adler' => 61594,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+229072')}, 'Math::BigInt' ),
+                 '__codd' => 'libz.spm.codd',
+                 'jloup@gzip.org' => 4883,
+                 '__package' => '/tmp/codd',
+                 'malbrech@eso.org' => 3865,
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'jean-loup gailly' => 150346
+               }, 'Code::Contribution::Distribution' );

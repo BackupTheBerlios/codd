@@ -1,0 +1,82 @@
+src/a2ps-V4.3/a2ps.c:/* Modified by santana@imag.fr:						*/
+src/a2ps-V4.3/a2ps.c:/* Modified by santana@imag.fr:						*/
+src/a2ps-V4.3/a2ps.c:/* Modified by Tim Clark (T.Clark@warwick.ac.uk):			*/
+src/a2ps-V4.3/a2ps.c:/* Modified by santana@imag.fr to					*/
+src/a2ps-V4.3/a2ps.c:/* Modified by tullemans@apolloway.prl.philips.nl			*/
+src/a2ps-V4.3/a2ps.c:/* Modified by Johan Vromans (jv@mh.nl) to				*/
+src/a2ps-V4.3/a2ps.c:/* Modified by craig.r.stevenson@att.com to				*/
+src/a2ps-V4.3/a2ps.c:/* Modified by erikt@cs.umu.se:						*/
+src/a2ps-V4.3/a2ps.c:/* Modified by wstahw@lso.win.tue.nl:					*/
+src/a2ps-V4.3/a2ps.c:/* Modified by mai@wolfen.cc.uow.oz					*/
+src/a2ps-V4.3/a2ps.c:/* Modified by santana@imag.fr						*/
+src/a2ps-V4.3/a2ps.c:/* Modified by Johan Garpendahl (garp@isy.liu.se) and santana@imag.fr:	*/
+src/a2ps-V4.3/a2ps.c:/* Modified by John Interrante (interran@uluru.stanford.edu) and	*/
+src/a2ps-V4.3/a2ps.c:/* Modified by santana@imag.fr:						*/
+src/a2ps-V4.3/a2ps.c:/* Modified by Chris Adamo (adamo@ll.mit.edu) and			*/
+src/a2ps-V4.3/a2ps.c:/* Modified by santana@imag.fr:						*/
+src/apache_1.2.5/src/mod_auth_anon.c: * Modified by Dirk.vanGulik@jrc.it to
+src/apache_1.2.5/src/mod_userdir.c: * Modified by Alexei Kosut to support the following constructs
+src/archie-1.4.1/procquery.c: * Modified by Brendan Kehoe (brendan@cygnus.com).
+src/archie-1.4.1/procquery.c: * Re-modified by George Ferguson (ferguson@cs.rochester.edu).
+src/arena/Library/Implementation/HTLog.c:**	are modified by umask.
+src/arena/Image/jpeg/Implementation/ansi2knr.c:modified by someone else and passed on, we want its recipients to know
+src/arena/Image/libpng/Implementation/ansi2knr.c:modified by someone else and passed on, we want its recipients to know
+src/ash-linux-0.2/bltin/test.c: * modified by Eric Gisin to be used as built-in.
+src/ash-linux-0.2/bltin/test.c: * modified by Arnold Robbins to add SVR3 compatibility
+src/ash-linux-0.2/test.c: * modified by Eric Gisin to be used as built-in.
+src/ash-linux-0.2/test.c: * modified by Arnold Robbins to add SVR3 compatibility
+src/autofs-3.1.0/modules/lookup_yp.c:     not be modified by the library. */
+src/autolog-0.31/autolog.c:    Modified by Michael C. Mitchell, 15Oct94
+src/bash-2.01.1/examples/loadables/basename.c:	 modified by this step. */
+src/bash-2.01.1/execute_cmd.c:   the index is modified by this function.
+src/bash-1.14.7/execute_cmd.c:   the index is modified by this function.
+src/bind-4.9.7/named/db_dump.c: * Modified by Mike Schwartz 8/19/86 for use in BIND.
+src/bind-4.9.7/named/named-xfer.c: * Modified by M. Karels and O. Kure 10-88.
+src/bind-4.9.7/contrib/nutshell/ch09.check_del.c:	 * it is modified by the next
+src/binutils-2.8.1/bfd/xcofflink.c:/* The first word of global linkage code.  This must be modified by
+src/binutils-2.8.1/gas/config/obj-vms.c:/* Modified by Eric Youngdale to write VMS debug records for program
+src/binutils-2.8.1/gas/config/tc-alpha.c:   Modified by Ken Raeburn for gas-2.x and ECOFF support.
+src/binutils-2.8.1/gas/config/tc-alpha.c:   Modified by Richard Henderson for ELF support.
+src/binutils-2.8.1/gas/config/tc-alpha.c:   Modified by Klaus K"ampf for EVAX (openVMS/Alpha) support.
+src/binutils-2.8.1/gas/config/tc-arm.c:	Modified by David Taylor (dtaylor@armltd.co.uk)
+src/binutils-2.8.1/gas/config/tc-hppa.c:/* Evaluate an absolute expression EXP which may be modified by
+src/binutils-2.8.1/gas/config/tc-hppa.c:     modified by the user's input.  Another call is found at
+src/binutils-2.8.1/gas/config/tc-mips.c:/* This is the set of options which may be modified by the .set
+src/binutils-2.8.1/gas/app.c:/* Modified by Allen Wirfs-Brock, Instantiations Inc 2/90 */
+src/binutils-2.8.1/gas/m68k-parse.c:/* The string to parse is stored here, and modified by yylex.  */
+src/binutils-2.8.1/opcodes/i386-dis.c: *  modified by John Hassey (hassey@dg-rtp.dg.com)
+src/binutils-2.8.1/opcodes/mips-opc.c:   Commented and modified by Ian Lance Taylor, Cygnus Support
+src/bowman-0.93/bowman/move.c: * slightly modified by Bo Yang
+src/bowman-0.93/bowman/misc.c: * slightly modified by Bo Yang
+src/cdda2wav-0.9beta11/lpc.c:/* Algorithm Invented by N. Levinson in 1947, modified by J. Durbin in
+src/cdwtools-0.93/src/cdda2cdr/cdda2cdr.c:fprintf( stderr,"Original Programm cdda2wav modified by T.Niederreiter\n" ); 
+src/cellular-07apr94/bin.dos/ms_sh22/src/director.c: *  Modified by Ian Stewartson, Data Logic (istewart@datlog.co.uk).
+src/c-news/relay/hdrdefs.c:	&pathhdr,		/* modified by hdrmunge.c (emithdr()) */
+src/cpio-2.4.2/mkdir.c:   Modified by rmtodd@uokmax 6-28-87 -- when making an already existing dir,
+src/cron-3.0.1/entry.c:		/* '*' means "first-last" but can still be modified by /step
+src/cvs-1.9.24/lib/mkdir.c:   Modified by rmtodd@uokmax 6-28-87 -- when making an already existing dir,
+src/cvs-1.9.24/src/classify.c:			   "conflict: removed %s was modified by second party",
+src/cvs-1.9.24/src/commit.c:       The result of that calculation is modified by CVSUMASK.  The
+src/cvs-1.9.24/src/wrapper.c:  Modified By:      vdemarco@bou.shl.com
+src/dejagnu-970221/expect/exp_strf.c: * Modified by Don Libes for Expect, 10/93 and 12/95.
+src/dejagnu-970221/tcl/generic/tclIO.c: *	owned by the generic layer and should not be modified by
+src/dejagnu-970221/tcl/win/winDumpExts.c: * 10/12/95  Modified by Scott Stanton to support Relocatable Object Module
+src/dialog-0.62/samples/install/bootpc.c:   Modified by JSP from code by Charles Hawkins <ceh@eng.cam.ac.uk>,
+src/dosemu-0.66.7/src/base/init/config.c: * value. These will be modified by the config parser.
+src/e2fsprogs-1.10/lib/ext2fs/bitops.c: * Modified by Pete A. Zaitcev 7/14/95 to be portable to big endian
+src/enl/desktops.c:/* This code was modified by CmdrTaco to allow the windows
+src/enl/iconify.c:/* This code was modified by Mandrake - mandrake@mandrake.net 
+src/expect-5.22/exp_strf.c: * Modified by Don Libes for Expect, 10/93 and 12/95.
+src/fvwm-2.0.46/modules/FvwmAuto/FvwmAuto.c: * Modified by John Aughey (jha@cs.purdue.edu) 11/96
+src/fvwm-2.0.46/modules/FvwmAuto/FvwmAuto.c:	if (delay)		/* fill in struct - modified by select() */
+src/f2c/src/expr.c:	/* compute the address modified by subscripts */
+src/f2c/src/p1output.c:   null terminated; it may be modified by this function. */
+src/fileutils-3.16/lib/mkdir.c:   Modified by rmtodd@uokmax 6-28-87 -- when making an already existing dir,
+src/fileutils-3.16/lib/modechange.c:  unsigned short affected_masked; /* `affected_bits' modified by umask. */
+src/AfterStep-1.0/modules/Banner/Banner.c: *  Modified by Robert Depenbrock (robert@eclipse.asta.uni-essen.de)
+src/AfterStep-1.0/lib/wild.c: *		Modified by Emanuele Caratti <wiz@iol.it>
+src/AfterStep-1.0/afterstep/misc.c: * slightly modified by Bo Yang
+src/AfterStep-1.0/afterstep/move.c: * slightly modified by Bo Yang
+src/EZWGL-1.38/jpeg/ansi2knr.c:modified by someone else and passed on, we want its recipients to know
+src/EZWGL-1.38/lib/EZ_Sqrt.c: * Modified by Javier Arevalo to avoid some unnecessary shifts.
+src/nntp-1.5.12.1/server/xthread.c: *   modified by Wayne Davison (davison@borland.com) to work with trn 2.0

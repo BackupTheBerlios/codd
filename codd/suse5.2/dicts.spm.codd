@@ -1,0 +1,12 @@
+$VAR1 = bless( {
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+8270')}, 'Math::BigInt' ),
+                 'rcpt@urc.tue.nl' => 1999,
+                 '__codd' => 'dicts.spm.codd',
+                 'login-werner' => 3135,
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'geoff kuenning, granada hills, ca' => 3135
+               }, 'Code::Contribution::Distribution' );

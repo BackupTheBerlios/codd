@@ -1,0 +1,13 @@
+$VAR1 = bless( {
+                 'daniel veillard' => 42634,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+134223')}, 'Math::BigInt' ),
+                 '__codd' => 'rpm2html.spm.codd',
+                 'login-veillard' => 42634,
+                 '__package' => '/tmp/codd',
+                 'veillard@apocalypse.org' => 42634,
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'joe@average.org' => 6318
+               }, 'Code::Contribution::Distribution' );

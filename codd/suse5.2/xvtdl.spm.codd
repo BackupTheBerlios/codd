@@ -1,0 +1,17 @@
+$VAR1 = bless( {
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+492419')}, 'Math::BigInt' ),
+                 'uncredited' => 82436,
+                 'hope college' => 111461,
+                 'sun microsystems' => 85249,
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'sun microsystems, inc' => 8509,
+                 'at&t	*/' => 13087,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 'mike jipping' => 111461,
+                 'login-jipping' => 72575,
+                 '__codd' => 'xvtdl.spm.codd',
+                 'sun microsystems, inc.' => 7625
+               }, 'Code::Contribution::Distribution' );

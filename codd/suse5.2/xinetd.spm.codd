@@ -1,0 +1,12 @@
+$VAR1 = bless( {
+                 'panagiotis tsirigotis' => 241723,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 'login-chuck' => 163746,
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+442357')}, 'Math::BigInt' ),
+                 'login-panos' => 36854,
+                 '__codd' => 'xinetd.spm.codd',
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22'
+               }, 'Code::Contribution::Distribution' );

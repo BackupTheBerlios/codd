@@ -1,0 +1,19 @@
+$VAR1 = bless( {
+                 'drew sullivan' => 7298,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+486175')}, 'Math::BigInt' ),
+                 'uncredited' => 66198,
+                 '__package' => '/tmp/codd',
+                 'eric youngdale' => 45429,
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'login-mike' => 82624,
+                 'jaggy@purplet.demon.co.uk' => 2243,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 'miguel de icaza' => 1020,
+                 '__verbose' => 1,
+                 '__codd' => 'ibcs2.spm.codd',
+                 'mike jagdis' => 135019,
+                 'login-jaggy' => 89804,
+                 'linus torvalds' => 43283,
+                 'joe portman' => 13236
+               }, 'Code::Contribution::Distribution' );

@@ -1,0 +1,4 @@
+#!/bin/sh
+./ownergrep data/* | sort | uniq --count | sort -n > results/copyright-frequency
+
+

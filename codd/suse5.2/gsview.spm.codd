@@ -1,0 +1,13 @@
+$VAR1 = bless( {
+                 'tim@cs.wisc.edu' => 109476,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+287641')}, 'Math::BigInt' ),
+                 '__codd' => 'gsview.spm.codd',
+                 '__package' => '/tmp/codd',
+                 'timothy o. theisen' => 109476,
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'regents of the university of california' => 9289,
+                 'software research associates, inc' => 59395
+               }, 'Code::Contribution::Distribution' );

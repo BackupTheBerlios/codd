@@ -1,0 +1,18 @@
+$VAR1 = bless( {
+                 'jef poskanzer' => 106579,
+                 'timbl@info.cern.ch' => 19366,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 'william cheng' => 49542,
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+3722851')}, 'Math::BigInt' ),
+                 'login-william' => 1790990,
+                 'renato@nce.ufrj.br' => 52181,
+                 '__codd' => 'tgif.spm.codd',
+                 '*/' => 1972,
+                 '__package' => '/tmp/codd',
+                 'rsalz@bbn.com' => 4070,
+                 'gjc@mitech.com' => 10175,
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'william chia-wei cheng' => 1687923
+               }, 'Code::Contribution::Distribution' );

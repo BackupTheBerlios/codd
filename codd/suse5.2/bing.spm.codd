@@ -1,0 +1,14 @@
+$VAR1 = bless( {
+                 'pierre beyssac' => 6754,
+                 'laurent@brasil.frmug.fr.net' => 6754,
+                 'jcaron@pressimage.net' => 6754,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+40528')}, 'Math::BigInt' ),
+                 'login-pb' => 6754,
+                 '__codd' => 'bing.spm.codd',
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'the regents of the university of california' => 13508
+               }, 'Code::Contribution::Distribution' );

@@ -1,0 +1,804 @@
+/usr/src/linux/arch/alpha/boot/bootp.c: * Copyright (C) 1997 Jay Estabrook
+/usr/src/linux/arch/alpha/boot/main.c: * Copyright (C) 1994, 1995 Linus Torvalds
+/usr/src/linux/arch/alpha/boot/tools/objstrip.c: * Copyright (C) 1996 David Mosberger-Tang.
+/usr/src/linux/arch/alpha/kernel/irq.c: *	Copyright (C) 1995 Linus Torvalds
+/usr/src/linux/arch/alpha/kernel/osf_sys.c: *  Copyright (C) 1995  Linus Torvalds
+/usr/src/linux/arch/alpha/kernel/process.c: *  Copyright (C) 1995  Linus Torvalds
+/usr/src/linux/arch/alpha/kernel/setup.c: *  Copyright (C) 1995  Linus Torvalds
+/usr/src/linux/arch/alpha/kernel/signal.c: *  Copyright (C) 1995  Linus Torvalds
+/usr/src/linux/arch/alpha/kernel/smc.c: * Copyright (C) 1997 by
+/usr/src/linux/arch/alpha/kernel/smc.c: * inclusion of the above copyright notice. This software or  any  other
+/usr/src/linux/arch/alpha/kernel/smc.c: * Copyright (C) 1997 by
+/usr/src/linux/arch/alpha/kernel/smc.c: * inclusion of the above copyright notice. This software or  any  other
+/usr/src/linux/arch/alpha/kernel/time.c: *  Copyright (C) 1991, 1992, 1995  Linus Torvalds
+/usr/src/linux/arch/alpha/kernel/traps.c: * (C) Copyright 1994 Linus Torvalds
+/usr/src/linux/arch/alpha/lib/csum_partial_copy.c: * (C) Copyright 1996 Linus Torvalds
+/usr/src/linux/arch/alpha/lib/memcpy.c: *  Copyright (C) 1995  Linus Torvalds
+/usr/src/linux/arch/alpha/math-emu/ieee-math.c: * Copyright (C) 1989,1990,1991,1995 by
+/usr/src/linux/arch/alpha/math-emu/ieee-math.c: * Heavily modified for Linux/Alpha.  Changes are Copyright (c) 1995
+/usr/src/linux/arch/alpha/mm/fault.c: *  Copyright (C) 1995  Linus Torvalds
+/usr/src/linux/arch/alpha/mm/init.c: *  Copyright (C) 1995  Linus Torvalds
+/usr/src/linux/arch/i386/boot/compressed/xtract.c: *  Copyright (C) 1993  Hannu Savolainen
+/usr/src/linux/arch/i386/boot/tools/build.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/arch/i386/kernel/bios32.c: * Copyright 1993, 1994 Drew Eckhardt
+/usr/src/linux/arch/i386/kernel/irq.c: *	Copyright (C) 1992 Linus Torvalds
+/usr/src/linux/arch/i386/kernel/ldt.c: * Copyright (C) 1992 Krishna Balasubramanian and Linus Torvalds
+/usr/src/linux/arch/i386/kernel/process.c: *  Copyright (C) 1995  Linus Torvalds
+/usr/src/linux/arch/i386/kernel/setup.c: *  Copyright (C) 1995  Linus Torvalds
+/usr/src/linux/arch/i386/kernel/signal.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/arch/i386/kernel/time.c: *  Copyright (C) 1991, 1992, 1995  Linus Torvalds
+/usr/src/linux/arch/i386/kernel/traps.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/arch/i386/kernel/vm86.c: *  Copyright (C) 1994  Linus Torvalds
+/usr/src/linux/arch/i386/math-emu/errors.c: | Copyright (C) 1992,1993,1994,1996                                         |
+/usr/src/linux/arch/i386/math-emu/fpu_arith.c: | Copyright (C) 1992,1993                                                   |
+/usr/src/linux/arch/i386/math-emu/fpu_aux.c: | Copyright (C) 1992,1993,1994                                              |
+/usr/src/linux/arch/i386/math-emu/fpu_entry.c: | Copyright (C) 1992,1993,1994,1996                                         |
+/usr/src/linux/arch/i386/math-emu/fpu_entry.c: | See the files "README" and "COPYING" for further copyright and warranty   |
+/usr/src/linux/arch/i386/math-emu/fpu_etc.c: | Copyright (C) 1992,1993,1994                                              |
+/usr/src/linux/arch/i386/math-emu/fpu_trig.c: | Copyright (C) 1992,1993,1994                                              |
+/usr/src/linux/arch/i386/math-emu/get_address.c: | Copyright (C) 1992,1993,1994                                              |
+/usr/src/linux/arch/i386/math-emu/load_store.c: | Copyright (C) 1992,1993,1994                                              |
+/usr/src/linux/arch/i386/math-emu/poly_2xm1.c: | Copyright (C) 1992,1993,1994                                              |
+/usr/src/linux/arch/i386/math-emu/poly_atan.c: | Copyright (C) 1992,1993,1994                                              |
+/usr/src/linux/arch/i386/math-emu/poly_l2.c: | Copyright (C) 1992,1993,1994                                              |
+/usr/src/linux/arch/i386/math-emu/poly_sin.c: | Copyright (C) 1992,1993,1994                                              |
+/usr/src/linux/arch/i386/math-emu/poly_tan.c: | Copyright (C) 1992,1993,1994                                              |
+/usr/src/linux/arch/i386/math-emu/reg_add_sub.c: | Copyright (C) 1992,1993                                                   |
+/usr/src/linux/arch/i386/math-emu/reg_compare.c: | Copyright (C) 1992,1993,1994                                              |
+/usr/src/linux/arch/i386/math-emu/reg_constant.c: | Copyright (C) 1992,1993,1994,1996                                         |
+/usr/src/linux/arch/i386/math-emu/reg_ld_str.c: | Copyright (C) 1992,1993,1994,1996                                         |
+/usr/src/linux/arch/i386/math-emu/reg_mul.c: | Copyright (C) 1992,1993                                                   |
+/usr/src/linux/arch/i386/mm/fault.c: *  Copyright (C) 1995  Linus Torvalds
+/usr/src/linux/arch/i386/mm/init.c: *  Copyright (C) 1995  Linus Torvalds
+/usr/src/linux/arch/m68k/amiga/amifb.c: *    Copyright (C) 1995 Geert Uytterhoeven
+/usr/src/linux/arch/m68k/amiga/amifb.c: *    Copyright (C) 1994 Martin Schaller
+/usr/src/linux/arch/m68k/amiga/amifb.c: *    Copyright (C) 1993 Hamish Macdonald
+/usr/src/linux/arch/m68k/amiga/amifb.c: *    Copyright (C) 1994 David Carter [carter@compsci.bristol.ac.uk]
+/usr/src/linux/arch/m68k/amiga/amifb.c: *  Copyright (C) 1994 Martin Schaller & Roman Hodek & Geert Uytterhoeven
+/usr/src/linux/arch/m68k/amiga/config.c: *  Copyright (C) 1993 Hamish Macdonald
+/usr/src/linux/arch/m68k/amiga/cyberfb.c: *    Copyright (C) 1996 Martin Apel
+/usr/src/linux/arch/m68k/amiga/cyberfb.c: *    Copyright (C) 1995 Geert Uytterhoeven
+/usr/src/linux/arch/m68k/amiga/zorro.c: *    Copyright (C) 1995 Geert Uytterhoeven
+/usr/src/linux/arch/m68k/atari/atafb.c: *  Copyright (C) 1994 Martin Schaller & Roman Hodek
+/usr/src/linux/arch/m68k/atari/config.c: *  Copyright (C) 1994 Bj”rn Brauel
+/usr/src/linux/arch/m68k/atari/stdma.c: *  Copyright (C) 1994 Roman Hodek
+/usr/src/linux/arch/m68k/boot/amiga/bootstrap.c:** Copyright 1993,1994 by Hamish Macdonald, Greg Harp
+/usr/src/linux/arch/m68k/boot/amiga/bootstrap.c:	puts("Copyright 1993,1994 by Hamish Macdonald and Greg Harp\n");
+/usr/src/linux/arch/m68k/boot/atari/bootstrap.c:** Copyright 1993 by Arjan Knor
+/usr/src/linux/arch/m68k/boot/atari/bootstrap.c:    puts("Copyright 1993,1994 by Arjan Knor, Robert de Vries, Roman Hodek, Andreas Schwab\n");
+/usr/src/linux/arch/m68k/console/fbcon.c: *    Copyright (C) 1995 Geert Uytterhoeven
+/usr/src/linux/arch/m68k/console/fbcon.c: *    Copyright (C) 1993 Hamish Macdonald
+/usr/src/linux/arch/m68k/console/fbcon.c: *    Copyright (C) 1994 David Carter [carter@compsci.bristol.ac.uk]
+/usr/src/linux/arch/m68k/console/fbcon.c: *    Copyright (C) 1993 Bjoern Brauel
+/usr/src/linux/arch/m68k/console/txtcon.c: *    Copyright (C) 1995 Geert Uytterhoeven
+/usr/src/linux/arch/m68k/kernel/console.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/arch/m68k/kernel/process.c: *  Copyright (C) 1995  Hamish Macdonald
+/usr/src/linux/arch/m68k/kernel/ptrace.c: *  Copyright (C) 1994 by Hamish Macdonald
+/usr/src/linux/arch/m68k/kernel/setup.c: *  Copyright (C) 1995  Hamish Macdonald
+/usr/src/linux/arch/m68k/kernel/signal.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/arch/m68k/kernel/time.c: *  Copyright (C) 1991, 1992, 1995  Linus Torvalds
+/usr/src/linux/arch/m68k/kernel/traps.c: *  Copyright (C) 1993, 1994 by Hamish Macdonald
+/usr/src/linux/arch/m68k/lib/ashrdi3.c:/* Copyright (C) 1989, 1992, 1993, 1994, 1995 Free Software Foundation, Inc.
+/usr/src/linux/arch/m68k/mm/fault.c: *  Copyright (C) 1995  Hamish Macdonald
+/usr/src/linux/arch/m68k/mm/init.c: *  Copyright (C) 1995  Hamish Macdonald
+/usr/src/linux/arch/m68k/mm/memory.c: *  Copyright (C) 1995  Hamish Macdonald
+/usr/src/linux/arch/m68k/tools/amiga/dmesg.c: *  © Copyright 1996 by Geert Uytterhoeven
+/usr/src/linux/arch/mips/kernel/gdb-stub.c: *  Copyright (C) 1995 Andreas Busse
+/usr/src/linux/arch/mips/kernel/irq.c: *	Copyright (C) 1992 Linus Torvalds
+/usr/src/linux/arch/mips/kernel/jazz-c.c: * Copyright (C) 1995 by Ralf Baechle
+/usr/src/linux/arch/mips/kernel/process.c: *  Copyright (C) 1995 Ralf Baechle
+/usr/src/linux/arch/mips/kernel/setup.c: *  Copyright (C) 1995  Linus Torvalds
+/usr/src/linux/arch/mips/kernel/setup.c: *  Copyright (C) 1995  Ralf Baechle
+/usr/src/linux/arch/mips/kernel/signal.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/arch/mips/kernel/syscall.c: * Copyright (C) 1995 by Ralf Baechle
+/usr/src/linux/arch/mips/kernel/sysmips.c: * Copyright (C) 1995 by Ralf Baechle
+/usr/src/linux/arch/mips/kernel/time.c: *  Copyright (C) 1991, 1992, 1995  Linus Torvalds
+/usr/src/linux/arch/mips/kernel/tyne-c.c: * Copyright (C) 1994, 1995 by Ralf Baechle
+/usr/src/linux/arch/mips/kernel/vm86.c: *  Copyright (C) 1994  Waldorf GMBH,
+/usr/src/linux/arch/mips/mm/fault.c: *  Copyright (C) 1995 by Ralf Baechle
+/usr/src/linux/arch/mips/mm/init.c: *  Copyright (C) 1991, 1992, 1993, 1994  Linus Torvalds
+/usr/src/linux/arch/ppc/boot/compressed/inflate.c:/* inflate.c -- Not copyrighted 1992 by Mark Adler
+/usr/src/linux/arch/ppc/boot/compressed/misc.c:/* Not copyrighted 1990 Mark Adler	*/
+/usr/src/linux/arch/ppc/boot/compressed/unzip.c: * Copyright (C) 1992-1993 Jean-loup Gailly
+/usr/src/linux/arch/ppc/kernel/irq.c: *	Copyright (C) 1992 Linus Torvalds
+/usr/src/linux/arch/ppc/kernel/process.c: *  Copyright (C) 1995  Linus Torvalds
+/usr/src/linux/arch/ppc/kernel/ptrace.c: *  Copyright (C) 1994 by Hamish Macdonald
+/usr/src/linux/arch/ppc/kernel/setup.c: *  Copyright (C) 1995  Linus Torvalds
+/usr/src/linux/arch/ppc/kernel/signal.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/arch/ppc/kernel/time.c: *  Copyright (C) 1991, 1992, 1995  Linus Torvalds
+/usr/src/linux/arch/ppc/kernel/traps.c: *  Copyright (C) 1995  Gary Thomas
+/usr/src/linux/arch/ppc/mm/fault.c: *  Copyright (C) 1991, 1992, 1993, 1994  Linus Torvalds
+/usr/src/linux/arch/ppc/mm/init.c: *  Copyright (C) 1991, 1992, 1993, 1994  Linus Torvalds
+/usr/src/linux/arch/sparc/boot/init_me.c: * Copyright (C) 1995 David S. Miller (davem@caip.rutgers.edu)
+/usr/src/linux/arch/sparc/kernel/auxio.c: * Copyright (C) 1996 David S. Miller (davem@caip.rutgers.edu)
+/usr/src/linux/arch/sparc/kernel/cpu.c: * Copyright (C) 1996 David S. Miller (davem@caip.rutgers.edu)
+/usr/src/linux/arch/sparc/kernel/devices.c: * Copyright (C) 1996 David S. Miller (davem@caip.rutgers.edu)
+/usr/src/linux/arch/sparc/kernel/errtbls.c: * Copyright (C) 1995 David S. Miller (davem@caip.rutgers.edu)
+/usr/src/linux/arch/sparc/kernel/errtbls.c: * Copyright (C) 1995 Adrian M. Rodriguez (adrian@remus.rutgers.edu)
+/usr/src/linux/arch/sparc/kernel/idprom.c: * Copyright (C) 1995 David S. Miller (davem@caip.rutgers.edu)
+/usr/src/linux/arch/sparc/kernel/ioport.c: * Copyright (C) 1995 David S. Miller (davem@caip.rutgers.edu)
+/usr/src/linux/arch/sparc/kernel/ioport.c: * Copyright (C) 1995 Miguel de Icaza (miguel@nuclecu.unam.mx)
+/usr/src/linux/arch/sparc/kernel/irq.c: *  Copyright (C) 1995 David S. Miller (davem@caip.rutgers.edu)
+/usr/src/linux/arch/sparc/kernel/irq.c: *  Copyright (C) 1995 Miguel de Icaza (miguel@nuclecu.unam.mx)
+/usr/src/linux/arch/sparc/kernel/irq.c: *  Copyright (C) 1995 Pete A. Zaitcev (zaitcev@ipmce.su)
+/usr/src/linux/arch/sparc/kernel/irq.c: *  Copyright (C) 1996 Dave Redman (djhr@tadpole.co.uk)
+/usr/src/linux/arch/sparc/kernel/ksyms.c: * Copyright (C) 1996 David S. Miller (davem@caip.rutgers.edu)
+/usr/src/linux/arch/sparc/kernel/process.c: *  Copyright (C) 1995 David S. Miller (davem@caip.rutgers.edu)
+/usr/src/linux/arch/sparc/kernel/ptrace.c: * Copyright (C) 1996 David S. Miller (davem@caipfs.rutgers.edu)
+/usr/src/linux/arch/sparc/kernel/setup.c: *  Copyright (C) 1995  David S. Miller (davem@caip.rutgers.edu)
+/usr/src/linux/arch/sparc/kernel/signal.c: *  Copyright (C) 1995 David S. Miller (davem@caip.rutgers.edu)
+/usr/src/linux/arch/sparc/kernel/smp.c: * Copyright (C) 1996 David S. Miller (davem@caip.rutgers.edu)
+/usr/src/linux/arch/sparc/kernel/solaris.c: * Copyright (C) 1996 David S. Miller (davem@caip.rutgers.edu)
+/usr/src/linux/arch/sparc/kernel/sparc-stub.c: * Copyright (C) 1995 David S. Miller (davem@caip.rutgers.edu)
+/usr/src/linux/arch/sparc/kernel/sparc-stub.c: * copyright notices have been retained below.
+/usr/src/linux/arch/sparc/kernel/sparc-stub.c:		THIS SOFTWARE IS NOT COPYRIGHTED
+/usr/src/linux/arch/sparc/kernel/sun4c_irq.c: *  Copyright (C) 1995 David S. Miller (davem@caip.rutgers.edu)
+/usr/src/linux/arch/sparc/kernel/sun4c_irq.c: *  Copyright (C) 1995 Miguel de Icaza (miguel@nuclecu.unam.mx)
+/usr/src/linux/arch/sparc/kernel/sun4c_irq.c: *  Copyright (C) 1995 Pete A. Zaitcev (zaitcev@ipmce.su)
+/usr/src/linux/arch/sparc/kernel/sun4c_irq.c: *  Copyright (C) 1996 Dave Redman (djhr@tadpole.co.uk)
+/usr/src/linux/arch/sparc/kernel/sun4m_irq.c: *  Copyright (C) 1995 David S. Miller (davem@caip.rutgers.edu)
+/usr/src/linux/arch/sparc/kernel/sun4m_irq.c: *  Copyright (C) 1995 Miguel de Icaza (miguel@nuclecu.unam.mx)
+/usr/src/linux/arch/sparc/kernel/sun4m_irq.c: *  Copyright (C) 1995 Pete A. Zaitcev (zaitcev@ipmce.su)
+/usr/src/linux/arch/sparc/kernel/sun4m_irq.c: *  Copyright (C) 1996 Dave Redman (djhr@tadpole.co.uk)
+/usr/src/linux/arch/sparc/kernel/sunos_ioctl.c: * Copyright (C) 1995 Miguel de Icaza (miguel@nuclecu.unam.mx)
+/usr/src/linux/arch/sparc/kernel/sunos_ioctl.c: * Copyright (C) 1995 David S. Miller (davem@caip.rutgers.edu)
+/usr/src/linux/arch/sparc/kernel/sys_sunos.c: * Copyright (C) 1995 David S. Miller (davem@caip.rutgers.edu)
+/usr/src/linux/arch/sparc/kernel/sys_sunos.c: * Copyright (C) 1995 Miguel de Icaza (miguel@nuclecu.unam.mx)
+/usr/src/linux/arch/sparc/kernel/sys_sunos.c: * Copyright (C) 1995 Adrian M. Rodriguez (adrian@remus.rutgers.edu)
+/usr/src/linux/arch/sparc/kernel/sys_sunos.c: * is the copyright message for that file:
+/usr/src/linux/arch/sparc/kernel/sys_sunos.c: * Copyright (C) 1994 Eric Youngdale
+/usr/src/linux/arch/sparc/kernel/tadpole.c: * Copyright (C) 1996 David Redman (djhr@tadpole.co.uk)
+/usr/src/linux/arch/sparc/kernel/tick14.c: * Copyright (C) 1996 David Redman (djhr@tadpole.co.uk)
+/usr/src/linux/arch/sparc/kernel/time.c: * Copyright (C) 1995 David S. Miller (davem@caip.rutgers.edu)
+/usr/src/linux/arch/sparc/kernel/traps.c: * Copyright 1995 David S. Miller (davem@caip.rutgers.edu)
+/usr/src/linux/arch/sparc/kernel/windows.c: * Copyright (C) 1995 David S. Miller (davem@caip.rutgers.edu)
+/usr/src/linux/arch/sparc/mm/fault.c: * Copyright (C) 1995 David S. Miller (davem@caip.rutgers.edu)
+/usr/src/linux/arch/sparc/mm/generic.c: * Copyright (C) 1996 David S. Miller (davem@caip.rutgers.edu)
+/usr/src/linux/arch/sparc/mm/init.c: *  Copyright (C) 1995 David S. Miller (davem@caip.rutgers.edu)
+/usr/src/linux/arch/sparc/mm/loadmmu.c: * Copyright (C) 1995 David S. Miller (davem@caip.rutgers.edu)
+/usr/src/linux/arch/sparc/mm/srmmu.c: * Copyright (C) 1995 David S. Miller  (davem@caip.rutgers.edu)
+/usr/src/linux/arch/sparc/mm/srmmu.c: * Copyright (C) 1995 Peter A. Zaitcev (zaitcev@ithil.mcst.ru)
+/usr/src/linux/arch/sparc/mm/srmmu.c: * Copyright (C) 1996 Eddie C. Dost    (ecd@pool.informatik.rwth-aachen.de)
+/usr/src/linux/arch/sparc/mm/sun4c.c: * Copyright (C) 1996 David S. Miller (davem@caip.rutgers.edu)
+/usr/src/linux/arch/sparc/prom/bootstr.c: * Copyright(C) 1995 David S. Miller (davem@caip.rutgers.edu)
+/usr/src/linux/arch/sparc/prom/console.c: * Copyright (C) 1995 David S. Miller (davem@caip.rutgers.edu)
+/usr/src/linux/arch/sparc/prom/devmap.c: * Copyright (C) 1995 David S. Miller (davem@caip.rutgers.edu)
+/usr/src/linux/arch/sparc/prom/devops.c: * Copyright (C) 1995 David S. Miller (davem@caip.rutgers.edu)
+/usr/src/linux/arch/sparc/prom/init.c: * Copyright (C) 1995 David S. Miller (davem@caip.rutgers.edu)
+/usr/src/linux/arch/sparc/prom/memory.c: * Copyright (C) 1995 David S. Miller (davem@caip.rutgers.edu)
+/usr/src/linux/arch/sparc/prom/misc.c: * Copyright (C) 1995 David S. Miller (davem@caip.rutgers.edu)
+/usr/src/linux/arch/sparc/prom/mp.c: * Copyright (C) 1995 David S. Miller (davem@caip.rutgers.edu)
+/usr/src/linux/arch/sparc/prom/palloc.c: * Copyright (C) 1995 David S. Miller (davem@caip.rutgers.edu)
+/usr/src/linux/arch/sparc/prom/printf.c: * Copyright (C) 1995 David S. Miller (davem@caip.rutgers.edu)
+/usr/src/linux/arch/sparc/prom/ranges.c: * Copyright (C) 1995 David S. Miller (davem@caip.rutgers.edu)
+/usr/src/linux/arch/sparc/prom/segment.c: * Copyright (C) 1995 David S. Miller (davem@caip.rutgers.edu)
+/usr/src/linux/arch/sparc/prom/tree.c: * Copyright (C) 1995 David S. Miller (davem@caip.rutgers.edu)
+/usr/src/linux/drivers/block/ali14xx.c: *  Copyright (C) 1996  Linus Torvalds & author (see below)
+/usr/src/linux/drivers/block/amiflop.c: *  Copyright (C) 1993  Greg Harp
+/usr/src/linux/drivers/block/ataflop.c: *  Copyright (C) 1993  Greg Harp
+/usr/src/linux/drivers/block/cmd640.c: *  Copyright (C) 1995-1996  Linus Torvalds & authors (see below)
+/usr/src/linux/drivers/block/dtc2278.c: *  Copyright (C) 1996  Linus Torvalds & author (see below)
+/usr/src/linux/drivers/block/floppy.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/drivers/block/floppy.c: *  Copyright (C) 1993, 1994  Alain Knaff
+/usr/src/linux/drivers/block/genhd.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/drivers/block/hd.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/drivers/block/ht6560b.c: *  Copyright (C) 1995-1996  Linus Torvalds & author (see below)
+/usr/src/linux/drivers/block/ide-cd.c: * Copyright (C) 1994, 1995, 1996  scott snyder  <snyder@fnald0.fnal.gov>
+/usr/src/linux/drivers/block/ide-cd.c: * Copyright (C) 1996, 1997  Erik Andersen <andersee@debian.org>
+/usr/src/linux/drivers/block/ide-cd.c: * Copyright (C) 1998  Jens Axboe and Chris Zwilling
+/usr/src/linux/drivers/block/ide-floppy.c: * Copyright (C) 1996, 1997 Gadi Oxman <gadio@netvision.net.il>
+/usr/src/linux/drivers/block/ide-tape.c: * Copyright (C) 1995, 1996 Gadi Oxman <gadio@netvision.net.il>
+/usr/src/linux/drivers/block/ide.c: *  Copyright (C) 1994-1996  Linus Torvalds & authors (see below)
+/usr/src/linux/drivers/block/linear.c:              Copyright (C) 1994-96 Marc ZYNGIER
+/usr/src/linux/drivers/block/ll_rw_blk.c: * Copyright (C) 1991, 1992 Linus Torvalds
+/usr/src/linux/drivers/block/ll_rw_blk.c: * Copyright (C) 1994,      Karl Keyte: Added support for disk statistics
+/usr/src/linux/drivers/block/loop.c: * Copyright 1993 by Theodore Ts'o.  Redistribution of this file is
+/usr/src/linux/drivers/block/md.c:          Copyright (C) 1994-96 Marc ZYNGIER
+/usr/src/linux/drivers/block/promise.c: *  Copyright (C) 1995-1996  Linus Torvalds & authors (see below)
+/usr/src/linux/drivers/block/qd6580.c: *  Copyright (C) 1996  Linus Torvalds & author (see below)
+/usr/src/linux/drivers/block/raid0.c:             Copyright (C) 1994-96 Marc ZYNGIER
+/usr/src/linux/drivers/block/raid1.c: *           Copyright (C) 1996 Ingo Molnar, Miguel de Icaza, Gadi Oxman
+/usr/src/linux/drivers/block/raid5.c: *           Copyright (C) 1996, 1997 Ingo Molnar, Miguel de Icaza, Gadi Oxman
+/usr/src/linux/drivers/block/rz1000.c: *  Copyright (C) 1995-1996  Linus Torvalds & author (see below)
+/usr/src/linux/drivers/block/triton.c: *  Copyright (c) 1995-1996  Mark Lord
+/usr/src/linux/drivers/block/umc8672.c: *  Copyright (C) 1995-1996  Linus Torvalds & author (see below)
+/usr/src/linux/drivers/block/xd.c:   be able to see a string mentioning the manufacturer's copyright etc. Add this string into the table below. The parameters
+/usr/src/linux/drivers/block/xd.c:	{ 0x000B,"CRD18A   Not an IBM rom. (C) Copyright Data Technology Corp. 05/31/88",xd_dtc_init_controller,xd_dtc_init_drive," DTC 5150X" }, /* Todd Fries, tfries@umr.edu */
+/usr/src/linux/drivers/block/xd.c:	{ 0x000B,"CXD23A Not an IBM ROM (C)Copyright Data Technology Corp 12/03/88",xd_dtc_init_controller,xd_dtc_init_drive," DTC 5150X" }, /* Pat Mackinlay, pat@it.com.au */
+/usr/src/linux/drivers/block/xd.c:	{ 0x0008,"07/15/86 (C) Copyright 1986 Western Digital Corp",xd_wd_init_controller,xd_wd_init_drive," WD 1002AWX1" }, /* Ian Justman, citrus!ianj@csusac.ecs.csus.edu */
+/usr/src/linux/drivers/block/xd.c:	{ 0x0008,"07/15/86(C) Copyright 1986 Western Digital Corp.",xd_wd_init_controller,xd_wd_init_drive," WD 1002-27X" }, /* Andrzej Krzysztofowicz, ankry@mif.pg.gda.pl */
+/usr/src/linux/drivers/block/xd.c:	{ 0x0008,"06/24/88 (C) Copyright 1988 Western Digital Corp",xd_wd_init_controller,xd_wd_init_drive," WD 1004A27X" }, /* Dave Thaler, thalerd@engin.umich.edu */
+/usr/src/linux/drivers/block/xd.c:	{ 0x0008,"06/24/88(C) Copyright 1988 Western Digital Corp.",xd_wd_init_controller,xd_wd_init_drive," WDXT-GEN2" }, /* Dan Newcombe, newcombe@aa.csc.peachnet.edu */
+/usr/src/linux/drivers/block/xd.c:	{ 0x1000,"(c)Copyright 1987 SMS",xd_omti_init_controller,xd_omti_init_drive,"n OMTI 5520" }, /* Dirk Melchers, dirk@merlin.nbg.sub.org */
+/usr/src/linux/drivers/block/xd.c:	{ 0x0006,"COPYRIGHT XEBEC (C) 1984",xd_xebec_init_controller,xd_xebec_init_drive," XEBEC" }, /* Andrzej Krzysztofowicz, ankry@mif.pg.gda.pl */
+/usr/src/linux/drivers/cdrom/aztcd.c:	Copyright (C) 1994,95,96 Werner Zimmermann(zimmerma@rz.fht-esslingen.de)
+/usr/src/linux/drivers/cdrom/cdi.c: *    Copyright (c) 1996 Eric van der Maarel <H.T.M.v.d.Maarel@marin.nl>
+/usr/src/linux/drivers/cdrom/cdrom.c:   Copyright (c) 1996 David van Leeuwen. 
+/usr/src/linux/drivers/cdrom/cdu31a.c: *  Copyright (C) 1993  Corey Minyard
+/usr/src/linux/drivers/cdrom/cm206.c:   Copyright (c) 1995, 1996 David van Leeuwen.
+/usr/src/linux/drivers/cdrom/gscd.c:        Copyright (C) 1995  Oliver Raupach <raupach@nwfs1.rz.fh-hannover.de>
+/usr/src/linux/drivers/cdrom/isp16.c: *    Copyright (c) 1995,1996 Eric van der Maarel <H.T.M.v.d.Maarel@marin.nl>
+/usr/src/linux/drivers/cdrom/mcd.c:	Copyright (C) 1992  Martin Harriss
+/usr/src/linux/drivers/cdrom/mcdx.c: * Copyright (C) 1995 1996 Heiko Schlittermann <heiko@lotte.sax.de>
+/usr/src/linux/drivers/cdrom/optcd.c:	Copyright (C) 1995 Leo Spiekman (spiekman@dutette.et.tudelft.nl)
+/usr/src/linux/drivers/cdrom/sbpcd.c:/*   Copyright (C) 1993, 1994, 1995  Eberhard Moenkeberg <emoenke@gwdg.de>
+/usr/src/linux/drivers/cdrom/sjcd.c: *   Copyright (C) 1995  Vadim V. Model
+/usr/src/linux/drivers/cdrom/sonycd535.c: *  Copyright (C) 1993  Corey Minyard
+/usr/src/linux/drivers/char/apm_bios.c: * Copyright 1994, 1995, 1996 Stephen Rothwell
+/usr/src/linux/drivers/char/conmakehash.c: * Copyright (C) 1995 H. Peter Anvin
+/usr/src/linux/drivers/char/console.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/drivers/char/cyclades.c: * which was copyright (C) 1991, 1992  Linus Torvalds.  It was
+/usr/src/linux/drivers/char/fbmem.c: *  Copyright (C) 1994 Martin Schaller
+/usr/src/linux/drivers/char/ftape/calibr.c: *      Copyright (C) 1993-1995 Bas Laarhoven.
+/usr/src/linux/drivers/char/ftape/ecc.c: *      Copyright (c) 1993 Ning and David Mosberger.
+/usr/src/linux/drivers/char/ftape/fc-10.c:   Copyright (C) 1993,1994 Jon Tombs.
+/usr/src/linux/drivers/char/ftape/fdc-io.c: *      Copyright (C) 1993-1995 Bas Laarhoven.
+/usr/src/linux/drivers/char/ftape/fdc-isr.c: *      Copyright (C) 1994-1995 Bas Laarhoven.
+/usr/src/linux/drivers/char/ftape/ftape-bsm.c: *      Copyright (C) 1994-1995 Bas Laarhoven.
+/usr/src/linux/drivers/char/ftape/ftape-ctl.c: *      Copyright (C) 1993-1995 Bas Laarhoven.
+/usr/src/linux/drivers/char/ftape/ftape-eof.c: *      Copyright (C) 1994-1995 Bas Laarhoven.
+/usr/src/linux/drivers/char/ftape/ftape-io.c: *      Copyright (C) 1993-1995 Bas Laarhoven.
+/usr/src/linux/drivers/char/ftape/ftape-read.c: *      Copyright (C) 1993-1995 Bas Laarhoven.
+/usr/src/linux/drivers/char/ftape/ftape-rw.c: *      Copyright (C) 1993-1995 Bas Laarhoven.
+/usr/src/linux/drivers/char/ftape/ftape-write.c: *      Copyright (C) 1993-1995 Bas Laarhoven.
+/usr/src/linux/drivers/char/ftape/kernel-interface.c: *      Copyright (C) 1993-1995 Bas Laarhoven.
+/usr/src/linux/drivers/char/ftape/tracing.c: *      Copyright (C) 1993-1995 Bas Laarhoven.
+/usr/src/linux/drivers/char/istallion.c: *	Copyright (C) 1996-1998  Stallion Technologies (support@stallion.oz.au).
+/usr/src/linux/drivers/char/istallion.c: *	Copyright (C) 1994-1996  Greg Ungerer (gerg@stallion.oz.au).
+/usr/src/linux/drivers/char/lp.c: * Copyright (C) 1992 by Jim Weigand and Linus Torvalds
+/usr/src/linux/drivers/char/lp.c: * Copyright (C) 1992,1993 by Michael K. Johnson
+/usr/src/linux/drivers/char/lp.c: * Copyright (C) 1993 by Nigel Gamble (added interrupt code)
+/usr/src/linux/drivers/char/lp.c: * Copyright (C) 1994 by Alan Cox (Modularised it)
+/usr/src/linux/drivers/char/lp_intern.c: * Copyright (C) 1992 by Jim Weigand and Linus Torvalds
+/usr/src/linux/drivers/char/lp_intern.c: * Copyright (C) 1992,1993 by Michael K. Johnson
+/usr/src/linux/drivers/char/lp_intern.c: * Copyright (C) 1993 by Nigel Gamble (added interrupt code)
+/usr/src/linux/drivers/char/lp_m68k.c: * Copyright (C) 1992 by Jim Weigand and Linus Torvalds
+/usr/src/linux/drivers/char/lp_m68k.c: * Copyright (C) 1992,1993 by Michael K. Johnson
+/usr/src/linux/drivers/char/lp_m68k.c: * Copyright (C) 1993 by Nigel Gamble (added interrupt code)
+/usr/src/linux/drivers/char/mem.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/drivers/char/n_tty.c: * Written by Theodore Ts'o, Copyright 1994.
+/usr/src/linux/drivers/char/n_tty.c: * Copyright 1991, 1992, 1993, and by Julian Cowley, Copyright 1994.
+/usr/src/linux/drivers/char/pcxx.c: *  Copyright (C) 1994,1995 Troy De Jongh
+/usr/src/linux/drivers/char/pty.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/drivers/char/random.c: * Copyright Theodore Ts'o, 1994, 1995, 1996.  All rights reserved.
+/usr/src/linux/drivers/char/random.c: * 1. Redistributions of source code must retain the above copyright
+/usr/src/linux/drivers/char/random.c: * 2. Redistributions in binary form must reproduce the above copyright
+/usr/src/linux/drivers/char/random.c: * the restrictions contained in a BSD-style copyright.)
+/usr/src/linux/drivers/char/riscom8.c: *      Copyright (C) 1994-1996  Dmitry Gorodchanin (pgmdsg@ibi.com)
+/usr/src/linux/drivers/char/rtc.c: *	Copyright (C) 1996 Paul Gortmaker
+/usr/src/linux/drivers/char/scc.c:	Copyright (c) 1993, 1997 Joerg Reuter DL1BKE
+/usr/src/linux/drivers/char/scc.c:   950131	- changed copyright notice to GPL without limitations.
+/usr/src/linux/drivers/char/scc.c:		printk(KERN_INFO "Copyright 1993,1996 Joerg Reuter DL1BKE (jreuter@lykos.tng.oche.de)\n");
+/usr/src/linux/drivers/char/serial.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/drivers/char/softdog.c: *	(c) Copyright 1995    Alan Cox <alan@lxorguk.ukuu.org.uk>
+/usr/src/linux/drivers/char/specialix.c: *      Copyright (C) 1997  Roger Wolff (R.E.Wolff@BitWizard.nl)
+/usr/src/linux/drivers/char/specialix.c: *      Copyright (C) 1994-1996  Dmitry Gorodchanin (pgmdsg@ibi.com)
+/usr/src/linux/drivers/char/stallion.c: *	Copyright (C) 1996-1998  Stallion Technologies (support@stallion.oz.au).
+/usr/src/linux/drivers/char/stallion.c: *	Copyright (C) 1994-1996  Greg Ungerer (gerg@stallion.oz.au).
+/usr/src/linux/drivers/char/tga.c: *  Copyright (C) 1995  Jay Estabrook
+/usr/src/linux/drivers/char/tpqic02.c: * Copyright (c) 1992, 1993, 1994 by H. H. Bergman. All rights reserved.
+/usr/src/linux/drivers/char/tpqic02.c: * source distribution, which carries the following copyright notice:
+/usr/src/linux/drivers/char/tpqic02.c: *  Copyright (c) 1991 The Regents of the University of California.
+/usr/src/linux/drivers/char/tpqic02.c: * Initial version. Copyright H. H. Bergman 1992
+/usr/src/linux/drivers/char/tty_io.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/drivers/char/tty_ioctl.c: *  Copyright (C) 1991, 1992, 1993, 1994  Linus Torvalds
+/usr/src/linux/drivers/char/vga.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/drivers/char/vt.c: *  Copyright (C) 1992 obz under the linux copyright
+/usr/src/linux/drivers/char/wdt.c: *	(c) Copyright 1995	CymruNET Ltd
+/usr/src/linux/drivers/isdn/avmb1/b1capi.c: * (c) Copyright 1997 by Carsten Paeth (calle@calle.in-berlin.de)
+/usr/src/linux/drivers/isdn/avmb1/b1lli.c: * (c) Copyright 1997 by Carsten Paeth (calle@calle.in-berlin.de)
+/usr/src/linux/drivers/isdn/avmb1/b1pci.c: * (c) Copyright 1997 by Carsten Paeth (calle@calle.in-berlin.de)
+/usr/src/linux/drivers/isdn/avmb1/capi.c: * Copyright 1996 by Carsten Paeth (calle@calle.in-berlin.de)
+/usr/src/linux/drivers/isdn/avmb1/capidrv.c: * Copyright 1997 by Carsten Paeth (calle@calle.in-berlin.de)
+/usr/src/linux/drivers/isdn/hisax/ix1_micro.c: * Copyright (C) 1997 Klaus-Peter Nischke (ITK AG) (for the modifications to
+/usr/src/linux/drivers/isdn/hisax/mic.c: * Copyright (C) 1997 
+/usr/src/linux/drivers/isdn/hisax/sedlbauer.c: * Copyright (C) 1997,1998 Marcus Niemann (for the modifications to
+/usr/src/linux/drivers/isdn/icn/icn.c: * Copyright 1994-1998 by Fritz Elfert (fritz@isdn4linux.de)
+/usr/src/linux/drivers/isdn/isdn_audio.c: * Copyright 1994-1998 by Fritz Elfert (fritz@isdn4linux.de)
+/usr/src/linux/drivers/isdn/isdn_cards.c: * Copyright 1994-1998 by Fritz Elfert (fritz@isdn4linux.de)
+/usr/src/linux/drivers/isdn/isdn_common.c: * Copyright 1994-1998  by Fritz Elfert (fritz@isdn4linux.de)
+/usr/src/linux/drivers/isdn/isdn_common.c: * Copyright 1995,96    Thinking Objects Software GmbH Wuerzburg
+/usr/src/linux/drivers/isdn/isdn_common.c: * Copyright 1995,96    by Michael Hipp (Michael.Hipp@student.uni-tuebingen.de)
+/usr/src/linux/drivers/isdn/isdn_net.c: * Copyright 1994-1998  by Fritz Elfert (fritz@isdn4linux.de)
+/usr/src/linux/drivers/isdn/isdn_net.c: * Copyright 1995,96    by Thinking Objects Software GmbH Wuerzburg
+/usr/src/linux/drivers/isdn/isdn_net.c: * Copyright 1995,96    by Michael Hipp (Michael.Hipp@student.uni-tuebingen.de)
+/usr/src/linux/drivers/isdn/isdn_ppp.c: * Copyright 1995,96 by Michael Hipp (Michael.Hipp@student.uni-tuebingen.de)
+/usr/src/linux/drivers/isdn/isdn_tty.c: * Copyright 1994-1998  by Fritz Elfert (fritz@isdn4linux.de)
+/usr/src/linux/drivers/isdn/isdn_tty.c: * Copyright 1995,96    by Thinking Objects Software GmbH Wuerzburg
+/usr/src/linux/drivers/isdn/pcbit/callbacks.c: * Copyright (C) 1996 Universidade de Lisboa
+/usr/src/linux/drivers/isdn/pcbit/capi.c: * Copyright (C) 1996 Universidade de Lisboa
+/usr/src/linux/drivers/isdn/pcbit/drv.c: * Copyright (C) 1996 Universidade de Lisboa
+/usr/src/linux/drivers/isdn/pcbit/edss1.c: * Copyright (C) 1996 Universidade de Lisboa
+/usr/src/linux/drivers/isdn/pcbit/layer2.c: * Copyright (C) 1996 Universidade de Lisboa
+/usr/src/linux/drivers/isdn/pcbit/module.c: * Copyright (C) 1996 Universidade de Lisboa
+/usr/src/linux/drivers/isdn/pcbit/module.c:	       "Copyright (C) 1996 Universidade de Lisboa\n");
+/usr/src/linux/drivers/isdn/sc/command.c: *  Copyright (C) 1996  SpellCaster Telecommunications Inc.
+/usr/src/linux/drivers/isdn/sc/debug.c: *  Copyright (C) 1996  SpellCaster Telecommunications Inc.
+/usr/src/linux/drivers/isdn/sc/event.c: *  Copyright (C) 1996  SpellCaster Telecommunications Inc.
+/usr/src/linux/drivers/isdn/sc/init.c:	pr_info("Copyright (C) 1996 SpellCaster Telecommunications Inc.\n");
+/usr/src/linux/drivers/isdn/sc/interrupt.c: *  Copyright (C) 1996  SpellCaster Telecommunications Inc.
+/usr/src/linux/drivers/isdn/sc/message.c: *  Copyright (C) 1996  SpellCaster Telecommunications Inc.
+/usr/src/linux/drivers/isdn/sc/packet.c: *  Copyright (C) 1996  SpellCaster Telecommunications Inc.
+/usr/src/linux/drivers/isdn/sc/shmem.c: *  Copyright (C) 1996  SpellCaster Telecommunications Inc.
+/usr/src/linux/drivers/isdn/sc/timer.c: *  Copyright (C) 1996  SpellCaster Telecommunications Inc.
+/usr/src/linux/drivers/isdn/isdnloop/isdnloop.c: * Copyright 1998 by Fritz Elfert (fritz@isdn4linux.de)
+/usr/src/linux/drivers/net/3c501.c:    Copyright 1993 United States Government as represented by the
+/usr/src/linux/drivers/net/3c503.c:    Copyright 1993 United States Government as represented by the
+/usr/src/linux/drivers/net/3c507.c:	Copyright 1993 United States Government as represented by the
+/usr/src/linux/drivers/net/3c509.c:	Copyright 1994-1998 by Donald Becker.
+/usr/src/linux/drivers/net/3c509.c:	Copyright 1993 United States Government as represented by the
+/usr/src/linux/drivers/net/8390.c:	Copyright 1993 United States Government as represented by the
+/usr/src/linux/drivers/net/a2065.c: * (C) Copyright 1995 by Geert Uytterhoeven
+/usr/src/linux/drivers/net/a2065.c: *			(C) Copyright 1995 by Geert Uytterhoeven,
+/usr/src/linux/drivers/net/ac3200.c:	Copyright 1993 United States Government as represented by the Director,
+/usr/src/linux/drivers/net/apricot.c:	Copyright 1993 United States Government as represented by the Director,
+/usr/src/linux/drivers/net/arcnet.c:	The original copyright was as follows:
+/usr/src/linux/drivers/net/arcnet.c:	Copyright 1993 United States Government as represented by the
+/usr/src/linux/drivers/net/ariadne.c: *  © Copyright 1995 by Geert Uytterhoeven
+/usr/src/linux/drivers/net/at1700.c:	Copyright 1993 United States Government as represented by the
+/usr/src/linux/drivers/net/atp.c:	Copyright 1993 United States Government as represented by the
+/usr/src/linux/drivers/net/baycom.c: *	Copyright (C) 1996  Thomas Sailer (sailer@ife.ee.ethz.ch)
+/usr/src/linux/drivers/net/bsd_comp.c: * Copyright (c) 1985, 1986 The Regents of the University of California.
+/usr/src/linux/drivers/net/bsd_comp.c: * 1. Redistributions of source code must retain the above copyright
+/usr/src/linux/drivers/net/bsd_comp.c: * 2. Redistributions in binary form must reproduce the above copyright
+/usr/src/linux/drivers/net/de4x5.c:    Copyright 1994, 1995 Digital Equipment Corporation.
+/usr/src/linux/drivers/net/de600.c: *	Portions (C) Copyright 1993, 1994 by Bjorn Ekwall
+/usr/src/linux/drivers/net/de600.c: *		Portions (C) Copyright 1990 D-Link, Inc.
+/usr/src/linux/drivers/net/de600.c: *		Copyright, 1988-1992, Russell Nelson, Crynwr Software
+/usr/src/linux/drivers/net/de620.c: *	Portions (C) Copyright 1993, 1994 by Bjorn Ekwall <bj0rn@blox.se>
+/usr/src/linux/drivers/net/de620.c: *		Portions (C) Copyright D-Link SYSTEM Inc. 1991, 1992
+/usr/src/linux/drivers/net/de620.c: *		Copyright, 1988, Russell Nelson, Crynwr Software
+/usr/src/linux/drivers/net/defxx.c: * Copyright Information:
+/usr/src/linux/drivers/net/defxx.c: *   Copyright Digital Equipment Corporation 1996.
+/usr/src/linux/drivers/net/depca.c:                      Copyright 1994 David C. Davies
+/usr/src/linux/drivers/net/depca.c:               Copyright 1995  Digital Equipment Corporation.
+/usr/src/linux/drivers/net/dgrs.c: *	Copyright 1995-1996 Digi International Inc.
+/usr/src/linux/drivers/net/e2100.c:	Copyright 1994 by Donald Becker.
+/usr/src/linux/drivers/net/e2100.c:	Copyright 1993 United States Government as represented by the
+/usr/src/linux/drivers/net/eepro.c:	Copyright (C) 1994-1998 by Bao C. Ha.
+/usr/src/linux/drivers/net/eql.c: * (c) Copyright 1995 Simon "Guru Aleph-Null" Janes
+/usr/src/linux/drivers/net/eth16i.c:   Copyright (C) 1994-1998 by Mika Kuoppala
+/usr/src/linux/drivers/net/ewrk3.c:    Copyright 1994 Digital Equipment Corporation.
+/usr/src/linux/drivers/net/fmv18x.c:		Copyright 1993 United States Government as represented by the
+/usr/src/linux/drivers/net/fmv18x.c:		Copyright 1994 Fujitsu Laboratories Ltd.
+/usr/src/linux/drivers/net/hdlcdrv.c: *	Copyright (C) 1996  Thomas Sailer (sailer@ife.ee.ethz.ch)
+/usr/src/linux/drivers/net/hp.c:	Copyright 1993 United States Government as represented by the
+/usr/src/linux/drivers/net/hydra.c:/* copyrighted by Geert Uytterhoeven (Geert.Uytterhoeven@cs.kuleuven.ac.be) */
+/usr/src/linux/drivers/net/lance.c:	Written/copyright 1993-1998 by Donald Becker.
+/usr/src/linux/drivers/net/lance.c:	Copyright 1993 United States Government as represented by the
+/usr/src/linux/drivers/net/ne.c:    Copyright 1993 United States Government as represented by the
+/usr/src/linux/drivers/net/ne2k-pci.c:	Authorship and other copyrights:
+/usr/src/linux/drivers/net/ne2k-pci.c:	Copyright 1993 assigned to the United States Government as represented
+/usr/src/linux/drivers/net/ne2k-pci.c:/* Our copyright info must remain in the binary. */
+/usr/src/linux/drivers/net/ni52.c: * Copyrights (c) 1994,1995,1996 by M.Hipp (Michael.Hipp@student.uni-tuebingen.de)
+/usr/src/linux/drivers/net/ni65.c: * copyrights (c) 1994,1995,1996 by M.Hipp
+/usr/src/linux/drivers/net/pcnet32.c: *  Copyright 1996,97 Thomas Bogendoerfer, 1993-1995,1998 Donald Becker
+/usr/src/linux/drivers/net/pcnet32.c: * 	Copyright 1993 United States Government as represented by the
+/usr/src/linux/drivers/net/pi2.c:   Copyright (c) 1994 David Perry
+/usr/src/linux/drivers/net/ppp.c: * Dynamic channel allocation code Copyright 1995 Caldera, Inc.,
+/usr/src/linux/drivers/net/ppp.c:#ifndef MODULE /* slhc module logic has its own copyright announcement */
+/usr/src/linux/drivers/net/ppp.c:		"TCP compression code copyright 1989 Regents of the "
+/usr/src/linux/drivers/net/ppp.c:		"PPP Dynamic channel allocation code copyright 1995 "
+/usr/src/linux/drivers/net/pt.c: * Copyright (c) 1995 Craig Small VK2XLZ (vk2xlz@vk2xlz.ampr.org.)
+/usr/src/linux/drivers/net/seeq8005.c:	See the skeleton.c file for further copyright information.
+/usr/src/linux/drivers/net/sk_g16.c: * Copyright (C) 1994 by PJD Weichmann & SWS Bern, Switzerland
+/usr/src/linux/drivers/net/skeleton.c: *	Copyright 1993 United States Government as represented by the
+/usr/src/linux/drivers/net/skeleton.c: *	definitions are generally considered non-copyrightable to the
+/usr/src/linux/drivers/net/slhc.c: * Copyright (c) 1989 Regents of the University of California.
+/usr/src/linux/drivers/net/slhc.c: * provided that the above copyright notice and this paragraph are
+/usr/src/linux/drivers/net/slhc.c:	printk(KERN_INFO "CSLIP: code copyright 1989 Regents of the University of California\n");
+/usr/src/linux/drivers/net/slip.c:	printk("CSLIP: code copyright 1989 Regents of the University of California.\n");
+/usr/src/linux/drivers/net/smc-ultra.c:	Copyright 1993 United States Government as represented by the
+/usr/src/linux/drivers/net/smc9194.c: . Copyright (C) 1996 by Erik Stahlman
+/usr/src/linux/drivers/net/soundmodem/gentbl.c: *      Copyright (C) 1996  Thomas Sailer (sailer@ife.ee.ethz.ch)
+/usr/src/linux/drivers/net/soundmodem/sm.c: *	Copyright (C) 1996-1998  Thomas Sailer (sailer@ife.ee.ethz.ch)
+/usr/src/linux/drivers/net/soundmodem/sm_afsk1200.c: *	Copyright (C) 1996  Thomas Sailer (sailer@ife.ee.ethz.ch)
+/usr/src/linux/drivers/net/soundmodem/sm_afsk2400_7.c: *	Copyright (C) 1996  Thomas Sailer (sailer@ife.ee.ethz.ch)
+/usr/src/linux/drivers/net/soundmodem/sm_afsk2400_8.c: *	Copyright (C) 1996  Thomas Sailer (sailer@ife.ee.ethz.ch)
+/usr/src/linux/drivers/net/soundmodem/sm_afsk2666.c: *	Copyright (C) 1997  Thomas Sailer (sailer@ife.ee.ethz.ch)
+/usr/src/linux/drivers/net/soundmodem/sm_fsk9600.c: *	Copyright (C) 1996  Thomas Sailer (sailer@ife.ee.ethz.ch)
+/usr/src/linux/drivers/net/soundmodem/sm_hapn4800.c: *	Copyright (C) 1996  Thomas Sailer (sailer@ife.ee.ethz.ch)
+/usr/src/linux/drivers/net/soundmodem/sm_psk4800.c: *	Copyright (C) 1997  Thomas Sailer (sailer@ife.ee.ethz.ch)
+/usr/src/linux/drivers/net/soundmodem/sm_sbc.c: *	Copyright (C) 1996  Thomas Sailer (sailer@ife.ee.ethz.ch)
+/usr/src/linux/drivers/net/soundmodem/sm_wss.c: *	Copyright (C) 1996  Thomas Sailer (sailer@ife.ee.ethz.ch)
+/usr/src/linux/drivers/net/strip.c: * Copyright 1996 The Board of Trustees of The Leland Stanford
+/usr/src/linux/drivers/net/strip.c: * fee is hereby granted, provided that the above copyright
+/usr/src/linux/drivers/net/wavelan.c: * Original copyright follows (also see the end of this file).
+/usr/src/linux/drivers/net/wd.c:	Copyright 1993 United States Government as represented by the
+/usr/src/linux/drivers/net/znet.c:	This driver is based on the Linux skeleton driver.  The copyright of the
+/usr/src/linux/drivers/net/rcmtl.c:**  ---     Copyright (c) 1997-1998, RedCreek Communications Inc.     ---
+/usr/src/linux/drivers/net/rcpci45.c:**  ---     Copyright (c) 1998, RedCreek Communications Inc.          ---
+/usr/src/linux/drivers/net/shaper.c: *	(c) Copyright 1996 Alan Cox <alan@cymru.net>, All Rights Reserved.
+/usr/src/linux/drivers/net/via-rhine.c:	this authorship and copyright notice.
+/usr/src/linux/drivers/pci/pci.c: * Copyright 1993, 1994, 1995 Drew Eckhardt, Frederic Potter,
+/usr/src/linux/drivers/sbus/char/suncons.c: * Copyright (C) 1995 Peter Zaitcev (zaitcev@lab.ipmce.su)
+/usr/src/linux/drivers/sbus/char/suncons.c: * Copyright (C) 1995 David S. Miller (davem@caip.rutgers.edu)
+/usr/src/linux/drivers/sbus/char/suncons.c: * Copyright (C) 1995 Miguel de Icaza (miguel@nuclecu.unam.mx)
+/usr/src/linux/drivers/sbus/char/sunkbd.c: * Copyright (C) 1995 David S. Miller (davem@caip.rutgers.edu)
+/usr/src/linux/drivers/sbus/char/sunmouse.c: * Copyright (C) 1995 David S. Miller (davem@caip.rutgers.edu)
+/usr/src/linux/drivers/sbus/char/sunmouse.c: * Copyright (C) 1995 Miguel de Icaza (miguel@nuclecu.unam.mx)
+/usr/src/linux/drivers/sbus/char/sunserial.c: * Copyright (C) 1995 David S. Miller (davem@caip.rutgers.edu)
+/usr/src/linux/drivers/sbus/dvma.c: * Copyright (C) 1995 David S. Miller (davem@caip.rutgers.edu)
+/usr/src/linux/drivers/sbus/sbus.c: * Copyright (C) 1995 David S. Miller (davem@caip.rutgers.edu)
+/usr/src/linux/drivers/scsi/53c7,8xx.c: * Copyright 1993, 1994, 1995 Drew Eckhardt
+/usr/src/linux/drivers/scsi/AM53C974.c: * the NCR5380. The following copyrights apply:
+/usr/src/linux/drivers/scsi/AM53C974.c: *   Copyright 1993, Drew Eckhardt
+/usr/src/linux/drivers/scsi/AM53C974.c: *    Copyright 1994, D. Frieauff
+/usr/src/linux/drivers/scsi/BusLogic.c:  Copyright 1995-1998 by Leonard N. Zubkoff <lnz@dandelion.com>
+/usr/src/linux/drivers/scsi/BusLogic.c:  Name, Copyright Notice, and Electronic Mail Address.
+/usr/src/linux/drivers/scsi/BusLogic.c:  BusLogic_Announce("Copyright 1995-1998 by Leonard N. Zubkoff "
+/usr/src/linux/drivers/scsi/BusLogic.c:	Announce the Driver Version and Date, Author's Name, Copyright Notice,
+/usr/src/linux/drivers/scsi/FlashPoint.c:  Copyright 1995-1996 by Mylex Corporation.  All Rights Reserved
+/usr/src/linux/drivers/scsi/FlashPoint.c:  and a BSD-style copyright; see LICENSE.FlashPoint for details.
+/usr/src/linux/drivers/scsi/FlashPoint.c: *   Copyright 1995-1996 by Mylex Corporation.  All Rights Reserved
+/usr/src/linux/drivers/scsi/FlashPoint.c: *   and a BSD-style copyright; see LICENSE.FlashPoint for details.
+/usr/src/linux/drivers/scsi/FlashPoint.c: *   Copyright 1995-1996 by Mylex Corporation.  All Rights Reserved
+/usr/src/linux/drivers/scsi/FlashPoint.c: *   and a BSD-style copyright; see LICENSE.FlashPoint for details.
+/usr/src/linux/drivers/scsi/FlashPoint.c: *   Copyright 1995-1996 by Mylex Corporation.  All Rights Reserved
+/usr/src/linux/drivers/scsi/FlashPoint.c: *   and a BSD-style copyright; see LICENSE.FlashPoint for details.
+/usr/src/linux/drivers/scsi/FlashPoint.c: *   Copyright 1995-1996 by Mylex Corporation.  All Rights Reserved
+/usr/src/linux/drivers/scsi/FlashPoint.c: *   and a BSD-style copyright; see LICENSE.FlashPoint for details.
+/usr/src/linux/drivers/scsi/FlashPoint.c: *   Copyright 1995-1996 by Mylex Corporation.  All Rights Reserved
+/usr/src/linux/drivers/scsi/FlashPoint.c: *   and a BSD-style copyright; see LICENSE.FlashPoint for details.
+/usr/src/linux/drivers/scsi/FlashPoint.c: *   Copyright 1995-1996 by Mylex Corporation.  All Rights Reserved
+/usr/src/linux/drivers/scsi/FlashPoint.c: *   and a BSD-style copyright; see LICENSE.FlashPoint for details.
+/usr/src/linux/drivers/scsi/FlashPoint.c: *   Copyright 1995-1996 by Mylex Corporation.  All Rights Reserved
+/usr/src/linux/drivers/scsi/FlashPoint.c: *   and a BSD-style copyright; see LICENSE.FlashPoint for details.
+/usr/src/linux/drivers/scsi/FlashPoint.c: *   Copyright 1995-1996 by Mylex Corporation.  All Rights Reserved
+/usr/src/linux/drivers/scsi/FlashPoint.c: *   and a BSD-style copyright; see LICENSE.FlashPoint for details.
+/usr/src/linux/drivers/scsi/FlashPoint.c: *   Copyright 1995-1996 by Mylex Corporation.  All Rights Reserved
+/usr/src/linux/drivers/scsi/FlashPoint.c: *   and a BSD-style copyright; see LICENSE.FlashPoint for details.
+/usr/src/linux/drivers/scsi/FlashPoint.c: *   Copyright 1995-1996 by Mylex Corporation.  All Rights Reserved
+/usr/src/linux/drivers/scsi/FlashPoint.c: *   and a BSD-style copyright; see LICENSE.FlashPoint for details.
+/usr/src/linux/drivers/scsi/FlashPoint.c: *   Copyright 1995-1996 by Mylex Corporation.  All Rights Reserved
+/usr/src/linux/drivers/scsi/FlashPoint.c: *   and a BSD-style copyright; see LICENSE.FlashPoint for details.
+/usr/src/linux/drivers/scsi/FlashPoint.c: *   Copyright 1995-1996 by Mylex Corporation.  All Rights Reserved
+/usr/src/linux/drivers/scsi/FlashPoint.c: *   and a BSD-style copyright; see LICENSE.FlashPoint for details.
+/usr/src/linux/drivers/scsi/FlashPoint.c: *   Copyright 1995-1996 by Mylex Corporation.  All Rights Reserved
+/usr/src/linux/drivers/scsi/FlashPoint.c: *   and a BSD-style copyright; see LICENSE.FlashPoint for details.
+/usr/src/linux/drivers/scsi/FlashPoint.c: *   Copyright 1995-1996 by Mylex Corporation.  All Rights Reserved
+/usr/src/linux/drivers/scsi/FlashPoint.c: *   and a BSD-style copyright; see LICENSE.FlashPoint for details.
+/usr/src/linux/drivers/scsi/FlashPoint.c: *   Copyright 1995-1996 by Mylex Corporation.  All Rights Reserved
+/usr/src/linux/drivers/scsi/FlashPoint.c: *   and a BSD-style copyright; see LICENSE.FlashPoint for details.
+/usr/src/linux/drivers/scsi/FlashPoint.c: *   Copyright 1995-1996 by Mylex Corporation.  All Rights Reserved
+/usr/src/linux/drivers/scsi/FlashPoint.c: *   and a BSD-style copyright; see LICENSE.FlashPoint for details.
+/usr/src/linux/drivers/scsi/NCR5380.c: * Copyright 1993, Drew Eckhardt
+/usr/src/linux/drivers/scsi/NCR53c406a.c: *  Copyright (C) 1994, 1995, 1996 Normunds Saumanis (normunds@fi.ibm.com)
+/usr/src/linux/drivers/scsi/NCR53c406a.c:    { "Copyright (C) Acculogic, Inc.\r\n2.8M Diskette Extension Bios ver 4.04.03 03/01/1993", 61, 82 },
+/usr/src/linux/drivers/scsi/advansys.c: * Copyright (c) 1995-1998 Advanced System Products, Inc.
+/usr/src/linux/drivers/scsi/advansys.c: * code retain the above copyright notice and this comment without
+/usr/src/linux/drivers/scsi/aha152x.c: * Copyright 1993, 1994, 1995, 1996 Jürgen E. Fischer
+/usr/src/linux/drivers/scsi/aha152x.c: *   Copyright 1992, 1993 Rickard E. Faith (faith@cs.unc.edu)
+/usr/src/linux/drivers/scsi/aha1542.c: *  Copyright (C) 1992  Tommy Thorn
+/usr/src/linux/drivers/scsi/aha1542.c: *  Copyright (C) 1993, 1994, 1995 Eric Youngdale
+/usr/src/linux/drivers/scsi/aha1740.c: *  Copyright (C) 1992  Tommy Thorn and
+/usr/src/linux/drivers/scsi/aha1740.c: *  Copyright (C) 1992,1993  Brad McLean
+/usr/src/linux/drivers/scsi/aic7xxx.c: * Copyright (c) 1994 John Aycock
+/usr/src/linux/drivers/scsi/aic7xxx.c: *  Justin T. Gibbs.  His copyright follows:
+/usr/src/linux/drivers/scsi/aic7xxx.c: * Copyright (c) 1994-1997 Justin Gibbs.
+/usr/src/linux/drivers/scsi/aic7xxx.c: * 1. Redistributions of source code must retain the above copyright
+/usr/src/linux/drivers/scsi/aic7xxx.c: * 2. Redistributions in binary form must reproduce the above copyright
+/usr/src/linux/drivers/scsi/aic7xxx.c: * Copyright (c) 1997-1998 Doug Ledford
+/usr/src/linux/drivers/scsi/aic7xxx.c: * driver written by Justin Gibbs.  Please see his Copyright notice above
+/usr/src/linux/drivers/scsi/aic7xxx_proc.c: * Copyright (c) 1995, 1996 Dean W. Gehnert
+/usr/src/linux/drivers/scsi/atari_NCR5380.c: * Copyright 1993, Drew Eckhardt
+/usr/src/linux/drivers/scsi/atari_scsi.c: * Copyright 1994 Roman Hodek <Roman.Hodek@informatik.uni-erlangen.de>
+/usr/src/linux/drivers/scsi/eata.c: *  Copyright (C) 1994-1998 Dario Ballabio (dario@milano.europe.dg.com)
+/usr/src/linux/drivers/scsi/eata.c: *  code retain the above copyright notice and this comment without
+/usr/src/linux/drivers/scsi/eata.c:      printk("EATA/DMA 2.0x: Copyright (C) 1994-1998 Dario Ballabio.\n");
+/usr/src/linux/drivers/scsi/esp.c: * Copyright (C) 1995 David S. Miller (davem@caip.rutgers.edu)
+/usr/src/linux/drivers/scsi/fdomain.c: * Copyright 1992, 1993, 1994, 1995, 1996 Rickard E. Faith
+/usr/src/linux/drivers/scsi/fdomain.c:   taken from Tommy Thorn's aha1542.c file.  This code is Copyright (C)
+/usr/src/linux/drivers/scsi/g_NCR5380.c: * Copyright 1993, Drew Eckhardt
+/usr/src/linux/drivers/scsi/gdth.c: * Copyright (C) 1995-98 ICP vortex Computersysteme GmbH, Achim Leubner *
+/usr/src/linux/drivers/scsi/hosts.c: *  hosts.c Copyright (C) 1992 Drew Eckhardt
+/usr/src/linux/drivers/scsi/hosts.c: *          Copyright (C) 1993, 1994, 1995 Eric Youngdale
+/usr/src/linux/drivers/scsi/ide-scsi.c: * Copyright (C) 1996, 1997 Gadi Oxman <gadio@netvision.net.il>
+/usr/src/linux/drivers/scsi/in2000.c: * Copyright (c) 1996 John Shifflett, GeoLog Consulting
+/usr/src/linux/drivers/scsi/ncr53c8xx.c:**  Copyright (C) 1994  Wolfgang Stanglmeier
+/usr/src/linux/drivers/scsi/pas16.c: * Copyright 1993, Drew Eckhardt
+/usr/src/linux/drivers/scsi/qlogicfas.c:   Copyright 1994, Tom Zerucha.   
+/usr/src/linux/drivers/scsi/qlogicisp.c: * Copyright 1995, Erik H. Moe
+/usr/src/linux/drivers/scsi/scsi.c: *  scsi.c Copyright (C) 1992 Drew Eckhardt
+/usr/src/linux/drivers/scsi/scsi.c: *         Copyright (C) 1993, 1994, 1995 Eric Youngdale
+/usr/src/linux/drivers/scsi/sd.c: *      sd.c Copyright (C) 1992 Drew Eckhardt 
+/usr/src/linux/drivers/scsi/sd.c: *           Copyright (C) 1993, 1994, 1995 Eric Youngdale
+/usr/src/linux/drivers/scsi/scsi_debug.c: *  Copyright (C) 1992  Eric Youngdale
+/usr/src/linux/drivers/scsi/scsi_module.c: *  scsi_module.c Copyright (1994, 1995) Eric Youngdale.
+/usr/src/linux/drivers/scsi/scsicam.c: * Copyright 1993, 1994 Drew Eckhardt
+/usr/src/linux/drivers/scsi/seagate.c: *	seagate.c Copyright (C) 1992, 1993 Drew Eckhardt 
+/usr/src/linux/drivers/scsi/seagate.c:{"ST01 v1.7  (C) Copyright 1987 Seagate", 15, 37, SEAGATE},
+/usr/src/linux/drivers/scsi/seagate.c:{"SCSI BIOS 2.00  (C) Copyright 1987 Seagate", 15, 40, SEAGATE},
+/usr/src/linux/drivers/scsi/sr.c: *  sr.c Copyright (C) 1992 David Giller
+/usr/src/linux/drivers/scsi/sr.c: *	     Copyright (C) 1993, 1994, 1995 Eric Youngdale
+/usr/src/linux/drivers/scsi/sr.c: *	sd.c Copyright (C) 1992 Drew Eckhardt 
+/usr/src/linux/drivers/scsi/st.c:  Copyright 1992 - 1996 Kai Makisara
+/usr/src/linux/drivers/scsi/t128.c: * Copyright 1993, Drew Eckhardt
+/usr/src/linux/drivers/scsi/tmscsim.c: * (C)Copyright 1995-1996 Tekram Technology Co., Ltd.		       *
+/usr/src/linux/drivers/scsi/u14-34f.c: *  Copyright (C) 1994-1998 Dario Ballabio (dario@milano.europe.dg.com)
+/usr/src/linux/drivers/scsi/u14-34f.c: *  code retain the above copyright notice and this comment without
+/usr/src/linux/drivers/scsi/u14-34f.c:      printk("UltraStor 14F/34F: Copyright (C) 1994-1998 Dario Ballabio.\n");
+/usr/src/linux/drivers/scsi/ultrastor.c: *	ultrastor.c	Copyright (C) 1992 David B. Gentzel
+/usr/src/linux/drivers/scsi/wd33c93.c: * Copyright (c) 1996 John Shifflett, GeoLog Consulting
+/usr/src/linux/drivers/scsi/wd7000.c: *  Copyright (C) 1992  Thomas Wuensche
+/usr/src/linux/drivers/scsi/megaraid.c: * Copyright 1998 American Megatrends Inc.
+/usr/src/linux/drivers/sound/ad1848.c: * Copyright (C) by Hannu Savolainen 1993-1996
+/usr/src/linux/drivers/sound/adlib_card.c: * Copyright (C) by Hannu Savolainen 1993-1996
+/usr/src/linux/drivers/sound/aedsp16.c:   Copyright (C) 1995  Riccardo Facchetti (riccardo@cdc8g5.cdc.polimi.it)
+/usr/src/linux/drivers/sound/aedsp16.c:   met: 1. Redistributions of source code must retain the above copyright
+/usr/src/linux/drivers/sound/aedsp16.c:   Redistributions in binary form must reproduce the above copyright notice,
+/usr/src/linux/drivers/sound/aedsp16.c:   len string (we are not sure about the len of Copyright string).
+/usr/src/linux/drivers/sound/aedsp16.c:#define CMD1 0xe3		/* Get DSP Copyright                    */
+/usr/src/linux/drivers/sound/audio.c: * Copyright (C) by Hannu Savolainen 1993-1996
+/usr/src/linux/drivers/sound/configure.c: * Copyright (C) by Hannu Savolainen 1993-1996
+/usr/src/linux/drivers/sound/cs4232.c: * Copyright (C) by Hannu Savolainen 1993-1996
+/usr/src/linux/drivers/sound/dev_table.c: * Copyright (C) by Hannu Savolainen 1993-1996
+/usr/src/linux/drivers/sound/dmabuf.c: * Copyright (C) by Hannu Savolainen 1993-1996
+/usr/src/linux/drivers/sound/gus_card.c: * Copyright (C) by Hannu Savolainen 1993-1996
+/usr/src/linux/drivers/sound/gus_midi.c: * Copyright (C) by Hannu Savolainen 1993-1996
+/usr/src/linux/drivers/sound/gus_vol.c: * Copyright (C) by Hannu Savolainen 1993-1996
+/usr/src/linux/drivers/sound/gus_wave.c: * Copyright (C) by Hannu Savolainen 1993-1996
+/usr/src/linux/drivers/sound/ics2101.c: * Copyright (C) by Hannu Savolainen 1993-1996
+/usr/src/linux/drivers/sound/mad16.c: * Copyright (C) by Hannu Savolainen 1993-1996
+/usr/src/linux/drivers/sound/maui.c: * Copyright (C) by Hannu Savolainen 1993-1996
+/usr/src/linux/drivers/sound/midi_synth.c: * Copyright (C) by Hannu Savolainen 1993-1996
+/usr/src/linux/drivers/sound/midibuf.c: * Copyright (C) by Hannu Savolainen 1993-1996
+/usr/src/linux/drivers/sound/mpu401.c: * Copyright (C) by Hannu Savolainen 1993-1996
+/usr/src/linux/drivers/sound/opl3.c: * Copyright (C) by Hannu Savolainen 1993-1996
+/usr/src/linux/drivers/sound/patmgr.c: * Copyright (C) by Hannu Savolainen 1993-1996
+/usr/src/linux/drivers/sound/pss.c: * Copyright (C) by Hannu Savolainen 1993-1996
+/usr/src/linux/drivers/sound/sb_audio.c: * Copyright (C) by Hannu Savolainen 1993-1996
+/usr/src/linux/drivers/sound/sb_card.c: * Copyright (C) by Hannu Savolainen 1993-1996
+/usr/src/linux/drivers/sound/sb_common.c: * Copyright (C) by Hannu Savolainen 1993-1996
+/usr/src/linux/drivers/sound/sb_midi.c: * Copyright (C) by Hannu Savolainen 1993-1996
+/usr/src/linux/drivers/sound/sb_mixer.c: * Copyright (C) by Hannu Savolainen 1993-1996
+/usr/src/linux/drivers/sound/sequencer.c: * Copyright (C) by Hannu Savolainen 1993-1996
+/usr/src/linux/drivers/sound/sound_switch.c: * Copyright (C) by Hannu Savolainen 1993-1996
+/usr/src/linux/drivers/sound/sound_timer.c: * Copyright (C) by Hannu Savolainen 1993-1996
+/usr/src/linux/drivers/sound/soundcard.c: * Copyright (C) by Hannu Savolainen 1993-1996
+/usr/src/linux/drivers/sound/sscape.c: * Copyright (C) by Hannu Savolainen 1993-1996
+/usr/src/linux/drivers/sound/sys_timer.c: * Copyright (C) by Hannu Savolainen 1993-1996
+/usr/src/linux/drivers/sound/trix.c: * Copyright (C) by Hannu Savolainen 1993-1996
+/usr/src/linux/drivers/sound/uart401.c: * Copyright (C) by Hannu Savolainen 1993-1996
+/usr/src/linux/drivers/sound/uart6850.c: * Copyright (C) by Hannu Savolainen 1993-1996
+/usr/src/linux/fs/affs/symlink.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/autofs/dir.c: *  Copyright 1997 Transmeta Corporation -- All Rights Reserved
+/usr/src/linux/fs/autofs/dirhash.c: *  Copyright 1997 Transmeta Corporation -- All Rights Reserved
+/usr/src/linux/fs/autofs/init.c: *  Copyright 1997 Transmeta Corporation -- All Rights Reserved
+/usr/src/linux/fs/autofs/inode.c: *  Copyright 1997 Transmeta Corporation -- All Rights Reserved
+/usr/src/linux/fs/autofs/root.c: *  Copyright 1997 Transmeta Corporation -- All Rights Reserved
+/usr/src/linux/fs/autofs/symlink.c: *  Copyright 1997 Transmeta Corporation -- All Rights Reserved
+/usr/src/linux/fs/autofs/waitq.c: *  Copyright 1997 Transmeta Corporation -- All Rights Reserved
+/usr/src/linux/fs/bad_inode.c: *  Copyright (C) 1997, Stephen Tweedie
+/usr/src/linux/fs/binfmt_aout.c: *  Copyright (C) 1991, 1992, 1996  Linus Torvalds
+/usr/src/linux/fs/binfmt_elf.c: * Copyright 1993, 1994: Eric Youngdale (ericy@cais.com).
+/usr/src/linux/fs/binfmt_em86.c: *  Copyright (C) 1996  Martin von Löwis
+/usr/src/linux/fs/binfmt_em86.c: *  em86 changes Copyright (C) 1997  Jim Paradis
+/usr/src/linux/fs/binfmt_java.c: *  Copyright (C) 1996  Brian A. Lantz
+/usr/src/linux/fs/binfmt_script.c: *  Copyright (C) 1996  Martin von Löwis
+/usr/src/linux/fs/block_dev.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/buffer.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/dcache.c: *  (C) Copyright 1994 Linus Torvalds
+/usr/src/linux/fs/devices.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/dquot.c: * (C) Copyright 1994, 1995 Marco van Wieringen 
+/usr/src/linux/fs/exec.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/ext/dir.c: *  Copyright (C) 1992 Remy Card (card@masi.ibp.fr)
+/usr/src/linux/fs/ext/dir.c: *  Copyright (C) 1991, 1992 Linus Torvalds
+/usr/src/linux/fs/ext/file.c: *  Copyright (C) 1992 Remy Card (card@masi.ibp.fr)
+/usr/src/linux/fs/ext/file.c: *  Copyright (C) 1991, 1992 Linus Torvalds
+/usr/src/linux/fs/ext/freelists.c: *  Copyright (C) 1992  Remy Card (card@masi.ibp.fr)
+/usr/src/linux/fs/ext/fsync.c: *  Copyright (C) 1993  Stephen Tweedie (sct@dcs.ed.ac.uk)
+/usr/src/linux/fs/ext/fsync.c: *  Copyright (C) 1992  Remy Card (card@masi.ibp.fr)
+/usr/src/linux/fs/ext/fsync.c: *  linux/fs/minix/truncate.c   Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/ext/inode.c: *  Copyright (C) 1992  Remy Card (card@masi.ibp.fr)
+/usr/src/linux/fs/ext/inode.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/ext/namei.c: *  Copyright (C) 1992  Remy Card (card@masi.ibp.fr)
+/usr/src/linux/fs/ext/namei.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/ext/symlink.c: *  Copyright (C) 1992 Remy Card (card@masi.ibp.fr)
+/usr/src/linux/fs/ext/symlink.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/ext/truncate.c: *  Copyright (C) 1992  Remy Card (card@masi.ibp.fr)
+/usr/src/linux/fs/ext/truncate.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/ext2/acl.c: * Copyright (C) 1993, 1994, 1995
+/usr/src/linux/fs/ext2/balloc.c: * Copyright (C) 1992, 1993, 1994, 1995
+/usr/src/linux/fs/ext2/bitmap.c: * Copyright (C) 1992, 1993, 1994, 1995
+/usr/src/linux/fs/ext2/dir.c: * Copyright (C) 1992, 1993, 1994, 1995
+/usr/src/linux/fs/ext2/dir.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/ext2/file.c: * Copyright (C) 1992, 1993, 1994, 1995
+/usr/src/linux/fs/ext2/file.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/ext2/fsync.c: *  Copyright (C) 1993  Stephen Tweedie (sct@dcs.ed.ac.uk)
+/usr/src/linux/fs/ext2/fsync.c: *  Copyright (C) 1992  Remy Card (card@masi.ibp.fr)
+/usr/src/linux/fs/ext2/fsync.c: *  linux/fs/minix/truncate.c   Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/ext2/ialloc.c: * Copyright (C) 1992, 1993, 1994, 1995
+/usr/src/linux/fs/ext2/inode.c: * Copyright (C) 1992, 1993, 1994, 1995
+/usr/src/linux/fs/ext2/inode.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/ext2/ioctl.c: * Copyright (C) 1993, 1994, 1995
+/usr/src/linux/fs/ext2/namei.c: * Copyright (C) 1992, 1993, 1994, 1995
+/usr/src/linux/fs/ext2/namei.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/ext2/super.c: * Copyright (C) 1992, 1993, 1994, 1995
+/usr/src/linux/fs/ext2/super.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/ext2/symlink.c: * Copyright (C) 1992, 1993, 1994, 1995
+/usr/src/linux/fs/ext2/symlink.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/ext2/truncate.c: * Copyright (C) 1992, 1993, 1994, 1995
+/usr/src/linux/fs/ext2/truncate.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/fcntl.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/file_table.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/filesystems.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/hpfs/hpfs_fs.c: *   linux/fs/minix  Copyright (C) 1991, 1992, 1993  Linus Torvalds
+/usr/src/linux/fs/hpfs/hpfs_fs.c: *   linux/fs/isofs  Copyright (C) 1991  Eric Youngdale
+/usr/src/linux/fs/inode.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/ioctl.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/isofs/symlink.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/minix/bitmap.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/minix/dir.c: *  Copyright (C) 1991, 1992 Linus Torvalds
+/usr/src/linux/fs/minix/file.c: *  Copyright (C) 1991, 1992 Linus Torvalds
+/usr/src/linux/fs/minix/fsync.c: *  Copyright (C) 1993 Stephen Tweedie (sct@dcs.ed.ac.uk)
+/usr/src/linux/fs/minix/fsync.c: *  Copyright (C) 1991, 1992 Linus Torvalds
+/usr/src/linux/fs/minix/fsync.c: *  Copyright (C) 1996 Gertjan van Wingerde (gertjan@cs.vu.nl)
+/usr/src/linux/fs/minix/inode.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/minix/inode.c: *  Copyright (C) 1996  Gertjan van Wingerde    (gertjan@cs.vu.nl)
+/usr/src/linux/fs/minix/namei.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/minix/symlink.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/minix/truncate.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/minix/truncate.c: *  Copyright (C) 1996  Gertjan van Wingerde (gertjan@cs.vu.nl)
+/usr/src/linux/fs/namei.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/ncpfs/dir.c: *  Copyright (C) 1995, 1996 by Volker Lendecke
+/usr/src/linux/fs/ncpfs/file.c: *  Copyright (C) 1995, 1996 by Volker Lendecke
+/usr/src/linux/fs/ncpfs/inode.c: *  Copyright (C) 1995, 1996 by Volker Lendecke
+/usr/src/linux/fs/ncpfs/ioctl.c: *  Copyright (C) 1995, 1996 by Volker Lendecke
+/usr/src/linux/fs/ncpfs/mmap.c: *  Copyright (C) 1995, 1996 by Volker Lendecke
+/usr/src/linux/fs/ncpfs/ncplib_kernel.c: *  Copyright (C) 1995, 1996 by Volker Lendecke
+/usr/src/linux/fs/ncpfs/sock.c: *  Copyright (C) 1992, 1993  Rick Sladkey
+/usr/src/linux/fs/nfs/dir.c: *  Copyright (C) 1992  Rick Sladkey
+/usr/src/linux/fs/nfs/file.c: *  Copyright (C) 1992  Rick Sladkey
+/usr/src/linux/fs/nfs/file.c: *  Changes Copyright (C) 1994 by Florian La Roche
+/usr/src/linux/fs/nfs/inode.c: *  Copyright (C) 1992  Rick Sladkey
+/usr/src/linux/fs/nfs/nfsiod.c: * Copyright (C) 1996, Olaf Kirch <okir@monad.swb.de>
+/usr/src/linux/fs/nfs/nfsroot.c: *  Copyright (C) 1995, 1996  Gero Kuhlmann <gero@gkminix.han.de>
+/usr/src/linux/fs/nfs/nfsroot.c: *  Copyright (C) 1996  Martin Mares <mj@k332.feld.cvut.cz>
+/usr/src/linux/fs/nfs/proc.c: *  Copyright (C) 1992, 1993, 1994  Rick Sladkey
+/usr/src/linux/fs/nfs/rpcsock.c: *  Copyright (C) 1995, 1996, Olaf Kirch <okir@monad.swb.de>
+/usr/src/linux/fs/nfs/sock.c: *  Copyright (C) 1992, 1993  Rick Sladkey
+/usr/src/linux/fs/nfs/symlink.c: *  Copyright (C) 1992  Rick Sladkey
+/usr/src/linux/fs/nfs/symlink.c: *  Optimization changes Copyright (C) 1994 Florian La Roche
+/usr/src/linux/fs/open.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/pipe.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/proc/array.c: *  Copyright (C) 1992  by Linus Torvalds
+/usr/src/linux/fs/proc/base.c: *  Copyright (C) 1991, 1992 Linus Torvalds
+/usr/src/linux/fs/proc/fd.c: *  Copyright (C) 1991, 1992 Linus Torvalds
+/usr/src/linux/fs/proc/inode.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/proc/kmsg.c: *  Copyright (C) 1992  by Linus Torvalds
+/usr/src/linux/fs/proc/link.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/proc/mem.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/proc/net.c: *  Copyright (C) 1991, 1992 Linus Torvalds
+/usr/src/linux/fs/proc/root.c: *  Copyright (C) 1991, 1992 Linus Torvalds
+/usr/src/linux/fs/proc/scsi.c: *  which is Copyright (C) 1991, 1992 Linus Torvalds. 
+/usr/src/linux/fs/read_write.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/readdir.c: *  Copyright (C) 1995  Linus Torvalds
+/usr/src/linux/fs/smbfs/dir.c: *  Copyright (C) 1995, 1996 by Paal-Kr. Engstad and Volker Lendecke
+/usr/src/linux/fs/smbfs/file.c: *  Copyright (C) 1995, 1996 by Paal-Kr. Engstad and Volker Lendecke
+/usr/src/linux/fs/smbfs/inode.c: *  Copyright (C) 1995, 1996 by Paal-Kr. Engstad and Volker Lendecke
+/usr/src/linux/fs/smbfs/ioctl.c: *  Copyright (C) 1995, 1996 by Volker Lendecke
+/usr/src/linux/fs/smbfs/mmap.c: *  Copyright (C) 1995, 1996 by Paal-Kr. Engstad and Volker Lendecke
+/usr/src/linux/fs/smbfs/proc.c: *  Copyright (C) 1995, 1996 by Paal-Kr. Engstad and Volker Lendecke
+/usr/src/linux/fs/smbfs/sock.c: *  Copyright (C) 1995, 1996 by Paal-Kr. Engstad and Volker Lendecke
+/usr/src/linux/fs/stat.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/super.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/sysv/balloc.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/sysv/balloc.c: *  Copyright (C) 1992  Remy Card (card@masi.ibp.fr)
+/usr/src/linux/fs/sysv/balloc.c: *  Copyright (C) 1992  Doug Evans
+/usr/src/linux/fs/sysv/balloc.c: *  Copyright (C) 1993  Pascal Haible, Bruno Haible
+/usr/src/linux/fs/sysv/balloc.c: *  Copyright (C) 1993  Bruno Haible
+/usr/src/linux/fs/sysv/dir.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/sysv/dir.c: *  Copyright (C) 1993  Pascal Haible, Bruno Haible
+/usr/src/linux/fs/sysv/dir.c: *  Copyright (C) 1993  Bruno Haible
+/usr/src/linux/fs/sysv/file.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/sysv/file.c: *  Copyright (C) 1993  Pascal Haible, Bruno Haible
+/usr/src/linux/fs/sysv/file.c: *  Copyright (C) 1993  Bruno Haible
+/usr/src/linux/fs/sysv/fsync.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/sysv/fsync.c: *  Copyright (C) 1993  Stephen Tweedie (sct@dcs.ed.ac.uk)
+/usr/src/linux/fs/sysv/fsync.c: *  Copyright (C) 1993  Pascal Haible, Bruno Haible
+/usr/src/linux/fs/sysv/fsync.c: *  Copyright (C) 1993  Bruno Haible
+/usr/src/linux/fs/sysv/ialloc.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/sysv/ialloc.c: *  Copyright (C) 1992  Remy Card (card@masi.ibp.fr)
+/usr/src/linux/fs/sysv/ialloc.c: *  Copyright (C) 1992  Doug Evans
+/usr/src/linux/fs/sysv/ialloc.c: *  Copyright (C) 1993  Pascal Haible, Bruno Haible
+/usr/src/linux/fs/sysv/ialloc.c: *  Copyright (C) 1993  Bruno Haible
+/usr/src/linux/fs/sysv/inode.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/sysv/inode.c: *  Copyright (C) 1992  Doug Evans
+/usr/src/linux/fs/sysv/inode.c: *  Copyright (C) 1993  Pascal Haible, Bruno Haible
+/usr/src/linux/fs/sysv/inode.c: *  Copyright (C) 1993  Paul B. Monday
+/usr/src/linux/fs/sysv/inode.c: *  Copyright (C) 1993  Bruno Haible
+/usr/src/linux/fs/sysv/namei.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/sysv/namei.c: *  Copyright (C) 1993  Pascal Haible, Bruno Haible
+/usr/src/linux/fs/sysv/namei.c: *  Copyright (C) 1993  Bruno Haible
+/usr/src/linux/fs/sysv/symlink.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/sysv/symlink.c: *  Copyright (C) 1993  Pascal Haible, Bruno Haible
+/usr/src/linux/fs/sysv/symlink.c: *  Copyright (C) 1993  Bruno Haible
+/usr/src/linux/fs/sysv/truncate.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/sysv/truncate.c: *  Copyright (C) 1993  Pascal Haible, Bruno Haible
+/usr/src/linux/fs/sysv/truncate.c: *  Copyright (C) 1993  Bruno Haible
+/usr/src/linux/fs/ufs/ufs_dir.c: * Copyright (C) 1996
+/usr/src/linux/fs/ufs/ufs_file.c: * Copyright (C) 1996
+/usr/src/linux/fs/ufs/ufs_inode.c: * Copyright (C) 1996
+/usr/src/linux/fs/ufs/ufs_namei.c: * Copyright (C) 1996
+/usr/src/linux/fs/ufs/ufs_super.c: * Copyright (C) 1996
+/usr/src/linux/fs/ufs/ufs_symlink.c: * Copyright (C) 1996
+/usr/src/linux/fs/vfat/namei.c: *    by Gordon Chaffee Copyright (C) 1995.  Send bug reports for the
+/usr/src/linux/fs/xiafs/bitmap.c: *  Copyright (C) Q. Frank Xia, 1993.
+/usr/src/linux/fs/xiafs/bitmap.c: *  Copyright (C) Linus Torvalds, 1991, 1992.
+/usr/src/linux/fs/xiafs/bitmap.c: *  This software may be redistributed per Linux Copyright.
+/usr/src/linux/fs/xiafs/dir.c: *  Copyright (C) Q. Frank Xia, 1993.
+/usr/src/linux/fs/xiafs/dir.c: *  Copyright (C) Linus Torvalds, 1991, 1992.
+/usr/src/linux/fs/xiafs/dir.c: *  This software may be redistributed per Linux Copyright.
+/usr/src/linux/fs/xiafs/file.c: *  Copyright (C) Q. Frank Xia, 1993.
+/usr/src/linux/fs/xiafs/file.c: *  Copyright (C) Linus Torvalds, 1991, 1992.
+/usr/src/linux/fs/xiafs/file.c: *  This software may be redistributed per Linux Copyright.
+/usr/src/linux/fs/xiafs/fsync.c: *  Changes Copyright (C) 1993 Stephen Tweedie (sct@dcs.ed.ac.uk)
+/usr/src/linux/fs/xiafs/fsync.c: *  Copyright (C) 1991, 1992 Linus Torvalds
+/usr/src/linux/fs/xiafs/inode.c: *  Copyright (C) Q. Frank Xia, 1993.
+/usr/src/linux/fs/xiafs/inode.c: *  Copyright (C) Linus Torvalds, 1991, 1992.
+/usr/src/linux/fs/xiafs/inode.c: *  This software may be redistributed per Linux Copyright.
+/usr/src/linux/fs/xiafs/namei.c: *  Copyright (C) Q. Frank Xia, 1993.
+/usr/src/linux/fs/xiafs/namei.c: *  Copyright (C) Linus Torvalds, 1991, 1992.
+/usr/src/linux/fs/xiafs/namei.c: *  This software may be redistributed per Linux Copyright.
+/usr/src/linux/fs/xiafs/symlink.c: *  Copyright (C) Q. Frank Xia, 1993.
+/usr/src/linux/fs/xiafs/symlink.c: *  Copyright (C) Linus Torvalds, 1991, 1992.
+/usr/src/linux/fs/xiafs/symlink.c: *  This software may be redistributed per Linux Copyright.
+/usr/src/linux/fs/xiafs/truncate.c: *  Copyright (C) Q. Frank Xia, 1993.
+/usr/src/linux/fs/xiafs/truncate.c: *  Copyright (C) Linus Torvalds, 1991, 1992.
+/usr/src/linux/fs/xiafs/truncate.c: *  This software may be redistributed per Linux Copyright.
+/usr/src/linux/init/main.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/init/version.c: *  Copyright (C) 1992  Theodore Ts'o
+/usr/src/linux/ipc/msg.c: * Copyright (C) 1992 Krishna Balasubramanian 
+/usr/src/linux/ipc/sem.c: * Copyright (C) 1992 Krishna Balasubramanian
+/usr/src/linux/ipc/sem.c: * Copyright (C) 1995 Eric Schenk, Bruno Haible
+/usr/src/linux/ipc/shm.c: * Copyright (C) 1992, 1993 Krishna Balasubramanian
+/usr/src/linux/ipc/util.c: * Copyright (C) 1992 Krishna Balasubramanian
+/usr/src/linux/kernel/exit.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/kernel/fork.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/kernel/info.c: * Copyright (C) 1992 Darren Senn
+/usr/src/linux/kernel/itimer.c: * Copyright (C) 1992 Darren Senn
+/usr/src/linux/kernel/panic.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/kernel/printk.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/kernel/resource.c: * Copyright (C) 1995	Linus Torvalds
+/usr/src/linux/kernel/sched.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/kernel/signal.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/kernel/softirq.c: *	Copyright (C) 1992 Linus Torvalds
+/usr/src/linux/kernel/sys.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/kernel/time.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/lib/ctype.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/lib/errno.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/lib/inflate.c:/* inflate.c -- Not copyrighted 1992 by Mark Adler
+/usr/src/linux/lib/inflate.c:/* Not copyrighted 1990 Mark Adler	*/
+/usr/src/linux/lib/string.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/lib/vsprintf.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/mm/filemap.c: * Copyright (C) 1994, 1995  Linus Torvalds
+/usr/src/linux/mm/kmalloc.c: *  Copyright (C) 1991, 1992  Linus Torvalds & Roger Wolff.
+/usr/src/linux/mm/memory.c: *  Copyright (C) 1991, 1992, 1993, 1994  Linus Torvalds
+/usr/src/linux/mm/mlock.c: *  (C) Copyright 1995 Linus Torvalds
+/usr/src/linux/mm/mprotect.c: *  (C) Copyright 1994 Linus Torvalds
+/usr/src/linux/mm/mremap.c: *	(C) Copyright 1996 Linus Torvalds
+/usr/src/linux/mm/page_alloc.c: *  Copyright (C) 1991, 1992, 1993, 1994  Linus Torvalds
+/usr/src/linux/mm/page_io.c: *  Copyright (C) 1991, 1992, 1993, 1994  Linus Torvalds
+/usr/src/linux/mm/swap.c: *  Copyright (C) 1991, 1992, 1993, 1994  Linus Torvalds
+/usr/src/linux/mm/swap_state.c: *  Copyright (C) 1991, 1992, 1993, 1994  Linus Torvalds
+/usr/src/linux/mm/swapfile.c: *  Copyright (C) 1991, 1992, 1993, 1994  Linus Torvalds
+/usr/src/linux/mm/vmalloc.c: *  Copyright (C) 1993  Linus Torvalds
+/usr/src/linux/mm/vmscan.c: *  Copyright (C) 1991, 1992, 1993, 1994  Linus Torvalds
+/usr/src/linux/net/ax25/ax25_route.c: *	Other kernels modules in this kit are generally BSD derived. See the copyright headers.
+/usr/src/linux/net/ipv4/arp.c: * Copyright (C) 1994 by Florian  La Roche
+/usr/src/linux/net/ipv4/ip_fw.c: *	copyright message below. As per the GPL it must be maintained
+/usr/src/linux/net/ipv4/ip_fw.c: *	license in recognition of the original copyright. 
+/usr/src/linux/net/ipv4/ip_fw.c: * Copyright (c) 1994 Pauline Middelink
+/usr/src/linux/net/ipv4/ip_fw.c: * copyright or doing.
+/usr/src/linux/net/ipv4/ip_fw.c: * Copyright (c) 1993 Daniel Boulet
+/usr/src/linux/net/ipv4/ip_fw.c: * Copyright (c) 1994 Ugen J.S.Antsilevich
+/usr/src/linux/net/ipv4/ip_masq.c: * 	Copyright (c) 1994 Pauline Middelink
+/usr/src/linux/net/ipv4/rarp.c: * Copyright (C) 1994 by Ross Martin
+/usr/src/linux/net/ipv4/rarp.c: * Based on linux/net/inet/arp.c, Copyright (C) 1994 by Florian La Roche
+/usr/src/linux/net/ipx/af_ipx.c: * 	Portions Copyright (c) 1995 Caldera, Inc. <greg@caldera.com>
+/usr/src/linux/net/ipx/af_ipx.c:	printk(KERN_INFO "IPX Portions Copyright (c) 1995 Caldera, Inc.\n");
+/usr/src/linux/net/unix/af_unix.c:static struct cmsghdr *unix_copyrights(void *userp, int len) /* AT&T ? */
+/usr/src/linux/net/unix/af_unix.c:		struct cmsghdr *cm=unix_copyrights(msg->msg_control, 
+/usr/src/linux/net/unix/af_unix.c:		cm=unix_copyrights(msg->msg_control, 
+/usr/src/linux/net/unix/garbage.c: *	Copyright (C) Barak A. Pearlmutter.

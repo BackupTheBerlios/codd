@@ -1,0 +1,15 @@
+$VAR1 = bless( {
+                 'ron rakitzis' => 3782,
+                 'the university of newcastle upon tyne' => 63091,
+                 'johannes.sixt@eudaptics.co.at' => 58448,
+                 'massachusetts institute of technology' => 11404,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+195177')}, 'Math::BigInt' ),
+                 '__codd' => 'texcad.spm.codd',
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'klaus zitzmann' => 37587,
+                 'johannes sixt' => 20861
+               }, 'Code::Contribution::Distribution' );

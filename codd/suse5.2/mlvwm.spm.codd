@@ -1,0 +1,16 @@
+$VAR1 = bless( {
+                 'paulh@harlequin.co.uk' => 1710,
+                 'notice' => 21933,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+194751')}, 'Math::BigInt' ),
+                 'this  permis-' => 21933,
+                 'takac hasegawa' => 83370,
+                 'the massachusetts institute of technology   **/' => 21933,
+                 '__codd' => 'mlvwm.spm.codd',
+                 'sutherland computer corporation' => 21933,
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'evans' => 21933
+               }, 'Code::Contribution::Distribution' );

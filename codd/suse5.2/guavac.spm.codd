@@ -1,0 +1,12 @@
+$VAR1 = bless( {
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+11947')}, 'Math::BigInt' ),
+                 'cygnus support' => 3982,
+                 '__codd' => 'guavac.spm.codd',
+                 'bothner@cygnus.com' => 3982,
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'login-geppetto' => 3982
+               }, 'Code::Contribution::Distribution' );

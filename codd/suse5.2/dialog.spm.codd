@@ -1,0 +1,17 @@
+$VAR1 = bless( {
+                 'janne kukonlehto' => 2444,
+                 'florian la roche */' => 9420,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+149551')}, 'Math::BigInt' ),
+                 'rubini@ipvvis.unipv.it' => 22944,
+                 's.herbert@sheffield.ac.uk' => 17085,
+                 'uncredited' => 75539,
+                 '__codd' => 'dialog.spm.codd',
+                 'ceh@eng.cam.ac.uk' => 6837,
+                 'florian la roche' => 9420,
+                 '__package' => '/tmp/codd',
+                 'rubini@ipvvis' => 5859,
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22'
+               }, 'Code::Contribution::Distribution' );

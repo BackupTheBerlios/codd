@@ -1,0 +1,14 @@
+$VAR1 = bless( {
+                 'swedish university network' => 251163,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+305519')}, 'Math::BigInt' ),
+                 'uncredited' => 32289,
+                 'login-paul' => 7783,
+                 '__codd' => 'emil.spm.codd',
+                 '__package' => '/tmp/codd',
+                 'bell communications research, inc' => 6500,
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'keld simonsen' => 7783
+               }, 'Code::Contribution::Distribution' );

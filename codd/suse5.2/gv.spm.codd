@@ -1,0 +1,16 @@
+$VAR1 = bless( {
+                 'massachusetts institute of technology' => 41666,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+874887')}, 'Math::BigInt' ),
+                 'uncredited' => 19969,
+                 '__package' => '/tmp/codd',
+                 'free software foundation, inc' => 31843,
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'tim@cs.wisc.edu' => 94518,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__codd' => 'gv.spm.codd',
+                 'johannes plass' => 582930,
+                 'timothy o. theisen' => 94518,
+                 'regents of the university of california' => 9439
+               }, 'Code::Contribution::Distribution' );

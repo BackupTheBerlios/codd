@@ -1,0 +1,17 @@
+$VAR1 = bless( {
+                 'login-vern' => 24641,
+                 'free software foundation' => 6074,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+299449')}, 'Math::BigInt' ),
+                 'bob corbett' => 6074,
+                 'uncredited' => 19126,
+                 'free software foundation, inc' => 77128,
+                 '__package' => '/tmp/codd',
+                 'matthias mutz' => 83202,
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'digital equipment corporation, maynard, massachusetts' => 77128,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__codd' => 'xshogi.spm.codd',
+                 'richard stallman' => 6074
+               }, 'Code::Contribution::Distribution' );

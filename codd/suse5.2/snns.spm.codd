@@ -1,0 +1,22 @@
+$VAR1 = bless( {
+                 'login-mamier' => 10966,
+                 'login-vern' => 42026,
+                 'neuro group, univ' => 45767,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+5230056')}, 'Math::BigInt' ),
+                 'bob corbett' => 34934,
+                 'uncredited' => 603903,
+                 'snns group, ipvr, univ' => 4366722,
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 'snns-group, ipvr, univ' => 13626,
+                 'jamie decoster, purdue university, usa' => 13747,
+                 'tilman sommer' => 24149,
+                 '__codd' => 'snns.spm.codd',
+                 'richard stallman' => 34934,
+                 'j. wieland' => 10966,
+                 'martin reczko, dkfz heidelberg' => 3017,
+                 'joachim danz, th darmstadt, frg' => 25284
+               }, 'Code::Contribution::Distribution' );

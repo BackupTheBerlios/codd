@@ -1,0 +1,12 @@
+$VAR1 = bless( {
+                 'holger schemel' => 6031,
+                 'aeglos@valinor.ms.sub.org' => 89406,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+122331')}, 'Math::BigInt' ),
+                 '__codd' => 'mirrma.spm.codd',
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'aeglos@valinor.owl.de' => 26882
+               }, 'Code::Contribution::Distribution' );

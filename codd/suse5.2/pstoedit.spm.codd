@@ -1,0 +1,11 @@
+$VAR1 = bless( {
+                 'quest protein' => 42408,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+115651')}, 'Math::BigInt' ),
+                 '__codd' => 'pstoedit.spm.codd',
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'lorax@nist.gov' => 73243
+               }, 'Code::Contribution::Distribution' );

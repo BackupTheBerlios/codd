@@ -1,0 +1,429 @@
+src/a2ps-V4.3/a2ps.c:/* 1) Derived of shell program written by evan@csli (Evan Kirshenbaum).	*/
+src/amanda-2.4.0b6/client-src/sendbackup.c:   It arranges that input is the fd to be written by the dump process.
+src/amanda-2.4.0b6/recover-src/uparse.c:  It was written by Richard Stallman by simplifying the hairy parser
+src/amd-upl102/amd/re.c: *	Written by Henry Spencer.  Not derived from licensed software.
+src/apache_1.2.5/src/buff.c: * Discards an data that was not read, or not written by bflush()
+src/apache_1.2.5/src/mod_access.c: * Module derived from code originally written by Rob McCool
+src/apache_1.2.5/src/mod_headers.c: *     Written by Paul Sutton, paul@ukweb.com, 1 Oct 1996
+src/apache_1.2.5/src/mod_imap.c: * written by Rob McCool (11/13/93 robm@ncsa.uiuc.edu).
+src/apache_1.2.5/src/rfc1413.c:/* Rewritten by David Robinson */
+src/apache_1.2.5/support/logresolve.c:    Rewritten by David Robinson. (drtr@ast.cam.ac.uk)
+src/archie-1.4.1/regex.c: * routines written by Ozan S. Yigit, Computer Science, York University.
+src/archie-1.4.1/regex.c: * 	grep written by David Conroy. The backref and
+src/arena/Arena/Implementation/bridge.c:   to the CERN library of common code. Written by howcome@info.cern.ch
+src/arena/Arena/Implementation/math.c:/* Written by Dave Ragget, 1995 */
+src/arena/Library/Implementation/HTAccess.c:**	within HTLibTerminate. Written by Eric Sink, eric@spyglass.com
+src/arena/Library/Implementation/HTAlert.c:**	This function might be overwritten by a smart server or client.
+src/arena/Library/Implementation/HTAtom.c:**	Written by Eric Sink, eric@spyglass.com
+src/arena/Library/Implementation/HTBind.c:**	Written by Eric Sink, eric@spyglass.com, and Henrik
+src/arena/Library/Implementation/HTDirBrw.c:**	   Mar 94  HF	Written by Henrik Frystyk, frystyk@dxcern.cern.ch,
+src/arena/Library/Implementation/HTEPtoCl.c:**  	19 Sep 94	Written by Hakon W Lie, howcome@info.cern.ch
+src/arena/Library/Implementation/HTError.c:**  	05 May 94	Written by Henrik Frystyk, frystyk@dxcern.cern.ch
+src/arena/Library/Implementation/HTFormat.c:**	structure. Written by Eric Sink, eric@spyglass.com
+src/arena/Library/Implementation/HTIcons.c:**	   Mar 94	Written by Ari Luotonen, luotonen@ptsun00.cern.ch
+src/arena/Library/Implementation/HTProt.c:**	within HTLibTerminate. Written by Eric Sink, eric@spyglass.com
+src/arena/Library/Implementation/HTString.c:**	These functions are taken from the server written by Ari Luotonen
+src/arena/Library/Implementation/HTStyle.c:**	The style name is not read or written by these routines.
+src/arena/Library/Implementation/HTThread.c:**  	12 June 94	Written by Henrik Frystyk, frystyk@dxcern.cern.ch
+src/arena/Library/Implementation/HTUU.c:**	written by Mark Riordan.
+src/arena/Library/Implementation/HTUU.c:**	Originally written by:				MR 12 Aug 1990
+src/arena/Image/zlib/Implementation/deflate.c: *      I found it in 'freeze' written by Leonid Broukhis.
+src/arena/Image/zlib/Implementation/trees.c:     * from 'ar' written by Haruhiko Okumura.)
+src/at-3.1.8/y.tab.c:  It was written by Richard Stallman by simplifying the hairy parser
+src/autolog-0.31/autolog.c:    Rewritten by Kyle Bateman, Nov94, Aug95
+src/bash-2.01.1/examples/loadables/getconf.c: * Written by:
+src/bash-2.01.1/lib/readline/vi_mode.c:   Derived from code written by Jeff Sparkes (jsparkes@bnr.ca).  */
+src/bash-2.01.1/y.tab.c:  It was written by Richard Stallman by simplifying the hairy parser
+src/bash-1.14.7/lib/readline/vi_mode.c:   Derived from code written by Jeff Sparkes (jsparkes@bnr.ca).  */
+src/bash-1.14.7/y.tab.c:  It was written by Richard Stallman by simplifying the hairy parser
+src/bc-1.04/bc/bc.c:  It was written by Richard Stallman by simplifying the hairy parser
+src/bind-4.9.7/tools/dig.c: *	dig 2.0 was written by copying sections of libresolv.a and nslookup
+src/bind-4.9.7/contrib/ninit/ninit.c: * Written by Theodore Ts'o.  Copyright 1991.
+src/bind-4.9.7/contrib/tic/poke_ns.c:		fprintf(stderr, "%s can be written by others\n", PIDFILE);
+src/bind-4.9.7/contrib/decwrl/gethost.c: * originally written by Paul Vixie @DEC WRL, January 1989
+src/bind-4.9.7/contrib/hostmaint/ndrev.c: *	Written by Douglas E. Nelson, Michigan State University
+src/bind-4.9.7/contrib/misc/ndrev.c: *	Written by Douglas E. Nelson, Michigan State University
+src/bind-4.9.7/contrib/host/host.c: * Rewritten by Eric Wassenaar, Nikhef-H, <e07@nikhef.nl>
+src/bind-4.9.7/contrib/host/malloc.c: * Rewritten by Eric Wassenaar, Nikhef-H, <e07@nikhef.nl>
+src/binutils-2.8.1/binutils/arparse.c:  It was written by Richard Stallman by simplifying the hairy parser
+src/binutils-2.8.1/binutils/coffdump.c:/* Written by Steve Chamberlain <sac@cygnus.com>
+src/binutils-2.8.1/binutils/coffgrok.c:/* Written by Steve Chamberlain (sac@cygnus.com)
+src/binutils-2.8.1/binutils/debug.c:   Written by Ian Lance Taylor <ian@cygnus.com>.
+src/binutils-2.8.1/binutils/ieee.c:   Written by Ian Lance Taylor <ian@cygnus.com>.
+src/binutils-2.8.1/binutils/nlmconv.c:/* Written by Ian Lance Taylor <ian@cygnus.com>.
+src/binutils-2.8.1/binutils/nlmheader.c:/* Written by Ian Lance Taylor <ian@cygnus.com>.
+src/binutils-2.8.1/binutils/nlmheader.c:  It was written by Richard Stallman by simplifying the hairy parser
+src/binutils-2.8.1/binutils/prdbg.c:   Written by Ian Lance Taylor <ian@cygnus.com>.
+src/binutils-2.8.1/binutils/rdcoff.c:   Written by Ian Lance Taylor <ian@cygnus.com>.
+src/binutils-2.8.1/binutils/rddbg.c:   Written by Ian Lance Taylor <ian@cygnus.com>.
+src/binutils-2.8.1/binutils/srconv.c:/* Written by Steve Chamberlain (sac@cygnus.com)
+src/binutils-2.8.1/binutils/stabs.c:   Written by Ian Lance Taylor <ian@cygnus.com>.
+src/binutils-2.8.1/binutils/strings.c:   Written by Richard Stallman <rms@gnu.ai.mit.edu>
+src/binutils-2.8.1/binutils/sysdump.c:/* Written by Steve Chamberlain <sac@cygnus.com>.
+src/binutils-2.8.1/binutils/sysinfo.c:  It was written by Richard Stallman by simplifying the hairy parser
+src/binutils-2.8.1/binutils/wrstabs.c:   Written by Ian Lance Taylor <ian@cygnus.com>.
+src/binutils-2.8.1/bfd/aix386-core.c:   This was based on trad-core.c, which was written by John Gilmore of
+src/binutils-2.8.1/bfd/aix386-core.c:   Written by Minh Tran-Le <TRANLE@INTELLICORP.COM>.
+src/binutils-2.8.1/bfd/aout-adobe.c:   Written by Cygnus Support.  Based on bout.c.
+src/binutils-2.8.1/bfd/aout-sparcle.c:   Written by Cygnus Support.
+src/binutils-2.8.1/bfd/aout0.c:   Written by Cygnus Support.
+src/binutils-2.8.1/bfd/aout32.c:   Written by Cygnus Support.
+src/binutils-2.8.1/bfd/aout64.c:   Written by Cygnus Support.
+src/binutils-2.8.1/bfd/archive.c:   Written by Cygnus Support.  Mostly Gumby Henkel-Wallace's fault.
+src/binutils-2.8.1/bfd/bfd.c:   Written by Cygnus Support.
+src/binutils-2.8.1/bfd/binary.c:   Written by Ian Lance Taylor, Cygnus Support, <ian@cygnus.com>
+src/binutils-2.8.1/bfd/bout.c:   Written by Cygnus Support.
+src/binutils-2.8.1/bfd/cf-i386lynx.c:   Written by Cygnus Support.
+src/binutils-2.8.1/bfd/cf-m68klynx.c:   Written by Cygnus Support.
+src/binutils-2.8.1/bfd/cf-sparclynx.c:   Written by Cygnus Support.
+src/binutils-2.8.1/bfd/coff-apollo.c:   Based on m68k standard COFF version Written by Cygnus Support.
+src/binutils-2.8.1/bfd/coff-arm.c:   Written by Cygnus Support.
+src/binutils-2.8.1/bfd/coff-aux.c:   Written by Richard Henderson <rth@tamu.edu>.
+src/binutils-2.8.1/bfd/coff-go32.c:   Written by DJ Delorie.
+src/binutils-2.8.1/bfd/coff-h8300.c:   Written by Steve Chamberlain, <sac@cygnus.com>.
+src/binutils-2.8.1/bfd/coff-h8500.c:   Written by Steve Chamberlain, <sac@cygnus.com>.
+src/binutils-2.8.1/bfd/coff-i386.c:   Written by Cygnus Support.
+src/binutils-2.8.1/bfd/coff-i960.c:   Written by Cygnus Support.
+src/binutils-2.8.1/bfd/coff-m68k.c:   Written by Cygnus Support.
+src/binutils-2.8.1/bfd/coff-m88k.c:   Written by Cygnus Support.
+src/binutils-2.8.1/bfd/coff-ppc.c:/* we keep track of whether or not an address has been written by marking */
+src/binutils-2.8.1/bfd/coff-rs6000.c:   Written by Metin G. Ozisik, Mimi Ph\373\364ng-Th\345o V\365, 
+src/binutils-2.8.1/bfd/coff-sh.c:   Written by Steve Chamberlain, <sac@cygnus.com>.
+src/binutils-2.8.1/bfd/coff-sh.c:   Relaxing code written by Ian Lance Taylor, <ian@cygnus.com>.
+src/binutils-2.8.1/bfd/coff-sparc.c:   Written by Cygnus Support.
+src/binutils-2.8.1/bfd/coff-svm68k.c:   Written by Philippe De Muyter <phdm@info.ucl.ac.be>.
+src/binutils-2.8.1/bfd/coff-u68k.c:   Written by Cygnus Support.
+src/binutils-2.8.1/bfd/coff-w65.c:   Written by Steve Chamberlain, <sac@cygnus.com>.
+src/binutils-2.8.1/bfd/coff-z8k.c:   Written by Steve Chamberlain, <sac@cygnus.com>.
+src/binutils-2.8.1/bfd/coffgen.c:   Written by Cygnus Support.
+src/binutils-2.8.1/bfd/cofflink.c:   Written by Ian Lance Taylor, Cygnus Support.
+src/binutils-2.8.1/bfd/corefile.c:   Written by Cygnus Support.
+src/binutils-2.8.1/bfd/cpu-m88k.c:   Written by Steve Chamberlain of Cygnus Support.
+src/binutils-2.8.1/bfd/cpu-mips.c:   Written by Steve Chamberlain of Cygnus Support.
+src/binutils-2.8.1/bfd/cpu-ns32k.c:   Almost totally rewritten by Ian Dall from initial work
+src/binutils-2.8.1/bfd/cpu-rs6000.c:   Written by Mimi Ph\373\364ng-Th\345o V\365 of IBM
+src/binutils-2.8.1/bfd/cpu-vax.c:   Written by Steve Chamberlain of Cygnus Support.
+src/binutils-2.8.1/bfd/demo64.c:   Written by Cygnus Support.
+src/binutils-2.8.1/bfd/ecofflink.c:   Written by Ian Lance Taylor, Cygnus Support, <ian@cygnus.com>.
+src/binutils-2.8.1/bfd/elf32-hppa.c:   Written by
+src/binutils-2.8.1/bfd/elf32-ppc.c:   Written by Ian Lance Taylor, Cygnus Support.
+src/binutils-2.8.1/bfd/evax-alpha.c:   Written by Klaus K"ampf (kkaempf@progis.de)
+src/binutils-2.8.1/bfd/evax-egsd.c:   Written by Klaus K"ampf (kkaempf@progis.de)
+src/binutils-2.8.1/bfd/evax-emh.c:   Written by Klaus K"ampf (kkaempf@progis.de)
+src/binutils-2.8.1/bfd/evax-etir.c:   Written by Klaus K"ampf (kkaempf@progis.de)
+src/binutils-2.8.1/bfd/evax-misc.c:   Written by Klaus K"ampf (kkaempf@progis.de)
+src/binutils-2.8.1/bfd/format.c:   Written by Cygnus Support.
+src/binutils-2.8.1/bfd/hash.c:   Written by Steve Chamberlain <sac@cygnus.com>
+src/binutils-2.8.1/bfd/host-aout.c:   Written by Cygnus Support.  Probably John Gilmore's fault.
+src/binutils-2.8.1/bfd/hp300hpux.c:   Written by Glenn Engel.
+src/binutils-2.8.1/bfd/hppabsd-core.c:   Written by the Center for Software Science at the University of Utah
+src/binutils-2.8.1/bfd/hpux-core.c:   Written by Stu Grossman, Cygnus Support.
+src/binutils-2.8.1/bfd/i386msdos.c:   Written by Bryan Ford of the University of Utah.
+src/binutils-2.8.1/bfd/i386os9k.c:   Written by Cygnus Support.
+src/binutils-2.8.1/bfd/ieee.c:   Written by Steve Chamberlain of Cygnus Support.
+src/binutils-2.8.1/bfd/ihex.c:   Written by Ian Lance Taylor of Cygnus Support <ian@cygnus.com>.
+src/binutils-2.8.1/bfd/init.c:   Written by Steve Chamberlain of Cygnus Support.
+src/binutils-2.8.1/bfd/irix-core.c:   Written by Stu Grossman, Cygnus Support.
+src/binutils-2.8.1/bfd/libbfd.c:   Written by Cygnus Support.
+src/binutils-2.8.1/bfd/linker.c:   Written by Steve Chamberlain and Ian Lance Taylor, Cygnus Support
+src/binutils-2.8.1/bfd/lynx-core.c:   Written by Stu Grossman of Cygnus Support.
+src/binutils-2.8.1/bfd/mipsbsd.c:   Written by Ralph Campbell.
+src/binutils-2.8.1/bfd/netbsd-core.c:   Written by Paul Kranenburg, EUR
+src/binutils-2.8.1/bfd/nlm32-alpha.c:   Written by Ian Lance Taylor, Cygnus Support.
+src/binutils-2.8.1/bfd/oasys.c:   Written by Steve Chamberlain of Cygnus Support, <sac@cygnus.com>.
+src/binutils-2.8.1/bfd/opncls.c:   Written by Cygnus Support.
+src/binutils-2.8.1/bfd/pc532-mach.c:/* Written by Ian Dall
+src/binutils-2.8.1/bfd/ppcboot.c:   Written by Michael Meissner, Cygnus Support, <meissner@cygnus.com>
+src/binutils-2.8.1/bfd/ptrace-core.c:   The structure of this file is based on trad-core.c written by John Gilmore
+src/binutils-2.8.1/bfd/reloc.c:   Written by Cygnus Support.
+src/binutils-2.8.1/bfd/reloc16.c:   Written by Cygnus Support.
+src/binutils-2.8.1/bfd/rs6000-core.c:   Written by Metin G. Ozisik, Mimi Ph\373\364ng-Th\345o V\365, 
+src/binutils-2.8.1/bfd/section.c:   Written by Cygnus Support.
+src/binutils-2.8.1/bfd/srec.c:   Written by Steve Chamberlain of Cygnus Support <sac@cygnus.com>.
+src/binutils-2.8.1/bfd/stab-syms.c:   Written by Cygnus Support.
+src/binutils-2.8.1/bfd/stabs.c:   Written by Ian Lance Taylor, Cygnus Support.
+src/binutils-2.8.1/bfd/sunos.c:   Written by Cygnus Support.
+src/binutils-2.8.1/bfd/syms.c:   Written by Cygnus Support.
+src/binutils-2.8.1/bfd/targets.c:   Written by Cygnus Support.
+src/binutils-2.8.1/bfd/tekhex.c:   Written by Steve Chamberlain of Cygnus Support <sac@cygnus.com>.
+src/binutils-2.8.1/bfd/trad-core.c:   Written by John Gilmore of Cygnus Support.
+src/binutils-2.8.1/bfd/versados.c:   Written by Steve Chamberlain of Cygnus Support <sac@cygnus.com>.
+src/binutils-2.8.1/bfd/xcofflink.c:   Written by Ian Lance Taylor <ian@cygnus.com>, Cygnus Support.
+src/binutils-2.8.1/gas/config/obj-som.c:   Written by the Center for Software Science at the University of Utah
+src/binutils-2.8.1/gas/config/obj-vms.c:/* Written by David L. Kashtan */
+src/binutils-2.8.1/gas/config/tc-alpha.c:   Written by Alessandro Forin, based on earlier gas-1.38 target CPU files.
+src/binutils-2.8.1/gas/config/tc-h8300.c:  Written By Steve Chamberlain
+src/binutils-2.8.1/gas/config/tc-h8500.c:  Written By Steve Chamberlain
+src/binutils-2.8.1/gas/config/tc-i386.c:  Written by Eliot Dresselhaus (eliot@mgm.mit.edu).
+src/binutils-2.8.1/gas/config/tc-mips.c:   Written by Keith Knowles and Ralph Campbell, working independently.
+src/binutils-2.8.1/gas/config/tc-ppc.c:   Written by Ian Lance Taylor, Cygnus Support.
+src/binutils-2.8.1/gas/config/tc-sh.c:   Written By Steve Chamberlain
+src/binutils-2.8.1/gas/config/tc-w65.c:   Written By Steve Chamberlain
+src/binutils-2.8.1/gas/config/tc-z8k.c:  Written By Steve Chamberlain
+src/binutils-2.8.1/gas/gasp.c:   Written by Steve and Judy Chamberlain of Cygnus Support,
+src/binutils-2.8.1/gas/itbl-parse.c:  It was written by Richard Stallman by simplifying the hairy parser
+src/binutils-2.8.1/gas/literal.c:   Written by Ken Raeburn (raeburn@cygnus.com).
+src/binutils-2.8.1/gas/m68k-parse.c:  It was written by Richard Stallman by simplifying the hairy parser
+src/binutils-2.8.1/gas/macro.c:   Written by Steve and Judy Chamberlain of Cygnus Support,
+src/binutils-2.8.1/gas/sb.c:   Written by Steve and Judy Chamberlain of Cygnus Support,
+src/binutils-2.8.1/libiberty/argv.c:   Written by Fred Fish @ Cygnus Support
+src/binutils-2.8.1/libiberty/concat.c:   Written by Fred Fish @ Cygnus Support
+src/binutils-2.8.1/libiberty/cplus-dem.c:   Written by James Clark (jjc@jclark.uucp)
+src/binutils-2.8.1/libiberty/cplus-dem.c:   Rewritten by Fred Fish (fnf@cygnus.com) for ARM and Lucid demangling
+src/binutils-2.8.1/libiberty/mpw.c:   Derived from code written by Guido van Rossum, CWI, Amsterdam
+src/binutils-2.8.1/libiberty/objalloc.c:   Written by Ian Lance Taylor, Cygnus Solutions.
+src/binutils-2.8.1/libiberty/sigsetmask.c:   Written by Steve Chamberlain (sac@cygnus.com).
+src/binutils-2.8.1/libiberty/strerror.c:   Written by Fred Fish.  fnf@cygnus.com
+src/binutils-2.8.1/libiberty/strsignal.c:   Written by Fred Fish.  fnf@cygnus.com
+src/binutils-2.8.1/libiberty/vsprintf.c:   Written by Per Bothner of Cygnus Support.
+src/binutils-2.8.1/libiberty/vsprintf.c:   Based on libg++'s "form" (written by Doug Lea; dl@rocky.oswego.edu).
+src/binutils-2.8.1/opcodes/alpha-dis.c:   patterned after the PPC opcode handling written by Ian Lance Taylor.
+src/binutils-2.8.1/opcodes/a29k-dis.c:   Contributed by Cygnus Support.  Written by Jim Kingdon.
+src/binutils-2.8.1/opcodes/alpha-opc.c:   patterned after the PPC opcode handling written by Ian Lance Taylor.
+src/binutils-2.8.1/opcodes/d10v-opc.c:   Written by Martin Hunt, Cygnus Support
+src/binutils-2.8.1/opcodes/ppc-opc.c:   Written by Ian Lance Taylor, Cygnus Support
+src/binutils-2.8.1/opcodes/ppc-dis.c:   Written by Ian Lance Taylor, Cygnus Support
+src/binutils-2.8.1/ld/ldcref.c:   Written by Ian Lance Taylor <ian@cygnus.com>
+src/binutils-2.8.1/ld/ldexp.c:Written by Steve Chamberlain of Cygnus Support (sac@cygnus.com).
+src/binutils-2.8.1/ld/ldgram.c:  It was written by Richard Stallman by simplifying the hairy parser
+src/binutils-2.8.1/ld/ldlex.c:This was written by steve chamberlain
+src/binutils-2.8.1/ld/ldmain.c:   Written by Steve Chamberlain steve@cygnus.com
+src/binutils-2.8.1/ld/ldmisc.c:   Written by Steve Chamberlain of Cygnus Support.
+src/binutils-2.8.1/ld/ldwrite.c:   Written by Steve Chamberlain sac@cygnus.com
+src/binutils-2.8.1/ld/mpw-elfmips.c:   Written by Steve Chamberlain <sac@cygnus.com>
+src/binutils-2.8.1/ld/mpw-eppcmac.c:   Written by Steve Chamberlain <sac@cygnus.com>
+src/binutils-2.8.1/ld/mpw-esh.c:   Written by Steve Chamberlain steve@cygnus.com
+src/binutils-2.8.1/ld/mpw-idtmips.c:   Written by Ian Lance Taylor <ian@cygnus.com> based on generic.em.
+src/binutils-2.8.1/ld/testsuite/ld-empic/run.c:   Written by Ian Lance Taylor <ian@cygnus.com>
+src/cdrecord-1.6/mkisofs-1.11/eltorito.c:   Written by Michael Fulbright <msf@redhat.com> (1996).
+src/cdrecord-1.6/mkisofs-1.11/files.c:   Written by Eric Youngdale (1993).
+src/cdrecord-1.6/mkisofs-1.11/hash.c:   Written by Eric Youngdale (1993).
+src/cdrecord-1.6/mkisofs-1.11/mkisofs.c:   Written by Eric Youngdale (1993).
+src/cdrecord-1.6/mkisofs-1.11/multi.c: * Written by Eric Youngdale (1996).
+src/cdrecord-1.6/mkisofs-1.11/name.c:   Written by Eric Youngdale (1993).
+src/cdrecord-1.6/mkisofs-1.11/rock.c:   Written by Eric Youngdale (1993).
+src/cdrecord-1.6/mkisofs-1.11/tree.c:   Written by Eric Youngdale (1993).
+src/cdrecord-1.6/mkisofs-1.11/vms.c:   Written by Eric Youngdale (1993).
+src/cdrecord-1.6/mkisofs-1.11/write.c:   Written by Eric Youngdale (1993).
+src/cdrecord-1.6/mkisofs-1.11/diag/dump.c:   Written by Eric Youngdale (1993).
+src/cdrecord-1.6/mkisofs-1.11/diag/isodump.c:   Written by Eric Youngdale (1993).
+src/cdrecord-1.6/mkisofs-1.11/diag/isoinfo.c:   Written by Eric Youngdale (1993).
+src/cdrecord-1.6/mkisofs-1.11/diag/isovfy.c:   Written by Eric Youngdale (1993).
+src/cdrecord-1.6/mkisofs-1.12b3/eltorito.c:   Written by Michael Fulbright <msf@redhat.com> (1996).
+src/cdrecord-1.6/mkisofs-1.12b3/files.c:   Written by Eric Youngdale (1993).
+src/cdrecord-1.6/mkisofs-1.12b3/hash.c:   Written by Eric Youngdale (1993).
+src/cdrecord-1.6/mkisofs-1.12b3/mkisofs.c:   Written by Eric Youngdale (1993).
+src/cdrecord-1.6/mkisofs-1.12b3/multi.c: * Written by Eric Youngdale (1996).
+src/cdrecord-1.6/mkisofs-1.12b3/name.c:   Written by Eric Youngdale (1993).
+src/cdrecord-1.6/mkisofs-1.12b3/rock.c:   Written by Eric Youngdale (1993).
+src/cdrecord-1.6/mkisofs-1.12b3/tree.c:   Written by Eric Youngdale (1993).
+src/cdrecord-1.6/mkisofs-1.12b3/vms.c:   Written by Eric Youngdale (1993).
+src/cdrecord-1.6/mkisofs-1.12b3/write.c:   Written by Eric Youngdale (1993).
+src/cdrecord-1.6/mkisofs-1.12b3/diag/dump.c:   Written by Eric Youngdale (1993).
+src/cdrecord-1.6/mkisofs-1.12b3/diag/isodump.c:   Written by Eric Youngdale (1993).
+src/cdrecord-1.6/mkisofs-1.12b3/diag/isoinfo.c:   Written by Eric Youngdale (1993).
+src/cdrecord-1.6/mkisofs-1.12b3/diag/isovfy.c:   Written by Eric Youngdale (1993).
+src/cdwrite-2.0/cdwrite.c: * Originally written by Adam J. Richter <adam@yggdrasil.com>.
+src/cdda2wav-0.9beta11/lpc.c:   are directly derived from and/or modified from code written by
+src/cdwtools-0.93/src/cmp2/error.c:/* Written by David MacKenzie.  */
+src/cdwtools-0.93/src/cmp2/cmp2.c:/* Written by Torbjorn Granlund and David MacKenzie. */
+src/cdwtools-0.93/src/cat2/cat2.c:     /* Number of characters preferably read or written by each read and write
+src/cdwtools-0.93/src/cat2/cat2.c:     /* Number of characters written by each write call.  */
+src/cdwtools-0.93/src/cat2/error.c:/* Written by David MacKenzie <djm@gnu.ai.mit.edu>.  */
+src/cellular-07apr94/bin.dos/ms_sh22/src/director.c: *  MS-DOS.  Written by Michael Rendell ({uunet,utai}michael@garfield),
+src/clisp-1997-12-06/src/gettext/intl/l10nflist.c:   Written by Ulrich Drepper <drepper@gnu.ai.mit.edu>, 1995.
+src/clisp-1997-12-06/src/gettext/intl/finddomain.c:   Written by Ulrich Drepper <drepper@gnu.ai.mit.edu>, 1995.
+src/clisp-1997-12-06/src/gettext/intl/localealias.c:   Written by Ulrich Drepper <drepper@gnu.ai.mit.edu>, 1995.
+src/clisp-1997-12-06/src/gettext/intl/textdomain.c:   Written by Ulrich Drepper <drepper@gnu.ai.mit.edu>, 1995.
+src/clisp-1997-12-06/src/newreadline/vi_mode.c:   Derived from code written by Jeff Sparkes (jsparkes@bnr.ca).  */
+src/clisp-1997-12-06/src/readline/vi_mode.c:   Derived from code written by Jeff Sparkes (jsparkes@bnr.ca).  */
+src/clisp-1997-12-06/modules/stdwin/Appls/miniedit/regexp.c: *      Written by Henry Spencer.  Not derived from licensed software.
+src/clisp-1997-12-06/modules/stdwin/Appls/miniedit/regsub.c: *      Written by Henry Spencer.  Not derived from licensed software.
+src/clisp-1997-12-06/modules/stdwin/Ports/mac/about.c:Written by Guido van Rossum (guido@cwi.nl)\r\
+src/clisp-1997-12-06/utils/gcc-cccp/cccp.c:                    Written by Paul Rubin, June 1986
+src/clisp-1997-12-06/utils/gcc-cccp/cexp.c:  It was written by Richard Stallman by simplifying the hairy parser
+src/clisp-1997-12-06/utils/hln/ln.c:/* Written by Mike Parker and David MacKenzie. */
+src/clisp-1997-12-06/utils/hln/error.c:/* Written by David MacKenzie <djm@gnu.ai.mit.edu>.  */
+src/clisp-1997-12-06/utils/hln/getversion.c:/* Written by David MacKenzie <djm@gnu.ai.mit.edu> */
+src/clisp-1997-12-06/utils/hln/argmatch.c:/* Written by David MacKenzie <djm@ai.mit.edu> */
+src/clisp-1997-12-06/utils/hln/safe-lstat.c:/* Written by Jim Meyering <meyering@comco.com>.  */
+src/clisp-1997-12-06/utils/hln/safe-stat.c:/* Written by Jim Meyering <meyering@comco.com>.  */
+src/c-news/contrib/lib/ipc/wildmat.c:**  Written by Rich $alz, mirror!rs, Wed Nov 26 19:03:17 EST 1986.
+src/c-news/contrib/lib/wildmat.c:**  Written by Rich $alz, mirror!rs, Wed Nov 26 19:03:17 EST 1986.
+src/c-news/readnews/header.c: * Written by J. S. Rugaber; rewritten by L. Rosler, Dept. 45175, August, 1981.
+src/c-news/readnews/bsearch.c: * Written by J. S. Rugaber; rewritten by L. Rosler, Dept. 45175, August, 1981.
+src/c-news/relay/relaynews.c: * Written by Geoff Collyer, 15-20 November 1985 and revised periodically
+src/coolmail-1.3/audio.c: * Derived from the MIT X11R5 xbiff, written by Jim Fulton, which is
+src/cpio-2.4.2/main.c:/* Written by Phil Nelson <phil@cs.wwu.edu>,
+src/cpio-2.4.2/error.c:/* Written by David MacKenzie <djm@gnu.ai.mit.edu>.  */
+src/cpio-2.4.2/rtapelib.c:   Originally written by Jeff Lee, modified some by Arnold Robbins.
+src/cpio-2.4.2/makepath.c:/* Written by David MacKenzie <djm@gnu.ai.mit.edu> and
+src/cpio-2.4.2/userspec.c:/* Written by David MacKenzie <djm@gnu.ai.mit.edu>.  */
+src/cpio-2.4.2/mkdir.c:   Written by Robert Rother, Mariah Corporation, August 1985
+src/cpio-2.4.2/argmatch.c:/* Written by David MacKenzie <djm@ai.mit.edu> */
+src/cpio-2.4.2/tcexparg.c:   The wild_match code was written by Rich Salz, rsalz@bbn.com,
+src/cpio-2.4.2/tcexparg.c:   Written by Rich $alz, mirror!rs, Wed Nov 26 19:03:17 EST 1986.  */
+src/cron-3.0.1/popen.c: * This code is derived from software written by Ken Arnold and
+src/cvs-1.9.24/lib/argmatch.c:/* Written by David MacKenzie <djm@ai.mit.edu> */
+src/cvs-1.9.24/lib/ftruncate.c:/* The following function was written by
+src/cvs-1.9.24/lib/getdate.c:**  Originally written by Steven M. Bellovin <smb@research.att.com> while
+src/cvs-1.9.24/lib/getline.c:/* Written by Jan Brittenson, bson@gnu.ai.mit.edu.  */
+src/cvs-1.9.24/lib/md5.c: * written by Colin Plumb in 1993, no copyright is claimed.
+src/cvs-1.9.24/lib/mkdir.c:   Written by Robert Rother, Mariah Corporation, August 1985
+src/cvs-1.9.24/lib/sighandle.c:/* Written by Paul Sander, HaL Computer Systems, Inc. <paul@hal.com>
+src/cvs-1.9.24/lib/strerror.c:   Written by Fred Fish.  fnf@cygnus.com
+src/cvs-1.9.24/zlib/deflate.c: *      I found it in 'freeze' written by Leonid Broukhis.
+src/cvs-1.9.24/zlib/trees.c:     * from 'ar' written by Haruhiko Okumura.)
+src/cvs-1.9.24/diff/diff.c:/* GNU DIFF was written by Mike Haertel, David Hayes,
+src/cvs-1.9.24/diff/diff3.c:/* Written by Randy Smith */
+src/cvs-1.9.24/src/cvsrc.c: * Written by david d `zoo' zuhn while at Cygnus Support
+src/cvs-1.9.24/src/entries.c:		       written by a future version of CVS which extends the
+src/cvs-1.9.24/windows-NT/ndir.c:   for MS-DOS.  Written by Michael Rendell ({uunet,utai}michael@garfield),
+src/cvs-1.9.24/windows-NT/SCC/scc.c:/* This file was written by Jim Kingdon, and is hereby placed
+src/cvs-1.9.24/vms/vmsmunch.c:     Written by Joe Meadows Jr, at the Fred Hutchinson Cancer Research Center
+src/ddd-2.2.3/ddd/DocSpace.c:    Written by Andreas Zeller <zeller@ips.cs.tu-bs.de>.
+src/ddd-2.2.3/ddd/ctest.c: * Written by Andreas Zeller <zeller@ips.cs.tu-bs.de>.
+src/ddd-2.2.3/ddd/dldummy.c:    Written by Andreas Zeller <zeller@ips.cs.tu-bs.de>.
+src/ddd-2.2.3/etc/shorten.c:    Written by Andreas Zeller <zeller@ips.cs.tu-bs.de>.
+src/ddd-2.2.3/libiberty/argv.c:   Written by Fred Fish @ Cygnus Support
+src/ddd-2.2.3/libiberty/concat.c:   Written by Fred Fish @ Cygnus Support
+src/ddd-2.2.3/libiberty/cplus-dem.c:   Written by James Clark (jjc@jclark.uucp)
+src/ddd-2.2.3/libiberty/cplus-dem.c:   Rewritten by Fred Fish (fnf@cygnus.com) for ARM and Lucid demangling
+src/ddd-2.2.3/libiberty/mpw.c:   Derived from code written by Guido van Rossum, CWI, Amsterdam
+src/ddd-2.2.3/libiberty/objalloc.c:   Written by Ian Lance Taylor, Cygnus Solutions.
+src/ddd-2.2.3/libiberty/sigsetmask.c:   Written by Steve Chamberlain (sac@cygnus.com).
+src/ddd-2.2.3/libiberty/strerror.c:   Written by Fred Fish.  fnf@cygnus.com
+src/ddd-2.2.3/libiberty/strsignal.c:   Written by Fred Fish.  fnf@cygnus.com
+src/ddd-2.2.3/libiberty/vsprintf.c:   Written by Per Bothner of Cygnus Support.
+src/ddd-2.2.3/libiberty/vsprintf.c:   Based on libg++'s "form" (written by Doug Lea; dl@rocky.oswego.edu).
+src/dejagnu-970221/expect/Dbg.c:Written by: Don Libes, NIST, 3/23/93
+src/dejagnu-970221/expect/exp_clib.c:Written by: Don Libes, libes@cme.nist.gov, NIST, 12/3/90
+src/dejagnu-970221/expect/exp_clib.c:		i_read_errno = errno;	/* errno can be overwritten by the */
+src/dejagnu-970221/expect/exp_command.c:Written by: Don Libes, NIST, 2/6/90
+src/dejagnu-970221/expect/exp_console.c:Written by: Don Libes, NIST, 2/6/90
+src/dejagnu-970221/expect/exp_event.c:Written by: Don Libes, NIST, 2/6/90
+src/dejagnu-970221/expect/exp_inter.c:Written by: Don Libes, NIST, 2/6/90
+src/dejagnu-970221/expect/exp_main_exp.c:Written by: Don Libes, NIST, 2/6/90
+src/dejagnu-970221/expect/exp_poll.c: * Written by Don Libes, NIST, 2/6/90
+src/dejagnu-970221/expect/exp_poll.c: * Rewritten by Don Libes, 2/96 for new Tcl notifier paradigm.
+src/dejagnu-970221/expect/exp_noevent.c:Written by: Don Libes, NIST, 2/6/90
+src/dejagnu-970221/expect/exp_printify.c:Written by: Don Libes, NIST, 2/6/90
+src/dejagnu-970221/expect/exp_pty.c:Written by: Don Libes, NIST,  3/9/93
+src/dejagnu-970221/expect/exp_pty.c:	i_read_errno = errno;	/* errno can be overwritten by the */
+src/dejagnu-970221/expect/exp_regexp.c: *	Written by Henry Spencer.  Not derived from licensed software.
+src/dejagnu-970221/expect/exp_select.c:Written by: Don Libes, NIST, 2/6/90
+src/dejagnu-970221/expect/exp_simple.c:Written by: Don Libes, NIST, 2/6/90
+src/dejagnu-970221/expect/exp_trap.c:Written by: Don Libes, NIST, 9/1/93
+src/dejagnu-970221/expect/exp_win.c:Written by: Don Libes, NIST, 10/25/93
+src/dejagnu-970221/expect/expect.c:Written by: Don Libes, NIST, 2/6/90
+src/dejagnu-970221/expect/pty_sgttyb.c:Written by: Don Libes, NIST, 2/6/90
+src/dejagnu-970221/expect/pty_termios.c:Written by: Don Libes, NIST, 2/6/90
+src/dejagnu-970221/tcl/compat/waitpid.c: *	This code is based on a prototype version written by
+src/dejagnu-970221/tcl/generic/regexp.c: *	Written by Henry Spencer.  Not derived from licensed software.
+src/dejagnu-970221/tcl/generic/tclIOUtil.c:	     * written by the child appears after stuff we've already
+src/dejagnu-970221/tcl/win/winDumpExts.c: * History:  The real functionality of this file was written by
+src/deTeX-2.6/lexout.c: * Written by:
+src/deTeX-2.6/detex.c: * Written by:
+src/diffutils-2.7/diff.c:/* GNU DIFF was written by Mike Haertel, David Hayes,
+src/diffutils-2.7/diff3.c:/* Written by Randy Smith */
+src/diffutils-2.7/sdiff.c:/* GNU SDIFF was written by Thomas Lord. */
+src/diffutils-2.7/cmp.c:/* Written by Torbjorn Granlund and David MacKenzie. */
+src/diffutils-2.7/error.c:/* Written by David MacKenzie.  */
+src/dosemu-0.66.7/src/base/mouse/gcursor.c:/* written by David Etherton, etherton@netcom.com. */
+src/dosemu-0.66.7/src/base/keyboard/n_keyb_X.c:Part of this code is taken from pcemu written by David Hedley 
+src/dosemu-0.66.7/src/base/keyboard/Xkeyb.c: * Part of this code is taken from pcemu written by David Hedley 
+src/dosemu-0.66.7/src/dosext/dpmi/dpmi.c:      /* NOTE: insb uses ES, and ES can't be overwritten by prefix */
+src/dosemu-0.66.7/src/dosext/dpmi/dpmi.c:      /* NOTE: insw/d uses ES, and ES can't be overwritten by prefix */
+src/dosemu-0.66.7/src/dosext/sound/sound.c: * The original code was written by Joel N. Weber II. See README.sound
+src/dosemu-0.66.7/src/emu-i386/cpu.c: * much of this code originally written by Matthias Lautner
+src/dosemu-0.66.7/src/env/video/dualmon.c:   1,                /* is_mapped, will be overwritten by parent Video system */
+src/dosemu-0.66.7/src/commands/emumouse.c: * Written by Kang-Jin Lee (lee@tengu.in-berlin.de) at 3/20/95
+src/dosemu-0.66.7/src/commands/unix.c: * Written by ???
+src/e2fsprogs-1.10/lib/ext2fs/bitops.c: * C language equivalents written by Theodore Ts'o, 9/26/92.
+src/e2fsprogs-1.10/misc/fsck.c: * Written by Theodore Ts'o, <tytso@mit.edu>
+src/ed-0.2/error.c:/* Written by David MacKenzie.  */
+src/elm2.4.ME+.37/filter/regexp.c: *	Written by Henry Spencer.  Not derived from licensed software.
+src/elm2.4.ME+.37/lib/getrealname.c: * This code originally written by Michael Elkins <elkins@aero.org>
+src/elm2.4.ME+.37/src/alias.c: * as errno gets overwritten by print system call
+src/elm2.4.ME+.37/src/encode.c:/** This is a heavily mangled version of the 'cypher' program written by
+src/elm2.4.ME+.37/src/menu.c: * Initially written by: Michael Elkins <elkins@aero.org>, 17 May 1995.
+src/elm2.4.ME+.37/src/menu2.c: * This code originally written by Michael Elkins <elkins@aero.org>.
+src/elm2.4.ME+.37/src/reply.c:	   That is: It is possible that Reply-to is written by some
+src/elm2.4.ME+.37/src/savecopy.c: * as errno gets overwritten by print system call
+src/elm2.4.ME+.37/src/syscall.c:	 * Otherwise, it returns the zero byte written by the child
+src/enscript-1.5.5/intl/finddomain.c:   Written by Ulrich Drepper <drepper@gnu.ai.mit.edu>, 1995.
+src/enscript-1.5.5/intl/localealias.c:   Written by Ulrich Drepper <drepper@gnu.ai.mit.edu>, 1995.
+src/enscript-1.5.5/intl/textdomain.c:   Written by Ulrich Drepper <drepper@gnu.ai.mit.edu>, 1995.
+src/enscript-1.5.5/intl/l10nflist.c:   Written by Ulrich Drepper <drepper@gnu.ai.mit.edu>, 1995.
+src/enscript-1.5.5/states/gram.c:  It was written by Richard Stallman by simplifying the hairy parser
+src/expect-5.22/Dbg.c:Written by: Don Libes, NIST, 3/23/93
+src/expect-5.22/exp_clib.c:Written by: Don Libes, libes@cme.nist.gov, NIST, 12/3/90
+src/expect-5.22/exp_clib.c:		i_read_errno = errno;	/* errno can be overwritten by the */
+src/expect-5.22/exp_command.c:Written by: Don Libes, NIST, 2/6/90
+src/expect-5.22/exp_console.c:Written by: Don Libes, NIST, 2/6/90
+src/expect-5.22/exp_event.c:Written by: Don Libes, NIST, 2/6/90
+src/expect-5.22/exp_noevent.c:Written by: Don Libes, NIST, 2/6/90
+src/expect-5.22/exp_inter.c:Written by: Don Libes, NIST, 2/6/90
+src/expect-5.22/exp_main_exp.c:Written by: Don Libes, NIST, 2/6/90
+src/expect-5.22/exp_poll.c: * Written by Don Libes, NIST, 2/6/90
+src/expect-5.22/exp_poll.c: * Rewritten by Don Libes, 2/96 for new Tcl notifier paradigm.
+src/expect-5.22/exp_printify.c:Written by: Don Libes, NIST, 2/6/90
+src/expect-5.22/exp_pty.c:Written by: Don Libes, NIST,  3/9/93
+src/expect-5.22/exp_pty.c:	i_read_errno = errno;	/* errno can be overwritten by the */
+src/expect-5.22/exp_regexp.c: *	Written by Henry Spencer.  Not derived from licensed software.
+src/expect-5.22/exp_select.c:Written by: Don Libes, NIST, 2/6/90
+src/expect-5.22/exp_simple.c:Written by: Don Libes, NIST, 2/6/90
+src/expect-5.22/exp_trap.c:Written by: Don Libes, NIST, 9/1/93
+src/expect-5.22/exp_win.c:Written by: Don Libes, NIST, 10/25/93
+src/expect-5.22/expect.c:Written by: Don Libes, NIST, 2/6/90
+src/expect-5.22/pty_sgttyb.c:Written by: Don Libes, NIST, 2/6/90
+src/expect-5.22/pty_termios.c:Written by: Don Libes, NIST, 2/6/90
+src/fvwm-2.0.46/modules/FvwmCascade/FvwmCascade.c: * Written by Andrew Veliath
+src/fvwm-2.0.46/modules/FvwmTile/FvwmTile.c: * Written by Andrew Veliath
+src/fvwm-2.0.46/libs/envvar.c: *  WRITTEN BY      Sverre H. Huseby
+src/file-3.22/file.c: * Written by Ian F. Darwin.
+src/file-3.22/apprentice.c: * Written by Ian F. Darwin.
+src/file-3.22/fsmagic.c: * Written by Ian F. Darwin.
+src/file-3.22/softmagic.c: * Written by Ian F. Darwin.
+src/file-3.22/ascmagic.c: * Written by Ian F. Darwin.
+src/file-3.22/print.c: * Written by Ian F. Darwin.
+src/fileutils-3.16/lib/error.c:/* Written by David MacKenzie <djm@gnu.ai.mit.edu>.  */
+src/fileutils-3.16/lib/euidaccess.c:/* Written by David MacKenzie and Torbjorn Granlund.
+src/fileutils-3.16/lib/fileblocks.c:/* Written by Brian L. Matthews, blm@6sceng.UUCP. */
+src/fileutils-3.16/lib/getdate.c:**  Originally written by Steven M. Bellovin <smb@research.att.com> while
+src/fileutils-3.16/lib/getdate.c:  It was written by Richard Stallman by simplifying the hairy parser
+src/fileutils-3.16/lib/getgroups.c:/* written by Jim Meyering */
+src/fileutils-3.16/lib/getline.c:/* Written by Jan Brittenson, bson@gnu.ai.mit.edu.  */
+src/fileutils-3.16/lib/mkdir.c:   Written by Robert Rother, Mariah Corporation, August 1985
+src/fileutils-3.16/lib/posixtm.c:  It was written by Richard Stallman by simplifying the hairy parser
+src/fileutils-3.16/lib/strftime.c:	  /* Force `_' flag unless overwritten by `0' flag.  */
+src/fileutils-3.16/lib/argmatch.c:/* Written by David MacKenzie <djm@ai.mit.edu> */
+src/fileutils-3.16/lib/getversion.c:/* Written by David MacKenzie <djm@gnu.ai.mit.edu> */
+src/fileutils-3.16/lib/long-options.c:/* Written by Jim Meyering.  */
+src/fileutils-3.16/lib/makepath.c:/* Written by David MacKenzie <djm@gnu.ai.mit.edu> and Jim Meyering.  */
+src/fileutils-3.16/lib/modechange.c:/* Written by David MacKenzie <djm@ai.mit.edu> */
+src/fileutils-3.16/lib/path-concat.c:/* Written by Jim Meyering.  */
+src/fileutils-3.16/lib/save-cwd.c:/* Written by Jim Meyering <meyering@na-net.ornl.gov>.  */
+src/fileutils-3.16/lib/savedir.c:/* Written by David MacKenzie <djm@gnu.ai.mit.edu>. */
+src/fileutils-3.16/lib/userspec.c:/* Written by David MacKenzie <djm@gnu.ai.mit.edu>.  */
+src/fileutils-3.16/lib/xgetcwd.c:/* Written by David MacKenzie <djm@gnu.ai.mit.edu>.  */
+src/fileutils-3.16/lib/xstrtol.c:/* Written by Jim Meyering. */
+src/fileutils-3.16/src/df.c:/* Written by David MacKenzie <djm@gnu.ai.mit.edu>.
+src/fileutils-3.16/src/chgrp.c:/* Written by David MacKenzie <djm@gnu.ai.mit.edu>. */
+src/fileutils-3.16/src/chown.c:   Written by David MacKenzie <djm@gnu.ai.mit.edu>. */
+src/fileutils-3.16/src/cp.c:   Written by Torbjorn Granlund, David MacKenzie, and Jim Meyering. */
+src/fileutils-3.16/src/cp-aux.c:   Written by Torbjorn Granlund, Sweden (tege@sics.se). */
+src/fileutils-3.16/src/cp-hash.c:   Written by Torbjorn Granlund, Sweden (tege@sics.se). */
+src/fileutils-3.16/src/dd.c:/* Written by Paul Rubin, David MacKenzie, and Stuart Kemp. */
+src/fileutils-3.16/src/ln.c:/* Written by Mike Parker and David MacKenzie. */
+src/fileutils-3.16/src/ls.c:/* Written by Richard Stallman and David MacKenzie.  */
+src/fileutils-3.16/src/mv.c:   Written by Mike Parker and David MacKenzie */
+src/fileutils-3.16/src/rm.c:/* Written by Paul Rubin, David MacKenzie, and Richard Stallman.  */
+src/fileutils-3.16/src/touch.c:   Written by Paul Rubin, Arnold Robbins, Jim Kingdon, David MacKenzie,
+src/fileutils-3.16/intl/finddomain.c:   Written by Ulrich Drepper <drepper@gnu.ai.mit.edu>, 1995.
+src/readline-2.1/vi_mode.c:   Derived from code written by Jeff Sparkes (jsparkes@bnr.ca).  */
+src/nntp-1.5.12.1/server/misc.c: * written by Stan Barber <sob@watson.bcm.tmc.edu>
+src/nntp-1.5.12.1/server/wildmat.c:**  Written by Rich $alz, mirror!rs, Wed Nov 26 19:03:17 EST 1986.
+src/ncurses-1.9.7a/progs/infocmp.c: *		written by Eric S. Raymond
+src/ncurses-1.9.7a/test/testcurs.c: * This program was written by John Burnell (johnb@kea.am.dsir.govt.nz)
+src/ncurses-1.9.7a/test/view.c: * written by Eric S. Raymond <esr@snark.thyrsus.com> December 1994

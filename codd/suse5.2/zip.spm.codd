@@ -1,0 +1,19 @@
+$VAR1 = bless( {
+                 'mark adler, richard b. wales, jean-loup gailly' => 247255,
+                 'igor mandrichenko' => 20693,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+377512')}, 'Math::BigInt' ),
+                 'uncredited' => 1312,
+                 'paul.kienitz@f28.n125.z1.fidonet.org' => 34342,
+                 'djm@ai.mit.edu' => 1204,
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'jbush@landfill.east.sun.com' => 34342,
+                 'login-jloup' => 2569,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 'mike@ai.mit.edu' => 1204,
+                 '__codd' => 'zip.spm.codd',
+                 'jpd@usl.edu' => 33378,
+                 'david mackenzie' => 1204
+               }, 'Code::Contribution::Distribution' );

@@ -1,0 +1,21 @@
+$VAR1 = bless( {
+                 'bartm@cv.ruu.nl' => 6401,
+                 'stan barber' => 1087,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+322334')}, 'Math::BigInt' ),
+                 'washington university in saint louis' => 63441,
+                 'uncredited' => 4820,
+                 'nicolas.pioch@enst.fr' => 16676,
+                 '__package' => '/tmp/codd',
+                 'login-sob' => 107935,
+                 'noid@cyborg.larc.nasa.gov' => 16676,
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'washington university in saint louis all rights' => 1847,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 'eric p. allman' => 3951,
+                 'gshapiro@wpi.wpi.edu' => 16676,
+                 '__codd' => 'wuftpd.spm.codd',
+                 'regents of the university of california' => 55757,
+                 'the regents of the university of california' => 27055
+               }, 'Code::Contribution::Distribution' );

@@ -1,0 +1,14 @@
+$VAR1 = bless( {
+                 'cfengine@prep.ai.mit.edu' => 38124,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+862692')}, 'Math::BigInt' ),
+                 'uncredited' => 546025,
+                 '__codd' => 'cfengine.spm.codd',
+                 'free software foundation, inc' => 163056,
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'rsa data security, inc' => 13343,
+                 'cfengine@gnu.org' => 102142
+               }, 'Code::Contribution::Distribution' );

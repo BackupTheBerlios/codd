@@ -1,0 +1,19 @@
+$VAR1 = bless( {
+                 'mesrik@jyu.fi' => 5576,
+                 'miquels@drinkel.cistron.nl' => 2166,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+134341')}, 'Math::BigInt' ),
+                 'miquel van smoorenburg' => 92824,
+                 'uncredited' => 7696,
+                 '__codd' => 'sysvinit.spm.codd',
+                 'florian la roche' => 4885,
+                 'volkerdi@ftp.cdrom.com' => 7449,
+                 'miquels@cistron.nl' => 711,
+                 'poe@daimi.aau.dk' => 4885,
+                 '__package' => '/tmp/codd',
+                 'marekm@i17linuxb.ists.pwr.wroc.pl' => 5980,
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'cistron electronics' => 2166
+               }, 'Code::Contribution::Distribution' );

@@ -1,0 +1,20 @@
+$VAR1 = bless( {
+                 'johnsonm@stolaf.edu' => 4846,
+                 'd' => 3599,
+                 'john l. cwikla' => 18491,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+140004')}, 'Math::BigInt' ),
+                 'branko lankester' => 13063,
+                 'roger binns",' => 3599,
+                 'pierre ficheux, lectra systemes r' => 3599,
+                 'loganville technical resources, incorporated' => 51930,
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'michael k. johnson, johnsonm@stolaf' => 2423,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__codd' => 'xzet.spm.codd',
+                 'lectra systemes' => 29528,
+                 'roger binns' => 5320,
+                 'loganville  technical  resources, inc' => 3599
+               }, 'Code::Contribution::Distribution' );

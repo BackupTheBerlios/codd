@@ -1,0 +1,15 @@
+$VAR1 = bless( {
+                 'at&t	*/' => 7992,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 'brian warkentine' => 18836,
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+487160')}, 'Math::BigInt' ),
+                 'jmlake@uiuc.edu' => 11967,
+                 'uncredited' => 30343,
+                 'jmlake@research.nj.nec.com' => 11967,
+                 '__codd' => 'ssbase.spm.codd',
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'sun microsystems, inc' => 406053
+               }, 'Code::Contribution::Distribution' );

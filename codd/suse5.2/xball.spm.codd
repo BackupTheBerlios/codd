@@ -1,0 +1,14 @@
+$VAR1 = bless( {
+                 'o\'reilly && associates' => 2635,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+157970')}, 'Math::BigInt' ),
+                 'microelectronics' => 3719,
+                 'the university of texas at austin' => 3719,
+                 '__codd' => 'xball.spm.codd',
+                 'david nedde' => 144175,
+                 '__package' => '/tmp/codd',
+                 'computer technology corporation' => 3719,
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22'
+               }, 'Code::Contribution::Distribution' );

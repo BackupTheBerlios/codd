@@ -1,0 +1,23 @@
+$VAR1 = bless( {
+                 'roger@cs.umu.se' => 4239,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+555163')}, 'Math::BigInt' ),
+                 'millibyte@deathsdoor.com' => 8595,
+                 'pagel@loria.fr' => 4966,
+                 'tuukka toivonen' => 114477,
+                 'uncredited' => 90019,
+                 'bernd johannes wuebben' => 4825,
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'login-wuebben' => 119579,
+                 'toivonen@clinet.fi' => 114477,
+                 'takashi iwai' => 3710,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 'bernd johannes wuebben math' => 74563,
+                 'stevep@ctc.ih.att.com' => 4239,
+                 '__verbose' => 1,
+                 'borland international inc' => 4135,
+                 '__codd' => 'kmulti.spm.codd',
+                 'cmhung@insti.physics.sunysb.edu' => 2485,
+                 'wuebben@math.cornell.edu' => 4825
+               }, 'Code::Contribution::Distribution' );

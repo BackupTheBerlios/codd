@@ -1,0 +1,18 @@
+$VAR1 = bless( {
+                 'login-vern' => 66241,
+                 'dominique leveque' => 177857,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+1693494')}, 'Math::BigInt' ),
+                 'uncredited' => 20040,
+                 'free software foundation, inc' => 207397,
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'james a. roskind, all rights reserved' => 24522,
+                 'james  a' => 24522,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 'lionel fournigault' => 741982,
+                 '__verbose' => 1,
+                 'bruno pages' => 411360,
+                 'mtg@csd.uch.gr' => 19569,
+                 '__codd' => 'xcoral.spm.codd'
+               }, 'Code::Contribution::Distribution' );

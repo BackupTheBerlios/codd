@@ -1,0 +1,16 @@
+$VAR1 = bless( {
+                 'thomson consumer electronics, inc.' => 62210,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+332408')}, 'Math::BigInt' ),
+                 'thomson consumer electronics, inc' => 6762,
+                 'microelectronics' => 69123,
+                 'the university of texas at austin' => 75885,
+                 'uncredited' => 1236,
+                 '__codd' => 'xxgdb.spm.codd',
+                 'free software foundation, inc' => 48047,
+                 '__package' => '/tmp/codd',
+                 'computer technology corporation' => 69123,
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22'
+               }, 'Code::Contribution::Distribution' );

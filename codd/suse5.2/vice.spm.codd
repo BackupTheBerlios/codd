@@ -1,0 +1,21 @@
+$VAR1 = bless( {
+                 'jouko valta' => 30977,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+1284344')}, 'Math::BigInt' ),
+                 'uncredited' => 269693,
+                 'nathan sidwell */' => 4174,
+                 'hannu helminen' => 5634,
+                 '__package' => '/tmp/codd',
+                 'jouko valta and hannu helminen.' => 2817,
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'login-fachat' => 91161,
+                 'tvr@cs.hut.fi' => 5335,
+                 'adobe systems incorporated.\\n\\' => 2817,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 'teemu rantanen' => 5335,
+                 '__codd' => 'vice.spm.codd',
+                 'login-jopi' => 368273,
+                 'login-ettore' => 492486,
+                 'adobe systems incorporated' => 5634
+               }, 'Code::Contribution::Distribution' );

@@ -1,0 +1,20 @@
+$VAR1 = bless( {
+                 'massachusetts institute of technology' => 2842,
+                 'david koblas' => 11344,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+8100854')}, 'Math::BigInt' ),
+                 'uncredited' => 120582,
+                 'sun microsystems' => 171207,
+                 'sun microsystems	*/' => 10678,
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'sun microsystems, inc' => 7027862,
+                 'sun microsystems  see legal_notice for terms of' => 79521,
+                 'jef poskanzer' => 7883,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 'argv@sun.com' => 550973,
+                 'edz@bsn.com' => 3501,
+                 '__verbose' => 1,
+                 '__codd' => 'xv32base.spm.codd',
+                 'scott oaks' => 114460
+               }, 'Code::Contribution::Distribution' );

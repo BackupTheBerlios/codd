@@ -1,0 +1,11 @@
+$VAR1 = bless( {
+                 'groupe bull' => 5908,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+11816')}, 'Math::BigInt' ),
+                 '__codd' => 'xpinguin.spm.codd',
+                 '__package' => '/tmp/codd',
+                 'stefang@isy.liu.se' => 5908,
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22'
+               }, 'Code::Contribution::Distribution' );

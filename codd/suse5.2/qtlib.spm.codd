@@ -1,0 +1,12 @@
+$VAR1 = bless( {
+                 'login-vern' => 21604,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+64814')}, 'Math::BigInt' ),
+                 'troll tech as' => 21604,
+                 '__codd' => 'qtlib.spm.codd',
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'login-eiriken' => 21604
+               }, 'Code::Contribution::Distribution' );

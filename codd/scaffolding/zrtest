@@ -1,0 +1,19 @@
+#!/usr/bin/perl -s -I../lib
+##
+##
+##
+## Copyright (c) 1999, Vipul Ved Prakash.  All rights reserved.
+## This code is free software; you can redistribute it and/or modify
+## it under the same terms as Perl itself.
+##
+## $Id: zrtest,v 1.1 2001/10/22 06:01:32 hackworth Exp $
+
+use Data::Structure::ZRList; 
+
+my $l = new Data::Structure::ZRList;
+
+for ( @ARGV ) { 
+    $l->add ( $_, 1 );
+}
+
+print $l->as_string ();

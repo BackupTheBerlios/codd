@@ -1,0 +1,16 @@
+$VAR1 = bless( {
+                 'maorong zou' => 123307,
+                 'zou maorong' => 42249,
+                 'brett@kirk.es.go.dlr.de' => 23986,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+539295')}, 'Math::BigInt' ),
+                 'thomas williams, colin kelley' => 75646,
+                 'uncredited' => 45017,
+                 '__codd' => 'xplot.spm.codd',
+                 '__package' => '/tmp/codd',
+                 'marsh@ppdrs1.nrl.navy.mil' => 205101,
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'ralf@physik3.gwdg.de' => 23986
+               }, 'Code::Contribution::Distribution' );

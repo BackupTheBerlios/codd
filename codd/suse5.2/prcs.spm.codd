@@ -1,0 +1,18 @@
+$VAR1 = bless( {
+                 'login-vern' => 57371,
+                 'jmacd@cs.berkeley.edu' => 2208,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+418470')}, 'Math::BigInt' ),
+                 'uncredited' => 25988,
+                 '__package' => '/tmp/codd',
+                 'free software foundation, inc' => 175400,
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'paul eggert' => 14678,
+                 'p. n. hilfinger' => 810,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 'josh macdonald' => 58181,
+                 '__codd' => 'prcs.spm.codd',
+                 'login--0700' => 72859,
+                 'rsa data security, inc' => 10968
+               }, 'Code::Contribution::Distribution' );

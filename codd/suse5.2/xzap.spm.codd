@@ -1,0 +1,12 @@
+$VAR1 = bless( {
+                 'the university of newcastle upon tyne' => 31233,
+                 'massachusetts institute of technology' => 13631,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+85758')}, 'Math::BigInt' ),
+                 'gerry.tomlinson@ncl.ac.uk' => 40893,
+                 '__codd' => 'xzap.spm.codd',
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22'
+               }, 'Code::Contribution::Distribution' );

@@ -1,0 +1,30 @@
+#!/usr/bin/perl -sw
+##
+##
+##
+## $Date: 2001/10/22 06:01:25 $
+## $Revision: 1.1 $
+## $State: Exp $
+## $Author: hackworth $
+##
+## Copyright (c) 1998, Vipul Ved Prakash.  All rights reserved.
+## This code is free software; you can redistribute it and/or modify
+## it under the same terms as Perl itself.
+
+ 
+use Math::BigInt; 
+use Data::Dumper;
+
+my $max = "10000000"; 
+my $total = "55000"; 
+
+my $bi = new Math::BigInt '1'; 
+
+for ( 1..$total) { 
+	my $num = int ( (rand) *  $max ); 
+	$bi += $num; 
+} 
+
+print $bi->bnorm; 
+print "\n";
+

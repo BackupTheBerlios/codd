@@ -1,0 +1,15 @@
+$VAR1 = bless( {
+                 'hong j. park, thomas l. quarles' => 20901,
+                 'login-kundert' => 143828,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+4372037')}, 'Math::BigInt' ),
+                 'uncredited' => 15866,
+                 'kenneth s. kundert";' => 143828,
+                 '__codd' => 'spice.spm.codd',
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'regents of the university of california' => 4044046,
+                 'jason@ucbopal.berkeley.edu' => 3562
+               }, 'Code::Contribution::Distribution' );

@@ -1,0 +1,11 @@
+
+
+o  see xchatlogs with nW of 1st october
+o  changes to ownergrep 
+    - if there's only one entry in AUTHORS file, it should be 
+      considered the default developer
+    - the first entry in the AUTHORS file should be considered 
+      the default developer
+    - if even one address is found, attribute all uncredit 
+      code to this person
+    - ignore rcs-ids 

@@ -1,0 +1,18 @@
+$VAR1 = bless( {
+                 'jer johnson' => 7249,
+                 'torsten martinsen' => 169675,
+                 'david koblas' => 278102,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+809592')}, 'Math::BigInt' ),
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'jim frost' => 4931,
+                 'jef poskanzer' => 24522,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 'login-torsten' => 300553,
+                 'mgardi@watdscu.waterloo.edu' => 4377,
+                 '__codd' => 'xpaint.spm.codd',
+                 'torsten martinsen */' => 11846,
+                 'greg roelofs' => 8289
+               }, 'Code::Contribution::Distribution' );

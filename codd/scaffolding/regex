@@ -1,0 +1,6 @@
+
+$x = '(tmp|gz)';
+my $file = shift @ARGV;
+chomp $file;
+print "yes!" if $file =~ /$x$/; 
+

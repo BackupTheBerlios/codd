@@ -1,0 +1,16 @@
+#!/usr/bin/perl -sw
+##
+##
+##
+## Copyright (c) 1999, Vipul Ved Prakash.  All rights reserved.
+## This code is free software; you can redistribute it and/or modify
+## it under the same terms as Perl itself.
+##
+## $Id: codd-render-gif,v 1.1 2001/10/22 06:01:25 hackworth Exp $
+
+my $canvas = "canvas.gif"; 
+open CAN, $canvas || die $!; 
+$gif = join'',<CAN>; 
+close CAN; 
+
+

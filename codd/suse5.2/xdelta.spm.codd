@@ -1,0 +1,15 @@
+$VAR1 = bless( {
+                 'paul eggert' => 14678,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+168988')}, 'Math::BigInt' ),
+                 'uncredited' => 25971,
+                 'josh macdonald' => 51342,
+                 '__codd' => 'xdelta.spm.codd',
+                 'peter mattis, spencer kimball' => 10323,
+                 'login--0700' => 55697,
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'rsa data security, inc' => 10968
+               }, 'Code::Contribution::Distribution' );

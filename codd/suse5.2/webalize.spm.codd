@@ -1,0 +1,17 @@
+$VAR1 = bless( {
+                 'david koblas' => 14958,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+122852')}, 'Math::BigInt' ),
+                 'quest protein database center' => 14958,
+                 'bradford l. barrett  -->' => 11032,
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'brad@mrunix.net' => 11032,
+                 'bradford l. barrett' => 25990,
+                 'jef poskanzer' => 14958,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 'mgardi@watdscu.waterloo.edu' => 14958,
+                 'wijkstra@fwi.uva.nl' => 14958,
+                 '__codd' => 'webalize.spm.codd'
+               }, 'Code::Contribution::Distribution' );

@@ -1,0 +1,15 @@
+$VAR1 = bless( {
+                 'list@redhat.com' => 22273,
+                 'red hat software' => 161731,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+620106')}, 'Math::BigInt' ),
+                 'rick sladkey' => 1923,
+                 'uncredited' => 385170,
+                 '__codd' => 'rpm.spm.codd',
+                 'free software foundation, inc' => 47084,
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'jrs@world.std.com' => 1923
+               }, 'Code::Contribution::Distribution' );

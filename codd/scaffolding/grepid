@@ -1,0 +1,21 @@
+#!/usr/bin/perl -sw
+##
+##
+##
+## $Date: 2001/10/22 06:01:25 $
+## $Revision: 1.1 $
+## $State: Exp $
+## $Author: hackworth $
+##
+## Copyright (c) 1998, Vipul Ved Prakash.  All rights reserved.
+## This code is free software; you can redistribute it and/or modify
+## it under the same terms as Perl itself.
+
+my @ids = <>; 
+
+for ( @ids ) { 
+my ( $login ) = $_ =~ /(?:Id|Header).*?\d\d\:\d\d\:\d\d (\S+) \S+/i;
+print $login, "\n"; 
+}
+
+

@@ -1,0 +1,13 @@
+$VAR1 = bless( {
+                 'yggdrasil computing, inc' => 11833,
+                 'hpa@storm.net' => 11833,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+38543')}, 'Math::BigInt' ),
+                 'adam@yggdrasil.com' => 11833,
+                 'uncredited' => 3044,
+                 '__codd' => 'cdwrite.spm.codd',
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22'
+               }, 'Code::Contribution::Distribution' );

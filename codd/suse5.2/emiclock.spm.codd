@@ -1,0 +1,17 @@
+$VAR1 = bless( {
+                 'login-masa-k' => 113557,
+                 'masayuki koba' => 89120,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+227124')}, 'Math::BigInt' ),
+                 'tomoyuki shiraishi' => 2383,
+                 'ken, shibata' => 3846,
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 'kenji nishiyama' => 4465,
+                 '__codd' => 'emiclock.spm.codd',
+                 'shinya yamada' => 2339,
+                 'issei numata  issei@jaist' => 5527,
+                 'kazuhiko ishii' => 5877
+               }, 'Code::Contribution::Distribution' );

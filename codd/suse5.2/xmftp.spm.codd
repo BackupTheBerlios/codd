@@ -1,0 +1,16 @@
+$VAR1 = bless( {
+                 'user@local.host.com' => 17088,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+288926')}, 'Math::BigInt' ),
+                 'associates, inc' => 2823,
+                 'o\'reilly' => 2823,
+                 'uncredited' => 221762,
+                 'thomas pfau' => 8832,
+                 '__codd' => 'xmftp.spm.codd',
+                 '__package' => '/tmp/codd',
+                 'pfau@cnj.digex.net' => 17798,
+                 'thomas pfau, pfau@cnj' => 17798,
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22'
+               }, 'Code::Contribution::Distribution' );

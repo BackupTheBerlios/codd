@@ -1,0 +1,91 @@
+#!/usr/bin/perl -s
+##
+## codd-find-latest -- find latest versions of packages from a 
+##                     list or in a directory.
+##
+## Copyright (c) 2001, Vipul Ved Prakash.  All rights reserved.
+## This code is free software; you can redistribute it and/or modify
+## it under the same terms as Perl itself.
+##
+## $Id: codd-find-latest,v 1.1 2001/10/22 06:01:11 hackworth Exp $
+
+use Sort::Versions; 
+use Data::Dumper;
+use File::Find;
+
+my $EXTENSIONS = "\.(zip|tar\.gz|tar\.bz2|tar|tar\.Z|tgz|gz|spm)";
+my $old = $o ? 1 : 0;
+my $source = shift @ARGV;
+die "syntax: $0 [-o] filelist|directory\n" unless $source;
+my @packages; 
+
+if (-d $source) { 
+    find ( { wanted => sub { /$EXTENSIONS$/ && push @packages, $_ } , 
+             follow => 1, 
+             bydepth => 1, 
+             no_chdir => 1,
+           }, $source );
+} elsif (-e $source) { 
+    open P, $source || die $!;
+    @packages = <P>; 
+    close P;
+}   
+
+chomp @packages;
+for (@packages) { s/\s*$//; s/^\s+//; }
+
+while (my $package = shift @packages) { 
+    my ($pat, $version, $dir, $atype) = dissect( $package );
+    unshift @packages, $package;
+    my $retain; my @versions;
+    if ($version && $pat && $atype) { 
+        @versions = similar( \@packages, $pat );
+        $retain = pop @versions || pop @packages;
+    } else { $retain = $package }
+    push @versions, $retain;
+    print "$retain\n" unless $old;
+    @packages = remove( \@packages, \@versions, $retain );
+}
+
+
+sub remove { 
+    my  ($source, $remove, $retained) = @_;
+    my  (%source);
+    for (@$source) { $source{$_} = 1 }
+    for (@$remove) { 
+        if (exists $source{$_}) { 
+            delete $source{$_}; 
+            print "$_\n" if $old && $_ ne $retained 
+        } 
+    }
+    return keys %source;
+}
+
+
+sub similar { 
+    my ($packages, $pattern) = @_;
+    my @matches = sort { 
+        (undef, $av) = dissect($a); 
+        (undef, $bv) = dissect($b);
+        versioncmp ($av, $bv) 
+    } grep { /(?:^$pattern|\/$pattern)[-_]/ } @$packages; 
+    return @matches;
+}
+
+
+sub dissect {
+    my $pat = shift;
+    my ($version, $dir, $atype) = ("", "", "");
+    if ($pat =~ s/$EXTENSIONS$//) {
+        $atype = $1;
+    }
+    if ($pat =~ s/[\-\_]([\-\d\.\_]+[a-z]{0,3}\d*)$//i) {
+        $version = $1;
+    }
+    if ($pat =~ s:(.*?)/([^/]+)$:$2:) {
+        $dir = $1
+    }
+    return ($pat, $version, $dir, $atype);
+}
+
+

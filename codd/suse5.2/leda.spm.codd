@@ -1,0 +1,12 @@
+$VAR1 = bless( {
+                 'max-planck-institut fuer informatik' => 2324854,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+2671785')}, 'Math::BigInt' ),
+                 'uncredited' => 337463,
+                 '__codd' => 'leda.spm.codd',
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'regents of the university of california' => 9468
+               }, 'Code::Contribution::Distribution' );

@@ -1,0 +1,14 @@
+$VAR1 = bless( {
+                 'login-alm' => 31833,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+289198')}, 'Math::BigInt' ),
+                 'uncredited' => 26158,
+                 'andrew moore, talke studio' => 44149,
+                 '__codd' => 'ed.spm.codd',
+                 'jot@cray.com' => 14043,
+                 'free software foundation, inc' => 173011,
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22'
+               }, 'Code::Contribution::Distribution' );

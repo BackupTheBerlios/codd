@@ -1,0 +1,13 @@
+$VAR1 = bless( {
+                 'sun microsystems inc' => 3618,
+                 'massachusetts institute of technology' => 5491,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+824348')}, 'Math::BigInt' ),
+                 'uncredited' => 6909,
+                 '__codd' => 'smaltalk.spm.codd',
+                 '__package' => '/tmp/codd',
+                 'free software foundation, inc' => 808330,
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22'
+               }, 'Code::Contribution::Distribution' );

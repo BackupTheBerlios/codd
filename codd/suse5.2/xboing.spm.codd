@@ -1,0 +1,18 @@
+$VAR1 = bless( {
+                 'lemke@verbosa.ncd.com' => 2300,
+                 'jef poskanzer' => 2661,
+                 'joel@cc.bellcore.com' => 1889,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+609795')}, 'Math::BigInt' ),
+                 'wesw@orca.wv.tek.com' => 3566,
+                 'jordan hubbard' => 2661,
+                 'justin c. kibell, all rights reserved' => 291968,
+                 '__codd' => 'xboing.spm.codd',
+                 '__package' => '/tmp/codd',
+                 'jra@hrcms.jazz.att.com' => 3767,
+                 'a.leahy@st.nepean.uws.edu.au' => 1783,
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'login-jck' => 299177
+               }, 'Code::Contribution::Distribution' );

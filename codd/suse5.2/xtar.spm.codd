@@ -1,0 +1,17 @@
+$VAR1 = bless( {
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+253863')}, 'Math::BigInt' ),
+                 'patrick j. naughton' => 10060,
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'university of toronto' => 28954,
+                 'university of liverpool computer science department' => 43582,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 'rik@csc.liv.ac.uk' => 3101,
+                 '__codd' => 'xtar.spm.codd',
+                 'open software foundation, inc' => 10060,
+                 'liverpool university computer science department' => 151886,
+                 'regents of the university of california' => 3108,
+                 'the regents of the university of california' => 3108
+               }, 'Code::Contribution::Distribution' );

@@ -1,0 +1,20 @@
+$VAR1 = bless( {
+                 'massachusetts institute of technology' => 19949,
+                 'notice' => 79858,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+766225')}, 'Math::BigInt' ),
+                 'the massachusetts institute of technology   **/' => 79858,
+                 'uncredited' => 18143,
+                 'claude lecommandeur' => 73556,
+                 '__package' => '/tmp/codd',
+                 'x consortium' => 21979,
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 'this  permis-' => 79858,
+                 'claude lecommandeur.' => 79858,
+                 '__codd' => 'ctwm.spm.codd',
+                 'sutherland computer corporation' => 79858,
+                 'evans' => 79858,
+                 'lecom@sic.epfl.ch' => 153414
+               }, 'Code::Contribution::Distribution' );

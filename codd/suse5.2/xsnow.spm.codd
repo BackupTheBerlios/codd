@@ -1,0 +1,14 @@
+$VAR1 = bless( {
+                 'rick jansen, all rights reserved.\\n";' => 8695,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 'j.t. anderson' => 8695,
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+43477')}, 'Math::BigInt' ),
+                 '__codd' => 'xsnow.spm.codd',
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'bjk@benedikt.munich.sgi.com' => 8695,
+                 'rick jansen, all rights reserved' => 8695,
+                 'asami@cs.berkeley.edu' => 8695
+               }, 'Code::Contribution::Distribution' );

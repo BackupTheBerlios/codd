@@ -1,0 +1,13 @@
+$VAR1 = bless( {
+                 'tgl@sss.pgh.pa.us' => 2947,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 'jima@netcom.com' => 2947,
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+14735')}, 'Math::BigInt' ),
+                 '__codd' => 'automake.spm.codd',
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'pinard@iro.umontreal.ca' => 5894,
+                 'ghost@aladdin.com' => 2947
+               }, 'Code::Contribution::Distribution' );

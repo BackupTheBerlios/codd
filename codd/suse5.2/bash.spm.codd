@@ -1,0 +1,18 @@
+$VAR1 = bless( {
+                 'djm@gnu.ai.mit.edu' => 8238,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+2305761')}, 'Math::BigInt' ),
+                 '\\n\\' => 20835,
+                 'login-jtc' => 3946,
+                 'uncredited' => 153948,
+                 'jot@cray.com' => 14036,
+                 'meyering@cs.utexas.edu' => 8238,
+                 'free software foundation, inc' => 2031604,
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__codd' => 'bash.spm.codd',
+                 'winning strategies, inc' => 3946,
+                 'deven@ties.org' => 60967
+               }, 'Code::Contribution::Distribution' );

@@ -1,0 +1,22 @@
+$VAR1 = bless( {
+                 'aladdin enterprises' => 3187,
+                 'thomas g. lane' => 973681,
+                 'tgl@sss.pgh.pa.us' => 3187,
+                 'david koblas' => 22929,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+1100905')}, 'Math::BigInt' ),
+                 'uncredited' => 17091,
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'login-evan' => 24816,
+                 'jef poskanzer' => 22405,
+                 'evan harris' => 12408,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 'jima@netcom.com' => 3187,
+                 '__verbose' => 1,
+                 'richard m. stallman' => 3187,
+                 'mgardi@watdscu.waterloo.edu' => 5251,
+                 '__codd' => 'seejpeg.spm.codd',
+                 'pinard@iro.umontreal.ca' => 6374,
+                 'ghost@aladdin.com' => 3187
+               }, 'Code::Contribution::Distribution' );

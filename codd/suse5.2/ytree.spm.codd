@@ -1,0 +1,13 @@
+$VAR1 = bless( {
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 'mike@ai.mit.edu' => 894,
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+299467')}, 'Math::BigInt' ),
+                 '__codd' => 'ytree.spm.codd',
+                 'djm@ai.mit.edu' => 894,
+                 'login-werner' => 296386,
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'david mackenzie' => 894
+               }, 'Code::Contribution::Distribution' );

@@ -1,0 +1,21 @@
+
+
+@list = ( 'Vipul.', 'Linux Torvalds & vipul ved prakash', ); 
+
+for ( @list ) { 
+	$_ = lc; 
+	s:\.$::;
+	s:^\s+::; 
+    s:\s+$::; 
+	if ( /and|\&/ ) { 
+		my @names = split /\s+and|\&\s+/, $_; 
+		push @rlist, @names; 
+	} else { push @rlist, $_ }; 
+
+}
+
+$" = "\n"; 
+
+print "@rlist"; 
+
+

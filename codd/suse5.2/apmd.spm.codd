@@ -1,0 +1,11 @@
+$VAR1 = bless( {
+                 'login-faith' => 19079,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+38161')}, 'Math::BigInt' ),
+                 '__codd' => 'apmd.spm.codd',
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'rickard e. faith' => 19079
+               }, 'Code::Contribution::Distribution' );

@@ -1,0 +1,12 @@
+$VAR1 = bless( {
+                 'andrew johnson - all rights reserved*/' => 190739,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+437175')}, 'Math::BigInt' ),
+                 '__codd' => 'batalion.spm.codd',
+                 'silicon graphics, inc' => 55696,
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'ajohnson@eecs.uic.edu' => 190739
+               }, 'Code::Contribution::Distribution' );

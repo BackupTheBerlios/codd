@@ -1,0 +1,38 @@
+head	1.1;
+access;
+symbols;
+locks
+	root:1.1; strict;
+comment	@ * @;
+
+
+1.1
+date	2000.01.08.22.49.09;	author root;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@copyright (c) Alexander Hacker.
+copyright (c) 1998 Berenice Hacker.
+copyright MIT.
+Copyright (c) 1989-200 The Regents of the University of California.
+Copyright (c) 1991, 1996 University of Maryland at College Park.
+(c) COPYRIGHT MIT 1995.
+Copyright (C) 1991-1995, Thomas G. Lane.
+Copyright 1997 Transmeta Corporation - All Rights Reserved
+Copyright 1988 by Evans & Sutherland Computer Corporation.
+Copyright (c) 1993-1994 Lockheed Missle & Space Company, AI Center.
+Copyright 1990 - 1994 by AT&T Bell Laboratories, Bellcore.
+
+$Id: copyrights.c,v,v 1.1 2001/10/22 06:01:36 hackworth Exp $
+
+@

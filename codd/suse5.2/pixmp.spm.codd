@@ -1,0 +1,13 @@
+$VAR1 = bless( {
+                 'massachusetts institute of technology' => 76852,
+                 'lionel mallet' => 109014,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+388939')}, 'Math::BigInt' ),
+                 'login-mallet' => 142830,
+                 '__codd' => 'pixmp.spm.codd',
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'software research associates, inc' => 60230
+               }, 'Code::Contribution::Distribution' );

@@ -1,0 +1,11 @@
+
+( m%copyright (?:\(c\)\s+)?[\d\,\-\s\:]+(?:by\s+)?([^\d]*)%i ) && push @copy, $1; 
+real    0m7.337s
+user    0m6.910s
+sys     0m0.020s   
+
+( m%.*copyright (?:\(c\)\s+)?[\d\,\-\s\:]+(?:by\s+)?([^\d]*)%i ) && push @copy, $1; 
+real    0m7.271s
+user    0m6.890s
+sys     0m0.020s 
+

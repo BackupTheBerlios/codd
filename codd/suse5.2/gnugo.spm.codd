@@ -1,0 +1,12 @@
+$VAR1 = bless( {
+                 'fpp%minor.uucp@dragon.com' => 74823,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+77595')}, 'Math::BigInt' ),
+                 '__codd' => 'gnugo.spm.codd',
+                 '__package' => '/tmp/codd',
+                 'free software foundation, inc' => 1386,
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'manli@cs.uh.edu' => 1386
+               }, 'Code::Contribution::Distribution' );

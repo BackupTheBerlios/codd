@@ -1,0 +1,22 @@
+$VAR1 = bless( {
+                 'hurmejw@pb.com' => 23844,
+                 'massachusetts institute of technology' => 55449,
+                 'janl@ifi.uio.no' => 7792,
+                 'tda10@cus.cam.ac.uk' => 433,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+494272')}, 'Math::BigInt' ),
+                 'uncredited' => 184490,
+                 'hugues.leroy@irisa.fr' => 7792,
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'amoss@cs.huji.ac.il' => 7792,
+                 'brian totty' => 56809,
+                 'digital equipment corporation, maynard, massachusetts' => 11898,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 'mlcampb1@mikec.b30.ingr.com' => 23844,
+                 'andy.linton@comp.vuw.ac.nz' => 7792,
+                 '__codd' => 'xarchie.spm.codd',
+                 'the university of washington' => 93045,
+                 'regents of the university of california' => 13286
+               }, 'Code::Contribution::Distribution' );

@@ -1,0 +1,186 @@
+/usr/src/linux/fs/affs/symlink.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/autofs/dir.c: *  Copyright 1997 Transmeta Corporation -- All Rights Reserved
+/usr/src/linux/fs/autofs/dirhash.c: *  Copyright 1997 Transmeta Corporation -- All Rights Reserved
+/usr/src/linux/fs/autofs/init.c: *  Copyright 1997 Transmeta Corporation -- All Rights Reserved
+/usr/src/linux/fs/autofs/inode.c: *  Copyright 1997 Transmeta Corporation -- All Rights Reserved
+/usr/src/linux/fs/autofs/root.c: *  Copyright 1997 Transmeta Corporation -- All Rights Reserved
+/usr/src/linux/fs/autofs/symlink.c: *  Copyright 1997 Transmeta Corporation -- All Rights Reserved
+/usr/src/linux/fs/autofs/waitq.c: *  Copyright 1997 Transmeta Corporation -- All Rights Reserved
+/usr/src/linux/fs/bad_inode.c: *  Copyright (C) 1997, Stephen Tweedie
+/usr/src/linux/fs/binfmt_aout.c: *  Copyright (C) 1991, 1992, 1996  Linus Torvalds
+/usr/src/linux/fs/binfmt_elf.c: * Copyright 1993, 1994: Eric Youngdale (ericy@cais.com).
+/usr/src/linux/fs/binfmt_em86.c: *  Copyright (C) 1996  Martin von Löwis
+/usr/src/linux/fs/binfmt_em86.c: *  em86 changes Copyright (C) 1997  Jim Paradis
+/usr/src/linux/fs/binfmt_java.c: *  Copyright (C) 1996  Brian A. Lantz
+/usr/src/linux/fs/binfmt_script.c: *  Copyright (C) 1996  Martin von Löwis
+/usr/src/linux/fs/block_dev.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/buffer.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/dcache.c: *  (C) Copyright 1994 Linus Torvalds
+/usr/src/linux/fs/devices.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/dquot.c: * (C) Copyright 1994, 1995 Marco van Wieringen 
+/usr/src/linux/fs/exec.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/ext/dir.c: *  Copyright (C) 1992 Remy Card (card@masi.ibp.fr)
+/usr/src/linux/fs/ext/dir.c: *  Copyright (C) 1991, 1992 Linus Torvalds
+/usr/src/linux/fs/ext/file.c: *  Copyright (C) 1992 Remy Card (card@masi.ibp.fr)
+/usr/src/linux/fs/ext/file.c: *  Copyright (C) 1991, 1992 Linus Torvalds
+/usr/src/linux/fs/ext/freelists.c: *  Copyright (C) 1992  Remy Card (card@masi.ibp.fr)
+/usr/src/linux/fs/ext/fsync.c: *  Copyright (C) 1993  Stephen Tweedie (sct@dcs.ed.ac.uk)
+/usr/src/linux/fs/ext/fsync.c: *  Copyright (C) 1992  Remy Card (card@masi.ibp.fr)
+/usr/src/linux/fs/ext/fsync.c: *  linux/fs/minix/truncate.c   Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/ext/inode.c: *  Copyright (C) 1992  Remy Card (card@masi.ibp.fr)
+/usr/src/linux/fs/ext/inode.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/ext/namei.c: *  Copyright (C) 1992  Remy Card (card@masi.ibp.fr)
+/usr/src/linux/fs/ext/namei.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/ext/symlink.c: *  Copyright (C) 1992 Remy Card (card@masi.ibp.fr)
+/usr/src/linux/fs/ext/symlink.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/ext/truncate.c: *  Copyright (C) 1992  Remy Card (card@masi.ibp.fr)
+/usr/src/linux/fs/ext/truncate.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/ext2/acl.c: * Copyright (C) 1993, 1994, 1995
+/usr/src/linux/fs/ext2/balloc.c: * Copyright (C) 1992, 1993, 1994, 1995
+/usr/src/linux/fs/ext2/bitmap.c: * Copyright (C) 1992, 1993, 1994, 1995
+/usr/src/linux/fs/ext2/dir.c: * Copyright (C) 1992, 1993, 1994, 1995
+/usr/src/linux/fs/ext2/dir.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/ext2/file.c: * Copyright (C) 1992, 1993, 1994, 1995
+/usr/src/linux/fs/ext2/file.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/ext2/fsync.c: *  Copyright (C) 1993  Stephen Tweedie (sct@dcs.ed.ac.uk)
+/usr/src/linux/fs/ext2/fsync.c: *  Copyright (C) 1992  Remy Card (card@masi.ibp.fr)
+/usr/src/linux/fs/ext2/fsync.c: *  linux/fs/minix/truncate.c   Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/ext2/ialloc.c: * Copyright (C) 1992, 1993, 1994, 1995
+/usr/src/linux/fs/ext2/inode.c: * Copyright (C) 1992, 1993, 1994, 1995
+/usr/src/linux/fs/ext2/inode.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/ext2/ioctl.c: * Copyright (C) 1993, 1994, 1995
+/usr/src/linux/fs/ext2/namei.c: * Copyright (C) 1992, 1993, 1994, 1995
+/usr/src/linux/fs/ext2/namei.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/ext2/super.c: * Copyright (C) 1992, 1993, 1994, 1995
+/usr/src/linux/fs/ext2/super.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/ext2/symlink.c: * Copyright (C) 1992, 1993, 1994, 1995
+/usr/src/linux/fs/ext2/symlink.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/ext2/truncate.c: * Copyright (C) 1992, 1993, 1994, 1995
+/usr/src/linux/fs/ext2/truncate.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/fcntl.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/file_table.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/filesystems.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/hpfs/hpfs_fs.c: *   linux/fs/minix  Copyright (C) 1991, 1992, 1993  Linus Torvalds
+/usr/src/linux/fs/hpfs/hpfs_fs.c: *   linux/fs/isofs  Copyright (C) 1991  Eric Youngdale
+/usr/src/linux/fs/inode.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/ioctl.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/isofs/symlink.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/minix/bitmap.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/minix/dir.c: *  Copyright (C) 1991, 1992 Linus Torvalds
+/usr/src/linux/fs/minix/file.c: *  Copyright (C) 1991, 1992 Linus Torvalds
+/usr/src/linux/fs/minix/fsync.c: *  Copyright (C) 1993 Stephen Tweedie (sct@dcs.ed.ac.uk)
+/usr/src/linux/fs/minix/fsync.c: *  Copyright (C) 1991, 1992 Linus Torvalds
+/usr/src/linux/fs/minix/fsync.c: *  Copyright (C) 1996 Gertjan van Wingerde (gertjan@cs.vu.nl)
+/usr/src/linux/fs/minix/inode.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/minix/inode.c: *  Copyright (C) 1996  Gertjan van Wingerde    (gertjan@cs.vu.nl)
+/usr/src/linux/fs/minix/namei.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/minix/symlink.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/minix/truncate.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/minix/truncate.c: *  Copyright (C) 1996  Gertjan van Wingerde (gertjan@cs.vu.nl)
+/usr/src/linux/fs/namei.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/ncpfs/dir.c: *  Copyright (C) 1995, 1996 by Volker Lendecke
+/usr/src/linux/fs/ncpfs/file.c: *  Copyright (C) 1995, 1996 by Volker Lendecke
+/usr/src/linux/fs/ncpfs/inode.c: *  Copyright (C) 1995, 1996 by Volker Lendecke
+/usr/src/linux/fs/ncpfs/ioctl.c: *  Copyright (C) 1995, 1996 by Volker Lendecke
+/usr/src/linux/fs/ncpfs/mmap.c: *  Copyright (C) 1995, 1996 by Volker Lendecke
+/usr/src/linux/fs/ncpfs/ncplib_kernel.c: *  Copyright (C) 1995, 1996 by Volker Lendecke
+/usr/src/linux/fs/ncpfs/sock.c: *  Copyright (C) 1992, 1993  Rick Sladkey
+/usr/src/linux/fs/nfs/dir.c: *  Copyright (C) 1992  Rick Sladkey
+/usr/src/linux/fs/nfs/file.c: *  Copyright (C) 1992  Rick Sladkey
+/usr/src/linux/fs/nfs/file.c: *  Changes Copyright (C) 1994 by Florian La Roche
+/usr/src/linux/fs/nfs/inode.c: *  Copyright (C) 1992  Rick Sladkey
+/usr/src/linux/fs/nfs/nfsiod.c: * Copyright (C) 1996, Olaf Kirch <okir@monad.swb.de>
+/usr/src/linux/fs/nfs/nfsroot.c: *  Copyright (C) 1995, 1996  Gero Kuhlmann <gero@gkminix.han.de>
+/usr/src/linux/fs/nfs/nfsroot.c: *  Copyright (C) 1996  Martin Mares <mj@k332.feld.cvut.cz>
+/usr/src/linux/fs/nfs/proc.c: *  Copyright (C) 1992, 1993, 1994  Rick Sladkey
+/usr/src/linux/fs/nfs/rpcsock.c: *  Copyright (C) 1995, 1996, Olaf Kirch <okir@monad.swb.de>
+/usr/src/linux/fs/nfs/sock.c: *  Copyright (C) 1992, 1993  Rick Sladkey
+/usr/src/linux/fs/nfs/symlink.c: *  Copyright (C) 1992  Rick Sladkey
+/usr/src/linux/fs/nfs/symlink.c: *  Optimization changes Copyright (C) 1994 Florian La Roche
+/usr/src/linux/fs/open.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/pipe.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/proc/array.c: *  Copyright (C) 1992  by Linus Torvalds
+/usr/src/linux/fs/proc/base.c: *  Copyright (C) 1991, 1992 Linus Torvalds
+/usr/src/linux/fs/proc/fd.c: *  Copyright (C) 1991, 1992 Linus Torvalds
+/usr/src/linux/fs/proc/inode.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/proc/kmsg.c: *  Copyright (C) 1992  by Linus Torvalds
+/usr/src/linux/fs/proc/link.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/proc/mem.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/proc/net.c: *  Copyright (C) 1991, 1992 Linus Torvalds
+/usr/src/linux/fs/proc/root.c: *  Copyright (C) 1991, 1992 Linus Torvalds
+/usr/src/linux/fs/proc/scsi.c: *  which is Copyright (C) 1991, 1992 Linus Torvalds. 
+/usr/src/linux/fs/read_write.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/readdir.c: *  Copyright (C) 1995  Linus Torvalds
+/usr/src/linux/fs/smbfs/dir.c: *  Copyright (C) 1995, 1996 by Paal-Kr. Engstad and Volker Lendecke
+/usr/src/linux/fs/smbfs/file.c: *  Copyright (C) 1995, 1996 by Paal-Kr. Engstad and Volker Lendecke
+/usr/src/linux/fs/smbfs/inode.c: *  Copyright (C) 1995, 1996 by Paal-Kr. Engstad and Volker Lendecke
+/usr/src/linux/fs/smbfs/ioctl.c: *  Copyright (C) 1995, 1996 by Volker Lendecke
+/usr/src/linux/fs/smbfs/mmap.c: *  Copyright (C) 1995, 1996 by Paal-Kr. Engstad and Volker Lendecke
+/usr/src/linux/fs/smbfs/proc.c: *  Copyright (C) 1995, 1996 by Paal-Kr. Engstad and Volker Lendecke
+/usr/src/linux/fs/smbfs/sock.c: *  Copyright (C) 1995, 1996 by Paal-Kr. Engstad and Volker Lendecke
+/usr/src/linux/fs/stat.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/super.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/sysv/balloc.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/sysv/balloc.c: *  Copyright (C) 1992  Remy Card (card@masi.ibp.fr)
+/usr/src/linux/fs/sysv/balloc.c: *  Copyright (C) 1992  Doug Evans
+/usr/src/linux/fs/sysv/balloc.c: *  Copyright (C) 1993  Pascal Haible, Bruno Haible
+/usr/src/linux/fs/sysv/balloc.c: *  Copyright (C) 1993  Bruno Haible
+/usr/src/linux/fs/sysv/dir.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/sysv/dir.c: *  Copyright (C) 1993  Pascal Haible, Bruno Haible
+/usr/src/linux/fs/sysv/dir.c: *  Copyright (C) 1993  Bruno Haible
+/usr/src/linux/fs/sysv/file.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/sysv/file.c: *  Copyright (C) 1993  Pascal Haible, Bruno Haible
+/usr/src/linux/fs/sysv/file.c: *  Copyright (C) 1993  Bruno Haible
+/usr/src/linux/fs/sysv/fsync.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/sysv/fsync.c: *  Copyright (C) 1993  Stephen Tweedie (sct@dcs.ed.ac.uk)
+/usr/src/linux/fs/sysv/fsync.c: *  Copyright (C) 1993  Pascal Haible, Bruno Haible
+/usr/src/linux/fs/sysv/fsync.c: *  Copyright (C) 1993  Bruno Haible
+/usr/src/linux/fs/sysv/ialloc.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/sysv/ialloc.c: *  Copyright (C) 1992  Remy Card (card@masi.ibp.fr)
+/usr/src/linux/fs/sysv/ialloc.c: *  Copyright (C) 1992  Doug Evans
+/usr/src/linux/fs/sysv/ialloc.c: *  Copyright (C) 1993  Pascal Haible, Bruno Haible
+/usr/src/linux/fs/sysv/ialloc.c: *  Copyright (C) 1993  Bruno Haible
+/usr/src/linux/fs/sysv/inode.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/sysv/inode.c: *  Copyright (C) 1992  Doug Evans
+/usr/src/linux/fs/sysv/inode.c: *  Copyright (C) 1993  Pascal Haible, Bruno Haible
+/usr/src/linux/fs/sysv/inode.c: *  Copyright (C) 1993  Paul B. Monday
+/usr/src/linux/fs/sysv/inode.c: *  Copyright (C) 1993  Bruno Haible
+/usr/src/linux/fs/sysv/namei.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/sysv/namei.c: *  Copyright (C) 1993  Pascal Haible, Bruno Haible
+/usr/src/linux/fs/sysv/namei.c: *  Copyright (C) 1993  Bruno Haible
+/usr/src/linux/fs/sysv/symlink.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/sysv/symlink.c: *  Copyright (C) 1993  Pascal Haible, Bruno Haible
+/usr/src/linux/fs/sysv/symlink.c: *  Copyright (C) 1993  Bruno Haible
+/usr/src/linux/fs/sysv/truncate.c: *  Copyright (C) 1991, 1992  Linus Torvalds
+/usr/src/linux/fs/sysv/truncate.c: *  Copyright (C) 1993  Pascal Haible, Bruno Haible
+/usr/src/linux/fs/sysv/truncate.c: *  Copyright (C) 1993  Bruno Haible
+/usr/src/linux/fs/ufs/ufs_dir.c: * Copyright (C) 1996
+/usr/src/linux/fs/ufs/ufs_file.c: * Copyright (C) 1996
+/usr/src/linux/fs/ufs/ufs_inode.c: * Copyright (C) 1996
+/usr/src/linux/fs/ufs/ufs_namei.c: * Copyright (C) 1996
+/usr/src/linux/fs/ufs/ufs_super.c: * Copyright (C) 1996
+/usr/src/linux/fs/ufs/ufs_symlink.c: * Copyright (C) 1996
+/usr/src/linux/fs/vfat/namei.c: *    by Gordon Chaffee Copyright (C) 1995.  Send bug reports for the
+/usr/src/linux/fs/xiafs/bitmap.c: *  Copyright (C) Q. Frank Xia, 1993.
+/usr/src/linux/fs/xiafs/bitmap.c: *  Copyright (C) Linus Torvalds, 1991, 1992.
+/usr/src/linux/fs/xiafs/bitmap.c: *  This software may be redistributed per Linux Copyright.
+/usr/src/linux/fs/xiafs/dir.c: *  Copyright (C) Q. Frank Xia, 1993.
+/usr/src/linux/fs/xiafs/dir.c: *  Copyright (C) Linus Torvalds, 1991, 1992.
+/usr/src/linux/fs/xiafs/dir.c: *  This software may be redistributed per Linux Copyright.
+/usr/src/linux/fs/xiafs/file.c: *  Copyright (C) Q. Frank Xia, 1993.
+/usr/src/linux/fs/xiafs/file.c: *  Copyright (C) Linus Torvalds, 1991, 1992.
+/usr/src/linux/fs/xiafs/file.c: *  This software may be redistributed per Linux Copyright.
+/usr/src/linux/fs/xiafs/fsync.c: *  Changes Copyright (C) 1993 Stephen Tweedie (sct@dcs.ed.ac.uk)
+/usr/src/linux/fs/xiafs/fsync.c: *  Copyright (C) 1991, 1992 Linus Torvalds
+/usr/src/linux/fs/xiafs/inode.c: *  Copyright (C) Q. Frank Xia, 1993.
+/usr/src/linux/fs/xiafs/inode.c: *  Copyright (C) Linus Torvalds, 1991, 1992.
+/usr/src/linux/fs/xiafs/inode.c: *  This software may be redistributed per Linux Copyright.
+/usr/src/linux/fs/xiafs/namei.c: *  Copyright (C) Q. Frank Xia, 1993.
+/usr/src/linux/fs/xiafs/namei.c: *  Copyright (C) Linus Torvalds, 1991, 1992.
+/usr/src/linux/fs/xiafs/namei.c: *  This software may be redistributed per Linux Copyright.
+/usr/src/linux/fs/xiafs/symlink.c: *  Copyright (C) Q. Frank Xia, 1993.
+/usr/src/linux/fs/xiafs/symlink.c: *  Copyright (C) Linus Torvalds, 1991, 1992.
+/usr/src/linux/fs/xiafs/symlink.c: *  This software may be redistributed per Linux Copyright.
+/usr/src/linux/fs/xiafs/truncate.c: *  Copyright (C) Q. Frank Xia, 1993.
+/usr/src/linux/fs/xiafs/truncate.c: *  Copyright (C) Linus Torvalds, 1991, 1992.
+/usr/src/linux/fs/xiafs/truncate.c: *  This software may be redistributed per Linux Copyright.

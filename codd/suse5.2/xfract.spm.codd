@@ -1,0 +1,19 @@
+$VAR1 = bless( {
+                 'chuck ebbert' => 26283,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+1985156')}, 'Math::BigInt' ),
+                 'uncredited' => 1332299,
+                 'daniel_goldwater@brown.edu' => 143655,
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 'steven a. bennett' => 13477,
+                 '76306.1226@compuserve.com' => 26283,
+                 'carries the following notice:' => 27683,
+                 'dgold@math.umass.edu' => 143655,
+                 '__codd' => 'xfract.spm.codd',
+                 'ken shirriff' => 100472,
+                 'jef poskanzer,' => 27683,
+                 'ebrandt@jarthur.claremont.edu' => 143655
+               }, 'Code::Contribution::Distribution' );

@@ -1,0 +1,39 @@
+$VAR1 = bless( {
+                 'thomas g. lane' => '18930',
+                 'alexander hacker' => '18930',
+                 '_doccredits' => {
+                                    'tests/' => [
+                                                  'vipul ved prakash'
+                                                ],
+                                    'tests/cc/' => [
+                                                     'alice cooper'
+                                                   ]
+                                  },
+                 '__version' => '0.25',
+                 '__packagesize' => bless( do{\(my $o = '+454009')}, 'Math::BigInt' ),
+                 'alice cooper' => '56',
+                 '__docs' => '(README|AUTHORS)',
+                 'at&t bell laboratories, bellcore' => '18930',
+                 '__package' => 'tests',
+                 'berenice hacker' => '18930',
+                 'packagemem' => {
+                                   'vipul' => 'vipul ved prakash'
+                                 },
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.25',
+                 'university of maryland at college park' => '18930',
+                 'axb@jabber.com' => '25',
+                 'the lidia group' => '18930',
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S|\\.cgi|\\.py|\\.java)$',
+                 'rcl@jabber.com' => '25',
+                 '__verbose' => 1,
+                 'login-vipul' => '18930',
+                 '__codd' => 'tests.codd',
+                 'vipul ved prakash' => '226683',
+                 'sutherland computer corporation' => '18930',
+                 'jk@dhl.com' => '25',
+                 'tyeu@jabber.com' => '25',
+                 'lockheed missle & space company, ai center.' => '18930',
+                 'evans' => '18930',
+                 'the regents of the university of california' => '18930',
+                 'transmeta corporation' => '18930'
+               }, 'Code::Contribution::Distribution' );

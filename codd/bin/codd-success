@@ -1,0 +1,37 @@
+#!/usr/bin/perl -sI.. -I../..
+##
+## codd-success
+##
+## $Date: 2001/10/22 06:01:11 $
+## $Revision: 1.1 $
+## $State: Exp $
+## $Author: hackworth $
+##
+## Copyright (c) 1998, Vipul Ved Prakash.  All rights reserved.
+## This code is free software; you can redistribute it and/or modify
+## it under the same terms as Perl itself.
+
+use Code::Contribution::Distribution; 
+use Math::BigInt; 
+
+my ( $VERSION )  = '$Revision: 1.1 $' =~ /\s(\d+\.\d+)\s/;   
+my $precision = 100000; 
+
+print "Displays sorted developer list.\
+Syntax: codd-success foobar.codd\n\n" unless @ARGV; 
+
+while ( $x = shift @ARGV ) { 
+my $codd = new Code::Contribution::Distribution 
+               Dir => ".", 
+               Codd => $x; 
+
+my @allkeys = keys %$codd;
+my $ps = $codd->packagesize (); 
+my @keys;
+for ( @allkeys ) { push @keys, $_ unless $_ =~ /^_/;  }
+
+my $total = scalar @keys; 
+print "$x -- $total\n";
+}
+
+

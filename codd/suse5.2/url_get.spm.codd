@@ -1,0 +1,15 @@
+$VAR1 = bless( {
+                 'ylu@mail.utexas.edu' => 8425,
+                 'elr@wp.prodigy.com' => 8425,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+40936')}, 'Math::BigInt' ),
+                 'j.lund@cc.utexas.edu' => 3617,
+                 'bortzmeyer@cnam.cnam.fr' => 3617,
+                 '__codd' => 'url_get.spm.codd',
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'sunds@lobby.ti.com' => 8425,
+                 'spaf@cs.purdue.edu' => 8425
+               }, 'Code::Contribution::Distribution' );

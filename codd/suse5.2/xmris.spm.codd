@@ -1,0 +1,13 @@
+$VAR1 = bless( {
+                 'login-nathan' => 316169,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+666797')}, 'Math::BigInt' ),
+                 'nathan sidwell */' => 316169,
+                 '__codd' => 'xmris.spm.codd',
+                 '__package' => '/tmp/codd',
+                 'stefang@isy.liu.se' => 14204,
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'nathan sidwell' => 20242
+               }, 'Code::Contribution::Distribution' );

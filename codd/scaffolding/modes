@@ -1,0 +1,9 @@
+
+b  --> codebase size in kilobytes.
+%c --> coder array.
+n  --> total number of coders.
+
+Evil Dictator Mode - b > 500 & $c{0} > 85%
+ Jesus Christ Mode - b > 500 & $c{0} > 50% < 60% && n > 25 & $c{1..n} < 3%
+
+

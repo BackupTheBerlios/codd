@@ -1,0 +1,82 @@
+=head1 NAME
+
+CODD Attribution Format (CAF)
+
+=head1 VERSION
+
+    $Revision: 1.1 $
+
+=head1 SYNOPSIS
+
+CODD Attribution Format is method for describing collaborative authorship
+of a codebase.
+
+=head1 DESCRIPTION
+
+CAF is a way of explicitely specifying which author wrote what part of the
+code (or text). A package that includes CAF attributions can be run
+through CODD[1], a tool for generating and analysing statistical data of
+collaborative authorship.
+
+=head1 FORMAT
+
+CAF specifies one declaration "Author::" that takes several parameters.
+"Author::" declarations can be inside source files or in the file
+AUTHORS.CODD. The scope of AUTHORS.CODD entries extends to all source
+files in and under the subdirectories of the directory in which
+AUTHORS.CODD resides. The scope can be limited by parameterizing
+"Authors::" declarations.
+
+=head1 Author:: 
+
+=over 4
+
+=item Author:: Alice <alice@wonder.land>
+
+When it appears in a source file, it indicates Alice is the primary author
+of the file. When it appears in AUTHORS.CODD, it indicated Alice is the
+primary author of the all files in the scope of AUTHORS.CODD. If there are
+more than one Author:: declarations, the code is divided equally between
+the authors. Email address is optional.
+
+=item Author:: Alice <alice@wonder.land>  (foo*.c, bar*.c)
+
+This declaration, in AUTHORS.CODD, indicates, foo*.c and bar*.c was
+written by Alice.
+
+=item Author:: Alice <alice@wonder.land>  (50%) 
+
+This declaration, in AUTHOR.CODD or a source file, indicates Alice has
+written 50% of the code.
+
+=item Author:: Alice <alice@wonder.land>  (500b) 
+
+This declaration, in AUTHOR.CODD or a source file, indicates Alice has
+written 500 bytes of code. Both % and b can be specified in AUTHORS.CODD
+along with filenames, like so: 
+
+    Author:: Alice <alice@wonder.land>  (foo.c:50%, bar.c:750b)
+
+=item Author:: Alice <alice@wonder.land> / ... /Author
+
+Author:: Lory <lory@wonder.land> /
+ ...
+ ... a block of code
+ ...
+/Author
+
+This declaration can be used to indicate a particular block of code was
+written by Lory. This statement can appear only in a source file.
+
+=item Author:: Alice <alice@wonder.land>  Date:: 02/12/2001
+
+A date attribute can accompany Author:: declarations to indicate when the
+particular piece of code was written.
+
+=head1 AUTHOR
+
+Vipul Ved Prakash, E<lt>mail@vipul.netE<gt>
+
+=cut
+
+

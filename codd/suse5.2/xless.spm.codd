@@ -1,0 +1,13 @@
+$VAR1 = bless( {
+                 'dave glowacki' => 37672,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+109360')}, 'Math::BigInt' ),
+                 'uncredited' => 744,
+                 '__codd' => 'xless.spm.codd',
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'login-dglo' => 37672,
+                 'university of toronto' => 33267
+               }, 'Code::Contribution::Distribution' );

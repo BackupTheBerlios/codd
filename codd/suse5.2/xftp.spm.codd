@@ -1,0 +1,13 @@
+$VAR1 = bless( {
+                 'o\'reilly && associates' => 5287,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+801173')}, 'Math::BigInt' ),
+                 'uncredited' => 771959,
+                 '__codd' => 'xftp.spm.codd',
+                 '__package' => '/tmp/codd',
+                 'write copyright notice to log' => 21957,
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'regents of the university of california' => 1970
+               }, 'Code::Contribution::Distribution' );

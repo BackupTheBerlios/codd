@@ -1,0 +1,15 @@
+$VAR1 = bless( {
+                 'richard henderson' => 4062,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+140796')}, 'Math::BigInt' ),
+                 'uncredited' => 36118,
+                 '__codd' => 'lthreads.spm.codd',
+                 'free software foundation, inc' => 9979,
+                 'xavier leroy' => 69829,
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'kra@fsid.cvut.cz' => 10404,
+                 'tarreau@aemiaif.ibp.fr' => 10404
+               }, 'Code::Contribution::Distribution' );

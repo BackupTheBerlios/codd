@@ -1,0 +1,18 @@
+$VAR1 = bless( {
+                 'login-mdj' => 302,
+                 'free software foundation' => 79655,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+1126164')}, 'Math::BigInt' ),
+                 'uncredited' => 31461,
+                 'login-jimb' => 6095,
+                 'software foundation, inc' => 9682,
+                 'jot@cray.com' => 14241,
+                 'david keppel' => 7164,
+                 'free software foundation, inc' => 971165,
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'hallvard.tretteberg@si.sintef.no' => 6396,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__codd' => 'guile.spm.codd'
+               }, 'Code::Contribution::Distribution' );

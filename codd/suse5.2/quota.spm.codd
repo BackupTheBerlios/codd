@@ -1,0 +1,17 @@
+$VAR1 = bless( {
+                 'login-mvw' => 30855,
+                 'ed@tnix.net' => 3936,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+101887')}, 'Math::BigInt' ),
+                 'ed@ow.org' => 3936,
+                 'uncredited' => 1427,
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'mvw@planets.ow.nl' => 8700,
+                 'mvw@tnix.net' => 12636,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__codd' => 'quota.spm.codd',
+                 'mvw@planets.ow.org' => 3936,
+                 'regents of the university of california' => 36438
+               }, 'Code::Contribution::Distribution' );

@@ -1,0 +1,103 @@
+program written by evan@csli (Evan Kirshenbaum).
+Created: Fri Nov 5 8:20 1993 by miguel@bountyimag.fr
+Modified by craig.r.stevenson@att.com 
+/* Modified by santana@imag.fr: 
+* Copyright (c) 1993 The Regents of the University of California.      
+/* $Id: copyright-patterns,v 1.1 2001/10/22 06:01:19 hackworth Exp $ */  
+Copyright (c) 1991, 1996 University of Maryland at College Park 
+ *
+ * Author: James da Silva, Systems Design and Analysis Group
+ *                         Computer Science Department
+ *                         University of Maryland at College Park
+ */
+/* $Id: copyright-patterns,v 1.1 2001/10/22 06:01:19 hackworth Exp $   
+* Copyright (c) 1995-1997 The Apache Group.  All rights reserved.  
+/* $Id: copyright-patterns,v 1.1 2001/10/22 06:01:19 hackworth Exp $ */  
+* Copyright (c) 1990 Jan-Simon Pendry
+ * Copyright (c) 1990 Imperial College of Science, Technology & Medicine
+ * Copyright (c) 1990 The Regents of the University of California.      
+ Copyright (c) 1991 by the University of Washington
+/* Copyright    Massachusetts Institute of Technology    1986   */ 
+| Copyright 1990, David Koblas.  
+
+   Copyright (C) 1987, 88, 89, 90, 91, 1992 Free Software Foundation, Inc. 
+ * Originally part of the Prospero Archie client by Cliff Neuman (bcn@isi.edu).
+ * Modified by Brendan Kehoe (brendan@cygnus.com).
+ * Re-modified by George Ferguson (ferguson@cs.rochester.edu).   
+
+ * The original and principal author of ansi2knr is L. Peter Deutsch
+ * <ghost@aladdin.com>.  Other authors are noted in the change history
+ * that follows (in reverse chronological order):         
+
+ *   Copyright 1997 Transmeta Corporation - All Rights Reserved    
+#ident "$Id: copyright-patterns,v 1.1 2001/10/22 06:01:19 hackworth Exp $"    
+
+** Copyright (C) 1989,1991,1993 by Astrodienst AG and Alois Treindl
+** (alois@azur.ch).
+
+*  Copyright (C) 1993, 1994, 1995, 1996, 1997 Thomas Koenig    
+ *  Copyright (C) 1993  David Parsons
+
+/* Copyright (C) 1992 Free Software Foundation, Inc.    
+ * POSIX.2 getconf utility
+ *
+ * Written by:
+ *      J.T. Conklin (jtc@wimsey.com), Winning Strategies, Inc.           
+
+ * Copyright (c) 1994 Winning Strategies, Inc.
+ * All rights reserved.                             
+  *      Nov 1983, Mike@BRL, Added support for 4.1C/4.2 BSD.   
+
+/* Derived from objdump.c and nm.c by Ulrich.Lauther@zfe.siemens.de
+
+   Copyright 1997 Free Software Foundation, Inc.
+   Contributed by Ulrich Lauther <Ulrich.Lauther@zfe.siemens.de> 
+
+   Copyright (C) 1995, 1996 Free Software Foundation, Inc.
+   Written by Ian Lance Taylor <ian@cygnus.com>.      
+
+  This program is based on (at least) the work of:
+     Mike Burrows
+     David Wheeler
+     Peter Fenwick
+     Alistair Moffat
+     Radford Neal
+     Ian H. Witten
+     Robert Sedgewick
+     Jon L. Bentley
+                          
+  Copyright (C) 1996, 1997 by Julian Seward.
+     Guildford, Surrey, UK
+     email: jseward@acm.org     
+
+ *  Copyright Notice -
+ *      This software is Copyright (C) 1987 by the United States Army.
+ *      All rights reserved.        
+
+ *      @(#)Version.c   4.9 (Berkeley) 7/21/90
+ *      $Id: copyright-patterns,v 1.1 2001/10/22 06:01:19 hackworth Exp $   
+
+ * The original version of xfer by Kevin Dunlap.
+ * Completed and integrated with named by David Waitzman
+ *      (dwaitzman@bbn.com) 3/14/88.
+ * Modified by M. Karels and O. Kure 10-88.
+ * Modified extensively since then by just about everybody.     
+
+ * ns_ncache.c
+ * author: anant kumar
+ * last modification: March 17, 1993
+
+ * Portions Copyright (c) 1993 by Digital Equipment Corporation.   
+
+ * -
+ * Copyright (c) 1989
+ *    The Regents of the University of California.  All rights reserved.
+ *                                                                               
+
+
+    Email: L.McLoughlin@doc.ic.ac.uk           
+
+
+For names: 
+Copyright, Author, Written by, Modified by, ident, 
+

@@ -1,0 +1,11 @@
+$VAR1 = bless( {
+                 'digital equipment corporation, maynard, massachusetts' => 15100,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+364484')}, 'Math::BigInt' ),
+                 'uncredited' => 349384,
+                 '__codd' => 'xgopher.spm.codd',
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22'
+               }, 'Code::Contribution::Distribution' );

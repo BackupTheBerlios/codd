@@ -1,0 +1,14 @@
+$VAR1 = bless( {
+                 'mark crispin' => 66348,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+3379752')}, 'Math::BigInt' ),
+                 'carnegie mellon university' => 28804,
+                 '__codd' => 'tkrat.spm.codd',
+                 '__package' => '/tmp/codd',
+                 'the university of washington' => 2704207,
+                 'martin forssen' => 473462,
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'the leland stanford junior university' => 106930
+               }, 'Code::Contribution::Distribution' );

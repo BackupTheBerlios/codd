@@ -1,0 +1,14 @@
+$VAR1 = bless( {
+                 'the university of newcastle upon tyne' => 14846,
+                 'login-vern' => 30689,
+                 '__filetypes' => '(?:\\.c|\\.pm|\\.pl|\\.PL|\\.S)$',
+                 'technische universitaet muenchen' => 18418,
+                 '__verbose' => 1,
+                 '__version' => '0.22',
+                 '__packagesize' => bless( do{\(my $o = '+595814')}, 'Math::BigInt' ),
+                 'uncredited' => 56205,
+                 '__codd' => 'bibview.spm.codd',
+                 '__package' => '/tmp/codd',
+                 '__id' => 'Code Contribution Distribution Data Parser - v0.22',
+                 'tu muenchen' => 475656
+               }, 'Code::Contribution::Distribution' );
